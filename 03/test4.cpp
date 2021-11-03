@@ -16,14 +16,17 @@ int func2(int arr[], int N)
 	i = 0;
 	while (i < N)
 	{
-		if (arr[i]
+                if (arr2[100 - arr[i]] >= 1 && arr2[arr[i]] >= 1)
+                        return 1;
+		arr2[arr[i]]++;
 		i++;
 	}
+return 0;
 	// arr2[i]: 99, 48, 52
 	i = 0;
 	while (i < N)
 	{
-	
+	0
 	return 0;
 }
 
