@@ -20,9 +20,7 @@ int	main(void)
 	while (i <= N)
 	{
 		if (arr[i] < X)
-			cout << arr[i];
+			cout << arr[i] << ' ';
 		i++;
 	}
 }
-
-
