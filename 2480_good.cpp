@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
 	int A;
 	int B;
 	int C;
 	int max;
-	int arr[3];
 	cin >> A >> B >> C;
 	if (A == B && B == C)
 	{
@@ -24,10 +24,15 @@ int main()
 		int i;
 		int j;
 		int temp;
+		int arr[3];
+
+		arr[0] = A;
+		arr[1] = B;
+		arr[2] = C;
 		i = 0;
 		while (i < 3)
 		{
-			j = 0;
+			j = i;
 			while (j < 2)
 			{
 				if (arr[j] > arr[j + 1])
