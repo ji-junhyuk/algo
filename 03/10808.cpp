@@ -1,3 +1,33 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+char alpha[101];
+char number[27];
+int main()
+{
+    int i;
+    
+    cin >> alpha;
+    i = -1;
+    while (++i < 100)
+        number[alpha[i] - 'a']++;
+    i = -1;
+    while (++i < 26)
+        cout << number[i] + 0 << ' ';
+    return 0;
+}
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
