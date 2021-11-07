@@ -1,35 +1,28 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-char N[1000001];
 int number[10];
-int main()
+int main(void)
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
+
+	int N;
 	int i;
 	int max;
 
 	cin >> N;
-
-	i = -1;
-	while (++i < 1000001)
-		number[N[i] - '0']++; 
-	max = 0;
+	while (N)
+	{
+		number[N % 10]++;
+		N /= 10;
+	}
+	number[6] = (number[6] + number[9] + 1) / 2;
+	number[9] = 0;
+	max = 1;
 	i = -1;
 	while (++i < 10)
-	{
-		if (max < number[i])
+		if (number[i] > max)
 			max = number[i];
-	}
-	if (max == number[6] || max == number[9])
-	{
-		max = number[6] + number[9];
-		if (max % 2)
-			cout << 1 + (max /= 2);
-		else
-			cout << (max /= 2);
-	}
-	else
-		cout << max;
+	cout << max;
 }
