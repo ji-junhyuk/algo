@@ -6,5 +6,4 @@ void traverse()
 		cout << dat[cur];
 		cur = nxt[cur];
 	}
-	cout << "\m"
 }
