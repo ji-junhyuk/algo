@@ -12,13 +12,6 @@ ex) 트리, 그래프
 - 시간복잡도 : 입력의 크기와 문제를 해결하는데 걸리는 시간의 상관관계
 - 공간복잡도 : 입력의 크기와 문제를 해결하는데 필요한 공간의 상관관계
 
-<<<<<<< HEAD
-메모리 제한이 512MB일 때 int 변수를 대략 1.2억개정도 선언할 수 있다.
-
-512MB-> 524,288KB-> 536,870,912B
-
-=======
->>>>>>> 319027096eb20ab93e7516034d86b2f69bf85228
 ### 점근표기법 : 데이터 수의 증가에 따른 연산횟수 증가율의 상한선을 표현한 것
 - 최상의 경우: 빅-오메가(Big-Omega) 표기법
 ```
@@ -90,3 +83,40 @@ big-O 표기법은 점근적 상한선만 제공하고 점근적으로 근접한
 ```
 512MB-> 524,288KB-> 536,870,912B
 ```
+
+### 순차탐색(Linear Search)
+```c
+int LSearch(int arr[], int len, int target)
+{
+    int idx;
+    
+    idx = -1;
+    while (++idx < len)
+    {
+        if (arr[idx] == target)
+            return idx;
+    }
+    return -1;
+```
+### 이진탐색(BinarySearch)
+```c
+int BSearch(int arr[], int len, int target)
+{
+    int left;
+    int right;
+    int center;
+    
+    left = 0;
+    right = len - 1;
+    while (left <= right)
+    {
+        center = (left + right) / 2;
+        if (arr[center] == target)
+            return center;
+        else if (arr[center] > target)
+            left = center + 1;
+        else
+            right = center - 1;
+    }
+    
+    
