@@ -12,6 +12,7 @@ int main(void)
 	LInsert(&list, 22);
 	LInsert(&list, 22);
 	LInsert(&list, 33);
+	LInsert(&list, 33);
 	printf("현재 데이터의 수: %d \n", LCount(&list));
 	if (LFirst(&list, &data))   
 	{
@@ -23,12 +24,15 @@ int main(void)
 	printf("\n\n");
 	if(LFirst(&list, &data))
 	{
-		if(data == 22)
+		if(data == 33)
+		{
+			printf("*");
 			LRemove(&list);
+		}
 		
 		while(LNext(&list, &data))
 		{
-			if(data == 22)
+			if(data == 33)
 				LRemove(&list);
 		}
 	}

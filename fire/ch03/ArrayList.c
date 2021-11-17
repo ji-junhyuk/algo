@@ -14,7 +14,7 @@ void LInsert(List *plist, LData data)
 		puts("삽입할 수 없음");
 		return ;
 	}
-	plist->arr[plist->numOfData] = data;
+	plist->arr[plist->numOfData] = data; // plist->cursor로 하게됨
 	(plist->numOfData)++;
 }
 
@@ -36,16 +36,18 @@ int LNext(List *plist, LData *pdata)
 	return 1;
 }
 
-LData LRemove(List *plist)
+int LRemove(List *plist)
 {
 	int idx;
+	int remove_data;
 
+	remove_data = plist->arr[plist->cursor];
 	idx = plist->cursor - 1;
-	while (++idx < plist->numOfData - 1)
+	while (++idx < plist->numOfData - 1) // 왜 -1일까? 아!
 		plist->arr[idx] = plist->arr[idx + 1];
 	(plist->numOfData)--;
 	(plist->cursor)--;
-	return plist->arr[plist->cursor];
+	return remove_data;
 }
 
 int LCount(List *plist)
