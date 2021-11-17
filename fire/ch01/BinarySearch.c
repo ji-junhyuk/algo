@@ -13,13 +13,17 @@ int BSearch(int arr[], int size, int number)
 		center = (left + right) / 2;
 		if (arr[center] == number)
 			return center;
+		else if (arr[center] > number)
+			right = center - 1;
 		else
-		{
-			if (arr[center] > number)
-				right = center - 1;
-			else
-				left = center + 1;
-		}
+			left = center + 1;
+//		else
+//		{
+//			if (arr[center] > number)
+//				right = center - 1;
+//			else
+//				left = center + 1;
+//		}
 	}
 	return -1;
 }
