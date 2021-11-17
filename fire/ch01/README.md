@@ -118,5 +118,6 @@ int BSearch(int arr[], int len, int target)
         else
             right = center - 1;
     }
-    
+    return -1
+}
     
