@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int recur(int n, int r, int c)
+{
+	int bound;
+
+	if (n == 0)
+		return 0;
+	bound = 1 << (n - 1);
+	if (r < bound && c < bound)
+		return recur(n - 1, r, c);
+	else if (r < bound && c >= bound)
+		return bound * bound + recur(n - 1, r, c - bound);
+	else if (r >= bound && c < bound)
+		return 2 * bound * bound + recur(n - 1, r - bound, c);
+	else
+		return 3 * bound * bound + recur(n - 1, r - bound, c - bound);
+}
+
+int main()
+{
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	
+	int N;
+	int r, c;
+
+//	cout << (1 << 9); 512
+
+	cin >> N >> r >> c;
+	cout << recur(N, r, c);
+}
