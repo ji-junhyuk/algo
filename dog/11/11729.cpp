@@ -1,16 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int cnt;
-void hanoi2(int a, int b, int N)
+void hanoi2(int a, int b, int N, int *cnt)
 {
-	cnt++;
+	(*cnt)++;
 	if (N == 1)
 		return ;
 	else
 	{
-		hanoi2(a, 6 - a - b, N - 1);
-		hanoi2(6 - a - b, b, N - 1);
+		hanoi2(a, 6 - a - b, N - 1, cnt);
+		hanoi2(6 - a - b, b, N - 1, cnt);
 	}
 }
 
@@ -32,9 +31,11 @@ int main()
 	cin.tie(0);
 
 	int N;
+	int cnt;
 
+	cnt = 0;
 	cin >> N;
-	hanoi2(1, 3, N);
+	hanoi2(1, 3, N, &cnt);
 	cout << cnt << '\n';
 	hanoi(1, 3, N);
 }

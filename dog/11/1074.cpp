@@ -7,9 +7,9 @@ int recur(int n, int r, int c)
 
 	if (n == 0)
 		return 0;
-	bound = 1 << (n - 1);
+	bound = 1 << (n - 1); 
 	if (r < bound && c < bound)
-		return recur(n - 1, r, c);
+		return recur(n - 1, r, c); // 1 0 1
 	else if (r < bound && c >= bound)
 		return bound * bound + recur(n - 1, r, c - bound);
 	else if (r >= bound && c < bound)
@@ -26,8 +26,7 @@ int main()
 	int N;
 	int r, c;
 
-//	cout << (1 << 9); 512
-
+	// 2 0 1
 	cin >> N >> r >> c;
 	cout << recur(N, r, c);
 }
