@@ -1,24 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-long long func1(int a, int b, int m)
+int recur(int n)
 {
-	long long init;
-   
-	init = 1;
-	while (b--)
-		init = init * a % m;
-	return init;
+	int result = 1;
+
+	while (n--)
+		result *= 3;
+	return result;
 }
 
+int cnt[3];
+int arr[2187][2187];
 int main()
 {
+	int N;
+	int idx;
+
 	ios::sync_with_stdio(0);
 	cin.tie(0);
+	cin >> N;
+	idx
 
-	int a;
-	int b;
-	int c;
-	cin >> a >> b >> c;
-	cout << func1(a, b, c);
+	cout << recur(7);
 }

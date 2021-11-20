@@ -16,11 +16,11 @@ void hanoi2(int a, int b, int N, int *cnt)
 void hanoi(int a, int b, int N)
 {
 	if (N == 1)
-		cout << a << ' ' << b << '\n';
+		cout << a << '*' << ' ' << b << '\n';
 	else
 	{
 		hanoi(a, 6 - a - b, N - 1);
-		cout << a << ' ' << b << '\n';
+		cout << a << '&' << ' ' << b << '\n';
 		hanoi(6 - a - b, b, N - 1);
 	}
 }

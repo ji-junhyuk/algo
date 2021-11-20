@@ -1,9 +1,6 @@
-#include <stdio.h>
 
-long long count;
 int fibo(int n)
 {
-	count++;
 	if (n == 0)
 		return 0;
 	else if (n == 1)
@@ -41,15 +38,33 @@ int fibo(int n)
 //	return memo[--i];
 //	return 0;
 //}
-int main(void)
+#include <bits/stdc++.h>
+using namespace std;
+long long cnt;
+int fibo3(int n, int r[])
 {
-	int n;
-	
-	scanf("%d", &n);
-	printf("%d\n", fibo(n));
-	printf("count: %lld\n", count);
-	return 0;
+	cnt++;
+    if(n <= 0)
+        return 0;
+    else if(n == 1)
+        return r[n] = 1;
+    else if(r[n] > 0)
+        return r[n];
+    else
+        return r[n] = fibo3(n - 1, r) + fibo3(n - 2, r);
 }
+
+int r[1000000];
+int main()
+{
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	int n;
+	cin >> n;
+	cout << fibo3(n, r) << '\n';
+	cout << "count: " << cnt;
+}
+
 //#include <bits/stdc++.h>
 //using namespace std;
 //

@@ -1,4 +1,11 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+}
 
 int memo[100000];
 int func2(int n)
@@ -24,22 +31,28 @@ int func(int n)
 	else
 		return func(n - 1) + func(n - 2);
 }
+int fibo3(int n, int r[])
+{
+    if(n <= 0)
+        return r[0];
+    else if(n == 1)
+        return r[n] = 1;
+    else if(r[n] > 0)
+        return r[n];
+    else
+        return r[n] = fibo3(n - 1, r) + fibo3(n - 2, r);
+}
 
+int r[10000];
 int main(void)
 {
-	printf("%d\n", func(0));
-	printf("%d\n", func(1));
-	printf("%d\n", func(2));
-	printf("%d\n", func(3));
-	printf("%d\n", func(4));
-	printf("%d\n", func2(0));
-	printf("%d\n", func2(1));
-	printf("%d\n", func2(2));
-	printf("%d\n", func2(3));
-	printf("%d\n", func2(4));
-	int idx;
-	idx = -1;
-	while (++idx < 15)
-		printf("%d ", func2(idx));
+	int n;
+	cin >> n;
+	printf("%d\n", fibo3(n, r));
+
+//	int idx;
+//	idx = -1;
+//	while (++idx < 15)
+//		printf("%d ", func2(idx));
 	return (0);
 }
