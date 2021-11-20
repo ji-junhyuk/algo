@@ -15,7 +15,14 @@
 (아래 코드에서 45번째 피보나치 수를 찾기 위해선 함수 호출을 약 11억번 한다.) 
 
 ### 01.피보나치수열(0, 1, 1, 2)
+```
+1. 함수의 정의: int fibo(int n) // n번째 피보나치 수열항을 찾는다
+2. 종료조건: 특정 항을 구하기 위해서 2개의 수열이 필요하므로 첫번째항 0, 두번째항 1로 설정
+3. 재귀식: func(n - 1) + func(n - 2)
+```
+
 ```c
+// 시간복잡도 O(1.6^n)
 int func(int n)
 {
 	printf("func call param %d\n", n);
@@ -27,7 +34,7 @@ int func(int n)
 		return func(n - 1) + func(n - 2);
 }
 
-// 연산 89회 메모이제이션(DP)
+// 시간복잡도 O(n)
 int memo[100000];
 int func2(int n)
 {
@@ -51,6 +58,14 @@ int func2(int n)
 ```
 
 ### 02.이진탐색
+```
+함수의 정의: BSearch(int arr[], int left, int right, int number) // 배열 특정 인덱스에 있는 숫자를 찾기 위해 반씩 줄여나가야 하는 연산을 해야 하므로, arr은 정렬된 배열이다
+종료 조건: if (left > right) // 배열에 그 값이 없는 경우
+재귀식: 
+BSearch(arr, left, center -1, number) // 특정값이 인덱스 중간값보다 작은 경우 
+BSearch(arr, center + 1, right, number) // 특정값이 인덱스 중간값보다 큰 경우
+```
+
 ```c
 int BinarySearch(int arr[], int left, int right, int number)
 {
@@ -70,16 +85,20 @@ int BinarySearch(int arr[], int left, int right, int number)
 ```
 
 ### 03.하노이타워
+```
+함수의 정의: void hanoi(int a, int c, int number) // 원반 number개를 a기둥에서 c기둥으로 이동한다. ,작은 원반 위에 큰 원반은 올 수 없음. 원반은 1개씩만 이동.
+종료 조건: if (number == 1) // 원반의 개수가 1개인 경우 이동시킨다
+재귀식: hanoi(a, 6 - a - c
 ```c
-void hanoi(int a, int b, int number) // 큰 원반(number)을 a에서 b로 이동
+void hanoi(int a, int c, int number) // 큰 원반(number)을 a에서 b로 이동
 {
     if (number == 1)
-       printf("원반1을 %d, %d로 이동\n", a, b);
+       printf("원반1을 %d, %d로 이동\n", a, c);
     else
     {
-        hanoi(a, 6 - a - b, number - 1); // 중간 기둥으로 이동
-        printf("원반%d를 %d, %d로 이동\n", number, a, b);
-        hanoi(6 - a - b, b, number - 1); // 목표 기둥으로 이동
+        hanoi(a, 6 - a - c, number - 1); // 중간 기둥으로 이동
+        printf("원반%d를 %d, %d로 이동\n", number, a, c);
+        hanoi(6 - a - c, c, number - 1); // 목표 기둥으로 이동
     }
 }
 ```
