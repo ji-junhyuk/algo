@@ -10,56 +10,36 @@ using namespace std;
    recur(x, y + n, int n)
    recur(x + n, y + n, int n)
 */
+
 int arr[128][128];
 int w_cnt;
 int b_cnt;
-int check(int x, int y, int n)
-{
-	for (int idx = x; idx < x + n; idx++)
-	{
-		for (int jdx = y; jdx < y + n; jdx++)
-			if (arr[x][y] == 0)
-				return 0;
-	}
-	return 1;
-//	for (int idx = x; idx < x + n; idx++)
-//	{
-//		for (int jdx = y; jdx < y + n; jdx++)
-//			if (arr[x][y] == 0 || arr[x][y] != arr[idx][jdx])
-//				return 0;
-//	}
-//	return 1;
-}
-/*
-0 0 2
-
-1 1
-0 0 
-
- */
-
 void recur(int x, int y, int n)
 {
 
-	if (check(x, y, n))
-	{
-		b_cnt++;
-		return ;
-	}
-	//for (int idx = 0; idx < n; i++)
-	//	for (int jdx = 0; jdx < n; j++)
-	//		recur(x + idx * n, y + jdx * n, n);
-	recur(x, y, n / 2);
-    recur(x, y + n / 2, n / 2);
-    recur(x + n / 2, y, n / 2);
-    recur(x + n / 2, y + n / 2, n / 2);
-//		recur (x + n, y, n); 
-//	cout << "3번째 recur후 cnt값: " << cnt << '\n';
-	//	recur (x + n, y + n, n);
-//	cout << "4번째 recur후 cnt값: " << cnt << '\n';
-}
-					
+	int one;
 
+	one = 0;
+	for (int idx = x; idx < x + n; idx++)
+	{
+			for (int jdx = y; jdx < y + n; jdx++)
+			{
+					if (arr[idx][jdx])
+							one++;
+			}
+	}
+	if (!one)
+			w_cnt++;
+	else if (one == n * n)
+			b_cnt++;
+	else
+	{
+		n = n >> 1;
+		for (int idx = 0; idx < 2; idx++)
+			for (int jdx = 0; jdx < 2; jdx++)
+				recur(x + idx * n, y + jdx * n, n);
+	}
+}
 
 int main()
 {
@@ -70,8 +50,8 @@ int main()
 
 	cin >> N;
 	for (int idx = 0; idx < N; idx++)
-		for (int jdx = 0; jdx < N; jdx++)
-			cin >> arr[idx][jdx];
+			for (int jdx = 0; jdx < N; jdx++)
+					cin >> arr[idx][jdx];
 	recur(0, 0, N);
-	cout << b_cnt;
+	cout << w_cnt << '\n' << b_cnt;
 }
