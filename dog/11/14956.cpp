@@ -1,64 +1,67 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*
-   함수의 정의: void recur(int x, int y, len)
-   종료조건: if (n == 2)
-   arr[x][y] == cnt++;
-   *2 가 될수록 cnt 증가 방향이 90도씩 회전하는데 이걸 어떻게 표현하지?  
-   // 2^k에서 k가 홀수인경우, 2^k에서 k가 짝수인 경우로 나눠서 접근
-   재귀함수: 
-   else
-   {
-   len = (len >> 1);
-   recur(x, y, len);
-   recur(x, y + n, len);
-   recur(x + len, y, len);
-   recur(x + len, y + len, len);
+// q[rotate][m][x, y]
+// d[rotate][m][x, y]
+int q[4][4][2] = {  {{-1,-1},{-1,1},{1,1},{1,-1}},
+                    {{1,1},{-1,1},{-1,-1},{1,-1}},
+                    {{1,1},{1,-1},{-1,-1},{-1,1}},
+                    {{-1,-1},{1,-1},{1,1},{-1,1}}};
 
-   }
-*/
-int cnt = 1;
-int arr[32768][32768];
+int d[4][4][2] = {  {{0,0},{0,1},{1,1},{1,0}},
+                    {{1,1},{0,1},{0,0},{1,0}},
+                    {{1,1},{1,0},{0,0},{0,1}},
+                    {{0,0},{1,0},{1,1},{0,1}}};
+// rotate 0
+//   __
+//  |  |
 
-void recur(int x, int y, int len)
+// rotate 1
+//   ___
+//  |___
+
+// rotate 2
+//  |   |
+//   ---
+
+// rotate 3
+//   __
+//   __|
+
+
+int r[4][2] = {{3,1},{2,0},{1,3},{0,2}};
+
+void recur(int n, int m, int rotate, int x, int y)
 {
-	if (len == 2)
-	{
-		for (int i = 0; i < len; i++)
-			for (int j = 0; j < len; j++)
-			   arr[i][j] = cnt++;	
-		return ;
-	}
+
+    if(n==2)
+		cout << x + d[rotate][m][0] << ' ' << y + d[rotate][m][1];
+    else
+        {
+        int new_n = n / 2;
+        int quadrant = m / (new_n * new_n);
+        int new_m = m - quadrant * (new_n * new_n);
+
+        int new_rotate;
+
+        if (quadrant == 0 || quadrant == 3)
+			new_rotate = r[rotate][quadrant==0?0:1];
+        else 
+			new_rotate = rotate;
+        x += q[rotate][quadrant][0] * (new_n / 2);
+        y += q[rotate][quadrant][1] * (new_n / 2);
+        recur(new_n,new_m,new_rotate, x, y);
+    }
 }
 
 int main()
 {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+        ios::sync_with_stdio(0);
+        cin.tie(0);
 
-	int len;
-	int walk;
-	int x, y;
-	int br;
+        int n;
+        int m;
 
-	br = 0;
-	cin >> len >> walk;
-	recur(1, 1, len);
-	for (int i = 0; i < len; i++)
-	{
-		for (int j = 0; j < len; j++)
-		{
-			if (cnt == walk)
-			{
-				x = i;
-				y = j;
-				br = 1;
-				break;
-			}
-		}
-		if (br)
-			break;
-	}
-	cout << x << ' ' << y;
+        cin >> n >> m;
+        recur(n, m - 1, 0, n / 2, n / 2);
 }
