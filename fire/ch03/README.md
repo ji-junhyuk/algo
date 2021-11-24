@@ -16,8 +16,6 @@
 무엇(what)이라는 것에만 중점을 두고 명세를 하고, 내부 구현은 명세에 포함시키지 않는다. 
 ```
 
-ex) 전기 밥솥을 ADT라고 한다면 그 속에 들어가는 밥은 재료가 되고, 밥솥에 있는 취사, 예약 취사, 보온 버튼 등은 그 자료를 바탕으로 하는 기능들의 집합을 말하는 것이다.
-
 ### 리스트
 ```
 - 리스트: 데이터를 순차적으로 저장, 중복된 데이터의 저장을 막지 않음. 
@@ -77,16 +75,17 @@ int LNext(List *plist, LData *pdata)
         return TRUE;
 }
 
+/*
+   LRemove함수가 호출되면 리스트의 멤버 curPosition을 확인해서, 조회가 이뤄진 데이터의 위치를 확인한 후에, 그 데이터를 삭제한다 중간에 데이터가 삭제되면, 뒤에 저장된 데이터를 한 칸씩 앞으로 이동시켜 빈 공간을 메워야 한다
+*/
 LData LRemove(List *plist)
 {
         int rpos = plist->cursor;
         int num = plist->numOfData;
         int i;
         LData rdata = plist->arr[rpos];
-
         for (i = rpos; i < num - 1; i++)
                 plist->arr[i] = plist->arr[i + 1];
-
         (plist->numOfData)--;
         (plist->cursor)--;
         return rdata;
