@@ -37,7 +37,6 @@ int r[4][2] = {{3,1},{2,0},{1,3},{0,2}};
 
 void recur(int n, int m, int rotate, int x, int y)
 {
- 
     if(n==2)
 		printf("%d %d\n",x+d[rotate][m][0],y+d[rotate][m][1]);
     else 
