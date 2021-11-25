@@ -10,17 +10,17 @@ int main()
 	cin >> n;
 	long long min;
 	long long sum;
-	int idx;
+	int level;
 	
-	idx = 0;
+	level = 0;
 	sum = 2;
 	while (sum <= n)
 	{
-		sum += 6 * idx;
-		idx++;
+		sum += 6 * level;
+		level++;
 	}
 	if (n == 1)
-		idx = 1;
-	cout << idx;
+		level = 1;
+	cout << level;
 	return (0);
 }
