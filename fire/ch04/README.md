@@ -1,15 +1,14 @@
-연결리스트 자료구조의 ADT
+### 연결리스트 자료구조의 ADT
 ```c
-/*
-   typedef struct
-   {
-   		Node *head;
-		Node *cur;
-		Node *before;
-		int numOfData;
-		int (*cmp)(LData d1, LData d2);
-	} LinkedList;
-*/
+typedef struct
+{
+   	Node *head;
+	Node *cur;
+	Node *before;
+	int numOfData;
+	int (*cmp)(LData d1, LData d2);
+} List;
+
 - void ListInit(List *plist);
 - void LInsert(List *plist, LData data);
 - int LFirst(List *plist, LData *pdata);
@@ -44,6 +43,7 @@ else
 }
 ```
 
+### 연결리스트 구현
 ```c
 #include <stdio.h>
 #include <stdlib.h>
