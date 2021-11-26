@@ -19,6 +19,31 @@
 - void SetSortRule(List *plist, int (*comp)(LData d1, LData d2));
 ```
 
+### 새 노드를 연결리스트의 꼬리에 추가하기
+```c
+if (head == NULL)
+        head = newNode;
+else
+{
+        tail->next = newNode;
+        tail = newNode;
+}
+```
+
+### 새 노드를 연결리스트의 머리에 추가하기
+```c
+if (head == NULL)
+{
+        head = newNode;
+        tail = newNode;
+}
+else
+{
+        newNode->next = head;
+        head = newNode;
+}
+```
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -116,3 +141,4 @@ void SetSortRule(List * plist, int (*comp)(LData d1, LData d2))
         plist->comp = comp;
 }
 ```
+
