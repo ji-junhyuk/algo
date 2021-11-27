@@ -27,8 +27,8 @@ if (head == NULL)
 else
 {
         tail->next = newNode;
-        tail = newNode;
 }
+tail = newNode;
 ```
 
 ### 새 노드를 연결리스트의 머리에 추가하기
