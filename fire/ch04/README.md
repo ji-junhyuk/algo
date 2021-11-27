@@ -1,5 +1,13 @@
 ### 연결리스트 자료구조의 ADT
 ```c
+typedef struc _node
+{
+	int data;
+	struct _node *next;
+} Node;
+```
+
+```c
 typedef struct
 {
    	Node *head;
@@ -8,7 +16,9 @@ typedef struct
 	int numOfData;
 	int (*cmp)(LData d1, LData d2);
 } List;
+```
 
+```c
 - void ListInit(List *plist);
 - void LInsert(List *plist, LData data);
 - int LFirst(List *plist, LData *pdata);
@@ -28,6 +38,7 @@ else
 {
         tail->next = newNode;
 }
+
 tail = newNode;
 ```
 
