@@ -1,5 +1,16 @@
 ### 연결리스트 자료구조의 ADT
 ```c
+int main(void)
+{
+	Node *head = NULL;
+	Node *tail = NULL;
+	Node *cur = NULL;
+
+	Node *newNode = NULL;
+	int readData;
+```
+
+```c
 typedef struc _node
 {
 	int data;
