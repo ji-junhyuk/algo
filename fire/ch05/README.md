@@ -1,3 +1,22 @@
+# 05-1 원형 연결 리스트(Circular Linked List)
+- 마지막 노드가 첫 번째 노드를 가리켜서, 연결의 형태가 원을 이루는 연결리스트.
+
+```c
+typedef struct _node
+{
+	Data data;
+	struct _node *next;
+} Node;
+
+typedef struct _CLL
+{
+	Node *tail;
+	Node *cur;
+	Node *before;
+	int numOfData;
+} Clist;
+```
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
