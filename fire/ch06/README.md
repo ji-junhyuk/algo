@@ -151,7 +151,7 @@ Data SPeek(Stack *pstack)
 ```
 
 ### 계산기 프로그램 구현 
-```
+```c
 우리가 구현할 계산기는
 1. 중위 표기법의 수식을 후위 표기법의 수식으로 바꾼다.
 2. 후위 표기법으로 바뀐 수식을 계산하여 그 결과를 얻는다.
@@ -159,9 +159,7 @@ Data SPeek(Stack *pstack)
 전위, 후위 표기법의 수식은 연산자의 배치순서에 따라 연산순서가 결정된다. 
 따라서 계산할 때 수식의 우선순위를 알 필요가 없고 소괄호 처리할 필요도 없다.
 */
-```
 
-```c
 1. 소괄호를 파악하여 그 부분을 먼저 연산한다.
 2. 연산자의 우선순위를 근거로 연산의 순위를 결정한다.
 
@@ -176,9 +174,7 @@ Data SPeek(Stack *pstack)
 
 ### 소괄호가 포함되어 있는 중위 표기법의 수식을 후위 표기법의 수식으로 바꿀 경우
 - (3 + 4) * (5 / 2) + (7 + (9 - 5)) = ?
-- 
 - (연산자는 )연산자가 등장할 때까지 쟁반 위에 남아있어야 하기 때문에 사칙 연산자들보다 연산의 우선순위가 낮다고 간주한다.
-```
 
 ### 중위 표기법을 후위 표기법으로 바꾸는 프로그램의 구현
 ```c
@@ -308,4 +304,51 @@ void ConvToRPNExp(char exp[])
 
 	strcpy(exp, convExp);
 	free(convExp);
+}
+```
+### 후위 표기법으로 표현된 수식을 계산하는 프로그램의 구현
+- 기본원칙 세 가지
+1. 피연산자는 무조건 스택으로 옮긴다.
+2. 연산자를 만나면 스택에서 두 개의 피연산자를 꺼내서 계산을 한다.
+(cf. 스택에서 먼저 꺼낸 연산자가 두 번째 피연산자가 된다)
+3. 계산결과는 다시 스택에 넣는다.
 
+```c
+int EvalRPNExp(char exp[])
+{
+	Stack stack;
+	int expLen = strlen(exp);
+	int i;
+	char tok, op1, op2;
+	
+	StackInit(&stack);
+	
+	for (i = 0; i < explen; i++)
+	{
+		tok = exp[i];
+		if (isdigit(tok))
+			SPush(&stack, tok - '0');
+		else
+		{
+			op2 = SPop(&stack);
+			op1 = SPop(&stack);
+			switch(tok)
+			{
+			case '+':
+				SPush(&stack, op1 + op2);
+				break;
+			case '-':
+				SPush(&stack, op1 - op2);
+				break;
+			case '*':
+				SPush(&stack, op1 * op2);
+				break;
+			case '/':
+				SPush(&stack, op1 / op2);
+				break;
+			}
+		}
+	}
+	return SPop(&stack);
+}
+			
