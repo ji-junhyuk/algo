@@ -81,7 +81,7 @@ Data SPeek(Stack *pstack)
 ```
 
 ### 스택의 연결 리스트 기반 구현
-- 새로운 노드를 꼬리가 아닌 머리에 추가하는 형태로 구현한 연결리스트.
+- 새로운 노드를 `꼬리가 아닌 머리`에 추가하는 형태로 구현한 연결리스트.
 
 ```c
 typedef struct _node
@@ -148,17 +148,22 @@ Data SPeek(Stack *pstack)
 
 	return pstack->head->data;
 }
+```
 
-### 계산기 프로그램 구현
-- (3 + 4) * (5 / 2) + (7 + (9 - 5)) = ?
-```c
-1. 소괄호를 파악하여 그 부분을 먼저 연산한다.
-2. 연산자의 우선순위를 근거로 연산의 순위를 결정한다.
-* 전위, 후위 표기법의 수식은 연산자의 배치순서에 따라 연산순서가 결정된다. 따라서 계산할 때 수식의 우선순위를 알 필요가 없고, 소괄호도 삽입되지 않으니 소괄호에 대한 처리도 불필요하다.
-
+### 계산기 프로그램 구현 
+```
 우리가 구현할 계산기는
 1. 중위 표기법의 수식을 후위 표기법의 수식으로 바꾼다.
 2. 후위 표기법으로 바뀐 수식을 계산하여 그 결과를 얻는다.
+/* 
+전위, 후위 표기법의 수식은 연산자의 배치순서에 따라 연산순서가 결정된다. 
+따라서 계산할 때 수식의 우선순위를 알 필요가 없고 소괄호 처리할 필요도 없다.
+*/
+```
+
+```c
+1. 소괄호를 파악하여 그 부분을 먼저 연산한다.
+2. 연산자의 우선순위를 근거로 연산의 순위를 결정한다.
 
 * 중위 표기법의 수식을 후위 표기법의 수식으로 바꿀 경우
 - 피연산자는 그냥 옮긴다.
@@ -169,16 +174,64 @@ Data SPeek(Stack *pstack)
 - 마지막까지 쟁반에 남아있는 연산자들은 하나씩 꺼내서 옮긴다.
 ```
 
-* 소괄호가 포함되어 있는 중위 표기법의 수식을 후위 표기법의 수식으로 바꿀 경우
+### 소괄호가 포함되어 있는 중위 표기법의 수식을 후위 표기법의 수식으로 바꿀 경우
+- (3 + 4) * (5 / 2) + (7 + (9 - 5)) = ?
+- 
 - (연산자는 )연산자가 등장할 때까지 쟁반 위에 남아있어야 하기 때문에 사칙 연산자들보다 연산의 우선순위가 낮다고 간주한다.
 ```
 
 ### 중위 표기법을 후위 표기법으로 바꾸는 프로그램의 구현
 ```c
-void ConvToRPNExp(char exp[]) // 후위 표기법을 수식으로 변환
+void ConvToRPNExp(char exp[]) // 중위 표기법을 받아 후위 표기법으로 변환
 {
+	Stack stack;
+	int expLen = strlen(exp);
+	char *convExp = (char *)malloc(expLen + 1);
+	
+	int i, idx = 0;
+	char tok, popOp;
+	
+	memset(convExp, 0, sizeof(char)*expLen + 1);
+	StackInit(&stack);
+	
+	for(i = 0; i < expLen; i++)
+	{
+		tok = exp[i];
+		if (isdigit(tok))
+			convExp[idx++] = tok;
+		else
+		{
+			switch(tok)
+			{
+			case '(':
+				SPush(&stack, tok);
+				break;
+			case ')':
+				while(1)
+				{
+					popOp = SPop(&stack);
+					if (popOp == '(')
+						break;
+					convExp[idx++] = popOp;
+				}
+				break;
+			case '+': case '-':
+			case '*': case '/':
+				while (!SIsempty(&stack) && WhoPrecOp(SPeek(&stack), tok) >= 0)
+					convExp[idx++] = SPop(&stack);
+				SPush(&stack, tok);
+				break;
+			}
+		}
+	}
+	while (!SIsEmpty(&stack))
+		convExp[idx++] = SPop(&stack);
+	strcpy(exp, convExp);
+	free(convExp);
+	}
+				
 }
-
+cf. RPN(Reverse Polish Nation, 후위표기법)
 int GetOpPrec(char op)
 {
 	switch(op)
