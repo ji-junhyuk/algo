@@ -171,7 +171,7 @@ int EvaluateExpTree(BTreeNode *bt)
 {
 	/*
 	   인자로 전달된 수식 트리의 수식을 계산하여 그 결과 반환
-	/*
+	*/
 	int op1, op2;
 
 	if (GetLeftSubTree(bt) == NULL && GetRightSubTree(bt) == NULL)
