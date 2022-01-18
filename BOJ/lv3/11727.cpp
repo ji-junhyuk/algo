@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//D[n] = D[n-1] + D[n-2];
+//D[n] = D[n-1] + D[n-2] * 2;
 int dp[1001];
 int main()
 {
@@ -13,8 +13,9 @@ int main()
 	cin >> n;
 	dp[0] = 1;
 	dp[1] = 1;
+	dp[2] = 3;
 
-	for (int idx = 2; idx <= n; idx++)
-		dp[idx] = (dp[idx - 1] + dp[idx - 2]) % 10007;
+	for (int idx = 3; idx <= n; idx++)
+		dp[idx] = (dp[idx - 1] + dp[idx - 2] * 2) % 10007;
 	cout << dp[n];
 }
