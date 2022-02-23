@@ -28,12 +28,12 @@ Data QPeek(Queue *pq)
 - 원형 큐가 텅 빈 상태: F와 R이 동일한 위치를 가리킨다.
 - 원형 큐가 꽉 찬 상태(len - 1): R이 가리키는 위치의 앞을 F가 가리킨다.
 ```c
-typedef struct _cQueue
+typedef struct _Queue
 {
 	int front;
 	int rear;
 	Data queArr[QUE_LEN];
-} CQueue;
+} Queue;
 
 void QueueInit(Queue *pq)
 {
