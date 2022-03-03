@@ -1,3 +1,26 @@
+## 트리
+- 계층적 관계를 표현하는 자료구조
+
+### 기본 용어
+- 노드(node) : 트리의 구성요소에 해당하는 요소
+- 간선(edge) : 노드와 노드를 연결하는 연결선
+- 루트 노드(root node) : 트리 구조에서 최상위에 존재하는 노드
+- 단말 노드(terminal node) : 아래로 또 다른 노드가 연결되어 있지 않은 노드
+- 내부 노드(internal node) : 단말 노드를 제외한 모든 노드
+- 레벨(level) : 트리의 높이
+cf. 트리에서 노드가 위치할 수 있는 곳에 노드가 존재하지 않는다면, 공집합 노드가 존재하는 것으로 간주한다. 공집합 노드도 트리의 판단에 있어서 노드로 인정한다. 
+
+### 트리의 종류
+- 서브 트리(sub tree) : 큰 트리에 속하는 작은 이진트리
+- 이진 트리(binary tree) :
+	- 루트 노드를 중심으로 두 개의 서브 트리로 나뉘어진다.
+	- 나뉘어진 두 서브 트리도 모두 이진 트리이어야 한다.
+	- 이진 트리가 되려면, 루트 노드를 중심으로 둘로 나뉘는 두 개의 서브트리도 이진트리여야 하고 그 서브 트리의 모든 서브 트리도 이진 트리여야 한다.
+- 포화 이진 트리(full binary tree) :
+	- 모든 레벨이 꽉 차 있으며, 노드를 더 추가하려면 레벨을 늘려야 하는 트리
+- 완전 이진 트리(complete binaray tree)
+	- 모든 레벨이 꽉 찬 상태는 아니지만, 차곡차곡 빈 틈 없이 노드가 채워진 이진 트리
+	- 노드가 위에서 아래로, 그리고 왼쪽에서 오른쪽의 순서대로 채워야 한다.
 ### 연결리스트 기반 트리 ADT
 ```c
 BTreeNode *MakeBTreeNode(void);
@@ -90,12 +113,13 @@ void DeleteTree(BTreeNode *bt)
 	printf("del tree data: %d \n", bt->data);
 	free(bt);
 }
-```
 
+```
 ### 이진트리의 순회(Traversal)
 - 전위 순회(Preorder Traversal): 루트 노드를 먼저 
 - 중위 순회(Inorder Traversal): 루트 노드를 중간에
 - 후위 순회(Postorder Traversal): 루트 노드를 마지막에
+
 ```c
 void InorderTraverse(BTreeNode *bt)
 {
@@ -126,7 +150,8 @@ void PostorderTraverse(BTreeNode *bt)
 ```
 
 ### 수식 트리(Expression Tree)의 구현
-"루트 노드에 저장된 연산자의 연산을 하되, 두 개의 자식 노드에 저장된 두 피연산자를 대상으로 연산을 한다."
+- "루트 노드에 저장된 연산자의 연산을 하되, 두 개의 자식 노드에 저장된 두 피연산자를 대상으로 연산을 한다."
+
 ```c
 중위 표기법의 수식 -> 후위 표기법의 수식 -> 수식 트리
 ```
@@ -165,8 +190,6 @@ BTreeNode *MakeExpTree(char exp[])
 	return SPop(&stack);
 }
 
-}
-
 int EvaluateExpTree(BTreeNode *bt)
 {
 	/*
@@ -195,7 +218,6 @@ int EvaluateExpTree(BTreeNode *bt)
 void ShowPrefixTypeExp(BTreeNode *bt); // 전위 표기법 수식으로 출력
 void ShowInfixTypeExp(BTreeNode *bt); // 중위 표기법 수식으로 출력
 void ShowPostTypeExp(BTreeNode *bt); // 후위 표기법 수식으로 출력
-
 cf. 중위표기법에서 괄호 추가
 void ShowInfixTypeExp(BTreeNode * bt)
 {
@@ -213,4 +235,3 @@ void ShowInfixTypeExp(BTreeNode * bt)
 		printf(" ) ");
 } 
 ```
-
