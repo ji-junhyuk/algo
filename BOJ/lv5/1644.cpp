@@ -1,32 +1,32 @@
 #include <iostream>
 #include <vector>
-# define MAX 4000000
 using namespace std;
 
-int n;
+int N;
 vector<int> vec_primes;
-bool b_check[MAX]; // is prime 0
+vector<bool> b_check;
 
 int i_sum, i_left, i_right;
 int i_result;
 int main(void)
 {
-	cin >> n;
-    for (int idx = 2; idx * idx <= n; idx++)
+	cin >> N; 
+    b_check.resize(N + 1, 0);
+    for (int idx = 2; idx * idx <= N; idx++)
     {
 		if (!b_check[idx])
-			for (int j = idx * idx; j <= n; j += idx)
+			for (int j = idx * idx; j <= N; j += idx)
 				b_check[j] = true;
     }
-    for (int idx = 2; idx <= n; idx++)
+    for (int idx = 2; idx <= N; idx++)
         if (!b_check[idx]) 
 			vec_primes.push_back(idx);
 	int i_vec_max_size = vec_primes.size();
     while (i_left <= i_right)
 	{
-        if (i_sum >= n)
+        if (i_sum >= N)
 		{
-        	if (i_sum == n) 
+        	if (i_sum == N) 
 				i_result++;
             i_sum -= vec_primes[i_left];
 			i_left++;
