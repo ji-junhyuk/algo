@@ -123,40 +123,47 @@ void MegreSort(int arr[], int left, int right)
 ```
 
 ### QuickSort
+- 부등호 2개만 바꿔서 내림차순으로 할 수 있다.
+- 좀 더 나은 성능을 위해 pivot 선택 방식을 개선할 수 있다.
 ```c
-void swap(int arr[], int idx1, int idx2);
-
-int Partition(int arr[], int left, int right)
+void ft_swap(int *a, int *b)
 {
-	int pivot = arr[left];
-	int low = left + 1;
-	int hight = right;
+        int temp;
 
-	while (low <= high)
-	{
-		if (arr[low] <= pivot && low <= right)
-			low++;
-		if (arr[high] >= pivot && high >= left + 1)
-			high--;
-		if (low <= high)
-			Swap(arr, low, high);
-	}
-	Swap(arr, left, high);
-	return high;
+        temp = *a;
+        *a = *b;
+        *b = temp;
 }
 
-void QuickSort(int arr[], int left, int right)
+void quick_sort(int arr[], int start, int end)
 {
-	if (left <= right)
-	{
-		int pivot = Partition(arr, left, right);
-		QuickSort(arr, left ,pivot - 1);
-		QuickSort(arr, pivot + 1 , right);
-	}
+        int pivot = start;
+        int left = start + 1;
+        int right = end;
+        if (start >= end)
+                return ;
+        while (left <= right)
+        {
+                while (left <= end && arr[left] <= arr[pivot])
+                        left++;
+                while (right > start && arr[right] >= arr[pivot])
+                        right++;
+                if (left > right)
+                        ft_swap(&arr[pivot], &arr[right]);
+                else
+                        ft_swap(&arr[left], &arr[right]);
+        }
+        quick_sort(arr, start, right - 1);
+        quick_sort(arr, right + 1, end);
 }
 ```
 
-### RadixSort
+### RadixSort(기수 정렬)
+- 일반적으로 길이가 같은 데이터 대상으로만 정렬이 가능하다.
+- 데이터를 구성하는 기본 요소만큼 메모리가 필요하다. (영단어를 정렬하려면, 얼마나 많은 기수가 필요할까?)
+- LSD(Least Significant Digit) 방식과 MST(Most Significant Digit) 방식이 있다. 
+- LSD는 첫번째 자릿수부터 정렬이 진행되고, MST는 가장 큰 자릿수부터 정렬이 진행된다. 따라서, LSD는 처음부터 끝까지 자릿수 비교를 해야 값의 대소를 판단할 수 있는 반면 MSD는 중간지점 전에도 대소 판단이 가능하다.
+- 하지만 MSD는 모든 데이터에 일괄적인 연산이 불가능하고, 추가적인 연산과 별도의 메모리가 필요하다. 구현의 용이성을 위해 LSD로 구현한다. 
 ```c
 void RadixSort(int arr[], int num, int maxLen)
 {
