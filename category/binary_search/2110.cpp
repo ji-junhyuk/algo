@@ -33,9 +33,12 @@ int main(void)
 			}
 		}
 		if (router >= C)
+		{
+			ans = mid;
 			low = mid + 1;
+		}
 		else
 			high = mid - 1;
 	}
-	cout << high;
+	cout << ans;
 }
