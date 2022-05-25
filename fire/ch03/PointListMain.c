@@ -5,12 +5,11 @@
 
 int main(void)
 {
-	List list;
-	Point compPos;
-	Point *ppos;
+	List	list;
+	Point	compPos;
+	Point	*ppos;
 
 	ListInit(&list);
-
 	ppos = (Point *)malloc(sizeof(Point));
 	SetPointPos(ppos, 2, 1);
 	LInsert(&list, ppos);

@@ -9,22 +9,22 @@ int main(void)
 	NameCard * pcard;
 	ListInit(&list);
 
-	pcard = MakeNameCard("이진수", "010-1111-2222");
+	pcard = MakeNameCard("지준혁", "010-1111-2222");
 	LInsert(&list, pcard);
-	pcard = MakeNameCard("한지영", "010-2222-5555");
+	pcard = MakeNameCard("준토", "010-2222-5555");
 	LInsert(&list, pcard);
-	pcard = MakeNameCard("조수진", "010-3333-7777");
+	pcard = MakeNameCard("junto", "010-3333-7777");
 	LInsert(&list, pcard);
 
 	if(LFirst(&list, &pcard))
 	{
-		if(!NameCompare(pcard, "한지영")) 
+		if(!NameCompare(pcard, "지준혁")) 
 			ShowNameCardInfo(pcard);
 		else 
 		{
 			while(LNext(&list, &pcard)) 
 			{
-				if(!NameCompare(pcard, "한지영")) 
+				if(!NameCompare(pcard, "지준혁")) 
 				{
 					ShowNameCardInfo(pcard);
 					break;
@@ -34,17 +34,19 @@ int main(void)
 	}
 	if(LFirst(&list, &pcard))
 	{
-		if(!NameCompare(pcard, "이진수")) 
+		if(!NameCompare(pcard, "준토")) 
 		{
-			ChangePhoneNum(pcard, "010-9999-9999");
+			ChangePhoneNum(pcard, "010-8367-9999");
+			ShowNameCardInfo(pcard);
 		}
 		else 
 		{
 			while(LNext(&list, &pcard)) 
 			{
-				if(!NameCompare(pcard, "이진수")) 
+				if(!NameCompare(pcard, "준토")) 
 				{
-					ChangePhoneNum(pcard, "010-9999-9999");
+					ChangePhoneNum(pcard, "010-8367-9999");
+					ShowNameCardInfo(pcard);
 					break;
 				}
 			}
@@ -52,8 +54,9 @@ int main(void)
 	}
 	if(LFirst(&list, &pcard))
 	{
-		if(!NameCompare(pcard, "조수진")) 
+		if(!NameCompare(pcard, "junto")) 
 		{
+			ShowNameCardInfo(pcard);
 			pcard = LRemove(&list);
 			free(pcard);
 		}
@@ -61,8 +64,9 @@ int main(void)
 		{
 			while(LNext(&list, &pcard)) 
 			{
-				if(!NameCompare(pcard, "조수진")) 
+				if(!NameCompare(pcard, "junto")) 
 				{
+					ShowNameCardInfo(pcard);
 					pcard = LRemove(&list);
 					free(pcard);					
 					break;
