@@ -63,7 +63,7 @@
 //}
 #include <stdio.h>
 #include <stdlib.h>
-#include "DLinkedList.h"
+#include "DLinkedList2.h"
 #include "Point.h"
 
 int main(void)
@@ -94,11 +94,11 @@ int main(void)
 	// 저장된 데이터의 출력 ///////////
 	printf("현재 데이터의 수: %d \n", LCount(&list));
 
-	if(LFirst(&list, &ppos))
+	if (LFirst(&list, &ppos))
 	{
 		ShowPointPos(ppos);
 
-		while(LNext(&list, &ppos))
+		while (LNext(&list, &ppos))
 			ShowPointPos(ppos);
 	}
 	printf("\n");

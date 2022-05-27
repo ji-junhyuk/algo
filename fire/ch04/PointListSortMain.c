@@ -3,15 +3,13 @@
 #include "DLinkedList2.h"
 #include "Point.h"
 
-int WhoIsPrecede(Point * d1, Point * d2)
+int who_is_precede(Point *ppos1, Point *ppos2)
 {
-	if(d1->xpos < d2->xpos)
-	{
+	if (ppos1->xpos < ppos2->xpos)
 		return 0;
-	}
-	else if(d1->xpos == d2->xpos)
+	else if (ppos1->xpos == ppos2->xpos)
 	{
-		if(d1->ypos < d2->ypos)
+		if (ppos1->ypos < ppos2->ypos)
 			return 0;
 		else
 			return 1;
@@ -25,35 +23,35 @@ int main(void)
 {
 	List list;
 	Point comp;
-	Point * pPoint;
+	Point * ppoint;
 	ListInit(&list);
 
-	SetSortRule(&list, WhoIsPrecede);     // 정렬기준을 등록!
+	SetSortRule(&list, who_is_precede);     // 정렬기준을 등록!
 
-	pPoint = (Point*)malloc(sizeof(Point));
-	SetPointPos(pPoint, 3, 2);
-	LInsert(&list, pPoint);
+	ppoint = (Point*)malloc(sizeof(Point));
+	SetPointPos(ppoint, 3, 2);
+	LInsert(&list, ppoint);
 
-	pPoint = (Point*)malloc(sizeof(Point));
-	SetPointPos(pPoint, 3, 1);
-	LInsert(&list, pPoint);
+	ppoint = (Point*)malloc(sizeof(Point));
+	SetPointPos(ppoint, 3, 1);
+	LInsert(&list, ppoint);
 
-	pPoint = (Point*)malloc(sizeof(Point));
-	SetPointPos(pPoint, 2, 2);
-	LInsert(&list, pPoint);
+	ppoint = (Point*)malloc(sizeof(Point));
+	SetPointPos(ppoint, 2, 2);
+	LInsert(&list, ppoint);
 
-	pPoint = (Point*)malloc(sizeof(Point));
-	SetPointPos(pPoint, 2, 1);
-	LInsert(&list, pPoint);
+	ppoint = (Point*)malloc(sizeof(Point));
+	SetPointPos(ppoint, 2, 1);
+	LInsert(&list, ppoint);
 
 	printf("현재 데이터의 수: %d \n", LCount(&list));
 
-	if(LFirst(&list, &pPoint))
+	if (LFirst(&list, &ppoint))
 	{
-		ShowPointPos(pPoint);
+		ShowPointPos(ppoint);
 		
-		while(LNext(&list, &pPoint))
-			ShowPointPos(pPoint);
+		while (LNext(&list, &ppoint))
+			ShowPointPos(ppoint);
 	}
 	printf("\n");
 
@@ -61,20 +59,20 @@ int main(void)
 	comp.xpos = 2;
 	comp.ypos = 0;
 
-	if(LFirst(&list, &pPoint))
+	if (LFirst(&list, &ppoint))
 	{
-		if(PointComp(pPoint, &comp) == 1)
+		if (PointComp(ppoint, &comp) == 1)
 		{
-			pPoint = LRemove(&list);
-			free(pPoint);
+			ppoint = LRemove(&list);
+			free(ppoint);
 		}
 		
-		while(LNext(&list, &pPoint))
+		while (LNext(&list, &ppoint))
 		{
-			if(PointComp(pPoint, &comp) == 1)
+			if (PointComp(ppoint, &comp) == 1)
 			{
-				pPoint = LRemove(&list);
-				free(pPoint);
+				ppoint = LRemove(&list);
+				free(ppoint);
 			}
 		}
 	}
@@ -82,12 +80,12 @@ int main(void)
 	// 삭제 후 저장된 데이터 출력 ////////
 	printf("현재 데이터의 수: %d \n", LCount(&list));
 
-	if(LFirst(&list, &pPoint))
+	if (LFirst(&list, &ppoint))
 	{
-		ShowPointPos(pPoint);
+		ShowPointPos(ppoint);
 		
-		while(LNext(&list, &pPoint))
-			ShowPointPos(pPoint);
+		while (LNext(&list, &ppoint))
+			ShowPointPos(ppoint);
 	}
 	printf("\n");
 

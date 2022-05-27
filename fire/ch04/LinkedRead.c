@@ -10,7 +10,7 @@ typedef struct _node
 int main(void)
 {
 	Node *head = NULL;
-	Node *tail = NULL;
+//	Node *tail = NULL;
 	Node *cur = NULL;
 
 	Node *newNode = NULL;
@@ -25,11 +25,18 @@ int main(void)
 		newNode = (Node *)malloc(sizeof(Node));
 		newNode->data = readData;
 		newNode->next = NULL;
+//		if (head == NULL)
+//			head = newNode;
+//		else
+//			tail->next = newNode;
+//		tail = newNode;
 		if (head == NULL)
 			head = newNode;
 		else
-			tail->next = newNode;
-		tail = newNode;
+		{
+			newNode->next = head;
+			head = newNode;
+		}
 	}
 	printf("\n");
 	if (head == NULL)
@@ -49,20 +56,22 @@ int main(void)
 		return 0;
 	else
 	{
-		Node *delNode = head;
+		Node *delNode;
+		delNode = head;
 		Node *delNextNode = head->next;
 
 		printf("%d를 삭제합니다.\n", head->data);
 		free(delNode);
-
 		while (delNextNode != NULL)
 		{
-			delNode = delNextNode;
-			delNextNode = delNextNode->next;
+			delNode = delNextNode; // head->next
+			delNextNode = delNextNode->next; // head->next->next
 
 			printf("%d를 삭제합니다.\n", delNode->data);
 			free(delNode);
 		}
 	}
-	return 0;
 }
+// free를 한다고해서, 사용했던 주소가 NULL로 바뀌는 것이 아니다.
+// free함수를 호출하고, 그 주소를 NULL로 바꿔주는 것이 더 안정성을 높이는 방법이라 생각한다.
+// 접근할 수 없는 주소가 분명 없음에도, 이에 접근하여 segfault error가 생기니깐.
