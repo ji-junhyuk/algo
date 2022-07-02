@@ -1,0 +1,2246 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	BOJ/lv4/10830.cpp	/^long long A[5][5];$/;"	v
+A	BOJ/lv4/16953.cpp	/^long long A, B;$/;"	v
+A	BOJ/lv4/2638.cpp	/^queue<pair<int, int>> A;$/;"	v
+A	BOJ/lv5/9527.cpp	/^long long A, B;$/;"	v
+A	BOJ_EASY/b3/11021.cpp	/^int A, B;$/;"	v
+A	BOJ_EASY/b4/2525.cpp	/^int	A, B, C;$/;"	v
+A	BOJ_EASY/b4/2530.cpp	/^int	A, B, C, D;$/;"	v
+A	BOJ_EASY/b4/2588.cpp	/^int	A, B;$/;"	v
+A	BOJ_EASY/b4/5532.cpp	/^int L, A, B, C, D;$/;"	v
+A	BOJ_EASY/b5/10430.cpp	/^int A, B, C;$/;"	v
+A	BOJ_EASY/b5/11382.cpp	/^long long A, B, C;$/;"	v
+A	BOJ_EASY/b5/1712.cpp	/^ll A, B, C;$/;"	v
+A	BOJ_EASY/b5/24086.cpp	/^int A, B;$/;"	v
+ARRAY_LIST_H	fire/ch03/ArrayList2.h	/^# define ARRAY_LIST_H$/;"	d
+ArrayList	fire/ch03/ArrayList.h	/^} ArrayList;$/;"	t	typeref:struct:__ArrayList
+ArrayList	fire/ch03/ArrayList2.h	/^} ArrayList;$/;"	t	typeref:struct:Array_List
+ArrayList	fire/ch03/ArrayList3.h	/^} ArrayList;$/;"	t	typeref:struct:__ArrayList
+ArrayStack	fire/ch06/ArrayBaseStack.h	/^} ArrayStack;$/;"	t	typeref:struct:_arrayStack
+Array_List	fire/ch03/ArrayList2.h	/^typedef struct Array_List$/;"	s
+B	BOJ/lv4/10830.cpp	/^long long N, B;$/;"	v
+B	BOJ/lv4/16953.cpp	/^long long A, B;$/;"	v
+B	BOJ/lv5/9527.cpp	/^long long A, B;$/;"	v
+B	BOJ_EASY/b3/11021.cpp	/^int A, B;$/;"	v
+B	BOJ_EASY/b4/2525.cpp	/^int	A, B, C;$/;"	v
+B	BOJ_EASY/b4/2530.cpp	/^int	A, B, C, D;$/;"	v
+B	BOJ_EASY/b4/2588.cpp	/^int	A, B;$/;"	v
+B	BOJ_EASY/b4/5532.cpp	/^int L, A, B, C, D;$/;"	v
+B	BOJ_EASY/b5/10430.cpp	/^int A, B, C;$/;"	v
+B	BOJ_EASY/b5/11382.cpp	/^long long A, B, C;$/;"	v
+B	BOJ_EASY/b5/1712.cpp	/^ll A, B, C;$/;"	v
+B	BOJ_EASY/b5/24086.cpp	/^int A, B;$/;"	v
+BSTData	fire/ch12/BinarySearchTree3.h	/^typedef BTData	BSTData;$/;"	t
+BSTGetNodeData	fire/ch12/BinarySearchTree3.c	/^BSTData BSTGetNodeData(BTreeNode * bst) {$/;"	f
+BSTInsert	fire/ch12/BinarySearchTree3.c	/^void BSTInsert(BTreeNode ** pRoot, BSTData data) {$/;"	f
+BSTMakeAndInit	fire/ch12/BinarySearchTree3.c	/^void BSTMakeAndInit(BTreeNode ** pRoot) {$/;"	f
+BSTRemove	fire/ch12/BinarySearchTree3.c	/^BTreeNode * BSTRemove(BTreeNode ** pRoot, BSTData target) {$/;"	f
+BSTSearch	fire/ch12/BinarySearchTree3.c	/^BTreeNode * BSTSearch(BTreeNode * bst, BSTData target) {$/;"	f
+BSTShowAll	fire/ch12/BinarySearchTree3.c	/^void BSTShowAll(BTreeNode * bst) {$/;"	f
+BSearch	fire/ch01/BSWorstOpcount.c	/^int BSearch(int arr[], int length, int number)$/;"	f
+BSearch	fire/ch01/BinarySearch.c	/^int BSearch(int arr[], int size, int number)$/;"	f
+BTData	fire/ch08/8-1/BinaryTree2.h	/^typedef int BTData;$/;"	t
+BTData	fire/ch08/8-2/BinaryTree2.h	/^typedef int BTData;$/;"	t
+BTData	fire/ch08/BinaryTree.h	/^typedef int BTData;$/;"	t
+BTData	fire/ch08/BinaryTree2/BinaryTree2.h	/^typedef int BTData;$/;"	t
+BTData	fire/ch08/ExpressionTree/BinaryTree2.h	/^typedef int BTData;$/;"	t
+BTData	fire/ch12/BinaryTree3.h	/^typedef int BTData;$/;"	t
+BTreeNode	fire/ch08/8-1/BinaryTree2.h	/^} BTreeNode;$/;"	t	typeref:struct:_bTreeNode
+BTreeNode	fire/ch08/8-2/BinaryTree2.h	/^} BTreeNode;$/;"	t	typeref:struct:_bTreeNode
+BTreeNode	fire/ch08/BinaryTree.h	/^} BTreeNode;$/;"	t	typeref:struct:_bTreeNode
+BTreeNode	fire/ch08/BinaryTree2/BinaryTree2.h	/^} BTreeNode;$/;"	t	typeref:struct:_bTreeNode
+BTreeNode	fire/ch08/ExpressionTree/BinaryTree2.h	/^} BTreeNode;$/;"	t	typeref:struct:_bTreeNode
+BTreeNode	fire/ch12/BinaryTree3.h	/^} BTreeNode;$/;"	t	typeref:struct:_bTreeNode
+BUCKET_LEN	fire/ch10/RadixSort/RadixSort.c	/^#define BUCKET_LEN /;"	d	file:
+BUL_BUR	fire/ch07/simul/HamburgerSim.c	/^#define BUL_BUR	/;"	d	file:
+BUL_TERM	fire/ch07/simul/HamburgerSim.c	/^#define BUL_TERM	/;"	d	file:
+BinarySearch	BOJ/lv5/2143.cpp	/^void BinarySearch(long long ll_subtotal_b)$/;"	f
+BubbleSort	fire/ch10/BubbleSort.c	/^void BubbleSort(int arr[], int n) $/;"	f
+C	BOJ/lv4/17144.cpp	/^int R, C, T;$/;"	v
+C	BOJ/lv4/2638.cpp	/^vector<pair<int, int>> C;$/;"	v
+C	BOJ_EASY/b4/2525.cpp	/^int	A, B, C;$/;"	v
+C	BOJ_EASY/b4/2530.cpp	/^int	A, B, C, D;$/;"	v
+C	BOJ_EASY/b4/5532.cpp	/^int L, A, B, C, D;$/;"	v
+C	BOJ_EASY/b5/10430.cpp	/^int A, B, C;$/;"	v
+C	BOJ_EASY/b5/11382.cpp	/^long long A, B, C;$/;"	v
+C	BOJ_EASY/b5/1712.cpp	/^ll A, B, C;$/;"	v
+C	category/binary_search/2110.cpp	/^long long	N, C;$/;"	v
+CHE_BUR	fire/ch07/simul/HamburgerSim.c	/^#define CHE_BUR	/;"	d	file:
+CHE_TERM	fire/ch07/simul/HamburgerSim.c	/^#define CHE_TERM	/;"	d	file:
+CList	fire/ch05/5-1/CLinkedList.h	/^} CList;$/;"	t	typeref:struct:_CLL
+CList	fire/ch05/CLinkedList.h	/^} CList;$/;"	t	typeref:struct:_CLL
+CList	fire/ch06/6-1/CLinkedList.h	/^} CList;$/;"	t	typeref:struct:_CLL
+CQueue	fire/ch07/CircularQueue.h	/^} CQueue;$/;"	t	typeref:struct:_cQueue
+CQueue	fire/ch07/simul/CircularQueue.h	/^} CQueue;$/;"	t	typeref:struct:_cQueue
+CUS_COME_TERM	fire/ch07/simul/HamburgerSim.c	/^#define	CUS_COME_TERM	/;"	d	file:
+Calculate_Distance	BOJ/lv4/15686.cpp	/^int Calculate_Distance()$/;"	f
+ChangeLeftSubTree	fire/ch12/BinaryTree3.c	/^void ChangeLeftSubTree(BTreeNode * main, BTreeNode * sub)  {$/;"	f
+ChangePhoneNum	fire/ch03/NameCard.c	/^void ChangePhoneNum(NameCard *pcard, char *phone)$/;"	f
+ChangeRightSubTree	fire/ch12/BinaryTree3.c	/^void ChangeRightSubTree(BTreeNode * main, BTreeNode * sub) {$/;"	f
+ConvToRPNExp	BOJ/lv4/1918.cpp	/^void ConvToRPNExp(char exp[])$/;"	f
+ConvToRPNExp	fire/ch06/calc1/InfixToPostfix.c	/^void ConvToRPNExp(char exp[]) {$/;"	f
+ConvToRPNExp	fire/ch06/calc3/InfixToPostfix.c	/^void ConvToRPNExp(char exp[]) {$/;"	f
+D	BOJ/lv4/1167.cpp	/^int N, NV, D; $/;"	v
+D	BOJ_EASY/b4/2530.cpp	/^int	A, B, C, D;$/;"	v
+D	BOJ_EASY/b4/5532.cpp	/^int L, A, B, C, D;$/;"	v
+D	BOJ_EASY/b5/1297.cpp	/^ll D, H, W;$/;"	v
+DBDLinkedList	fire/ch05/5-2/DBDLinkedList.h	/^} DBDLinkedList;$/;"	t	typeref:struct:_dbDLinkedList
+DFS	BOJ/lv4/1167.cpp	/^void DFS(int cur, int dist) $/;"	f
+DLDeque	fire/ch07/7-1/Deque.h	/^} DLDeque;$/;"	t	typeref:struct:_dlDeque
+DLDeque	fire/ch07/deck/Deque.h	/^} DLDeque;$/;"	t	typeref:struct:_dlDeque
+DQAddFirst	fire/ch07/7-1/Deque.c	/^void DQAddFirst(Deque * pdeq, Data data)$/;"	f
+DQAddFirst	fire/ch07/deck/Deque.c	/^void DQAddFirst(Deque * pdeq, Data data)$/;"	f
+DQAddLast	fire/ch07/7-1/Deque.c	/^void DQAddLast(Deque * pdeq, Data data)$/;"	f
+DQAddLast	fire/ch07/deck/Deque.c	/^void DQAddLast(Deque * pdeq, Data data)$/;"	f
+DQGetFirst	fire/ch07/7-1/Deque.c	/^Data DQGetFirst(Deque * pdeq)$/;"	f
+DQGetFirst	fire/ch07/deck/Deque.c	/^Data DQGetFirst(Deque * pdeq)$/;"	f
+DQGetLast	fire/ch07/7-1/Deque.c	/^Data DQGetLast(Deque * pdeq)$/;"	f
+DQGetLast	fire/ch07/deck/Deque.c	/^Data DQGetLast(Deque * pdeq)$/;"	f
+DQIsEmpty	fire/ch07/7-1/Deque.c	/^int DQIsEmpty(Deque * pdeq)$/;"	f
+DQIsEmpty	fire/ch07/deck/Deque.c	/^int DQIsEmpty(Deque * pdeq)$/;"	f
+DQRemoveFirst	fire/ch07/7-1/Deque.c	/^Data DQRemoveFirst(Deque * pdeq)$/;"	f
+DQRemoveFirst	fire/ch07/deck/Deque.c	/^Data DQRemoveFirst(Deque * pdeq)$/;"	f
+DQRemoveLast	fire/ch07/7-1/Deque.c	/^Data DQRemoveLast(Deque * pdeq)$/;"	f
+DQRemoveLast	fire/ch07/deck/Deque.c	/^Data DQRemoveLast(Deque * pdeq)$/;"	f
+DUB_BUR	fire/ch07/simul/HamburgerSim.c	/^#define DUB_BUR	/;"	d	file:
+DUB_TERM	fire/ch07/simul/HamburgerSim.c	/^#define DUB_TERM	/;"	d	file:
+D_LINKED_LIST_H	fire/ch04/DLinkedList.h	/^#define D_LINKED_LIST_H$/;"	d
+D_LINKED_LIST_H	fire/ch04/DLinkedList2.h	/^#define D_LINKED_LIST_H$/;"	d
+Data	fire/ch05/5-1/CLinkedList.h	/^typedef Employee *Data;$/;"	t
+Data	fire/ch05/5-2/DBDLinkedList.h	/^typedef int Data;$/;"	t
+Data	fire/ch05/CLinkedList.h	/^typedef int Data;$/;"	t
+Data	fire/ch06/6-1/CLLBaseStack.h	/^typedef int Data;$/;"	t
+Data	fire/ch06/6-1/CLinkedList.h	/^typedef int Data;$/;"	t
+Data	fire/ch06/ArrayBaseStack.h	/^typedef int Data;$/;"	t
+Data	fire/ch06/ListBaseStack.h	/^typedef int Data;$/;"	t
+Data	fire/ch06/calc1/ListBaseStack.h	/^typedef int Data;$/;"	t
+Data	fire/ch06/calc2/ListBaseStack.h	/^typedef int Data;$/;"	t
+Data	fire/ch06/calc3/ListBaseStack.h	/^typedef int Data;$/;"	t
+Data	fire/ch07/7-1/Deque.h	/^typedef int Data;$/;"	t
+Data	fire/ch07/CircularQueue.h	/^typedef int Data;$/;"	t
+Data	fire/ch07/ListBaseQueue.h	/^typedef int Data;$/;"	t
+Data	fire/ch07/deck/Deque.h	/^typedef int Data;$/;"	t
+Data	fire/ch07/simul/CircularQueue.h	/^typedef int Data;$/;"	t
+Data	fire/ch08/8-2/ListBaseStack.h	/^typedef BTreeNode * Data;$/;"	t
+Data	fire/ch08/ExpressionTree/ListBaseStack.h	/^typedef BTreeNode * Data;$/;"	t
+Data	fire/ch10/RadixSort/ListBaseQueue.h	/^typedef int Data;$/;"	t
+DataPriorityComp	fire/ch09/9-1/PriorityQueueMain.c	/^int DataPriorityComp(char *ch1, char *ch2) {$/;"	f
+DataPriorityComp	fire/ch09/PQ/PriorityQueueMain.c	/^int DataPriorityComp(char ch1, char ch2) {$/;"	f
+DataPriorityComp	fire/ch09/UsefulHeap/PriorityQueueMain.c	/^int DataPriorityComp(char ch1, char ch2) {$/;"	f
+DeleteTree	fire/ch08/8-1/BinaryTree2.c	/^void DeleteTree(BTreeNode * bt)$/;"	f
+Deque	fire/ch07/7-1/Deque.h	/^typedef DLDeque Deque;$/;"	t
+Deque	fire/ch07/deck/Deque.h	/^typedef DLDeque Deque;$/;"	t
+DequeInit	fire/ch07/7-1/Deque.c	/^void DequeInit(Deque * pdeq)$/;"	f
+DequeInit	fire/ch07/deck/Deque.c	/^void DequeInit(Deque * pdeq)$/;"	f
+Dequeue	fire/ch07/7-1/DequeBaseQueue.c	/^Data Dequeue(Queue * pq)$/;"	f
+Dequeue	fire/ch07/CircularQueue.c	/^Data Dequeue(Queue * pq)$/;"	f
+Dequeue	fire/ch07/ListBaseQueue.c	/^Data Dequeue(Queue * pq)$/;"	f
+Dequeue	fire/ch07/simul/CircularQueue.c	/^Data Dequeue(Queue * pq)$/;"	f
+Dequeue	fire/ch10/RadixSort/ListBaseQueue.c	/^Data Dequeue(Queue *pq) {$/;"	f
+Dist	BOJ/lv4/1753.cpp	/^int Dist[MAX];$/;"	v
+Dist	BOJ/lv4/1865.cpp	/^int Dist[MAX];$/;"	v
+E	BOJ/lv4/1504.cpp	/^int N, E;$/;"	v
+E	BOJ/lv4/1753.cpp	/^int V, E, Start;$/;"	v
+E	BOJ/lv5/10942.cpp	/^int N, M, S, E;$/;"	v
+Employee	fire/ch05/5-1/Employee.h	/^} Employee;$/;"	t	typeref:struct:_Employee
+End	BOJ/lv4/11779.cpp	/^int Start, End;$/;"	v
+Enqueue	fire/ch07/7-1/DequeBaseQueue.c	/^void Enqueue(Queue * pq, Data data)$/;"	f
+Enqueue	fire/ch07/CircularQueue.c	/^void Enqueue(Queue * pq, Data data)$/;"	f
+Enqueue	fire/ch07/ListBaseQueue.c	/^void Enqueue(Queue * pq, Data data)$/;"	f
+Enqueue	fire/ch07/simul/CircularQueue.c	/^void Enqueue(Queue * pq, Data data)$/;"	f
+Enqueue	fire/ch10/RadixSort/ListBaseQueue.c	/^void Enqueue(Queue *pq, Data data) {$/;"	f
+EvalInfixExp	fire/ch06/calc3/InfixCalculator.c	/^int EvalInfixExp(char exp[]) {$/;"	f
+EvalRPNExp	fire/ch06/calc2/PostCalculator.c	/^int EvalRPNExp(char exp[]) {$/;"	f
+EvalRPNExp	fire/ch06/calc3/PostCalculator.c	/^int EvalRPNExp(char exp[]) {$/;"	f
+EvaluateExpTree	fire/ch08/8-2/ExpressionTree.c	/^int EvaluateExpTree(BTreeNode * bt)$/;"	f
+EvaluateExpTree	fire/ch08/ExpressionTree/ExpressionTree.c	/^int EvaluateExpTree(BTreeNode * bt)$/;"	f
+FALSE	fire/ch03/ArrayList.h	/^#define FALSE	/;"	d
+FALSE	fire/ch03/ArrayList2.h	/^#define FALSE /;"	d
+FALSE	fire/ch03/ArrayList3.h	/^#define FALSE	/;"	d
+FALSE	fire/ch04/DLinkedList.h	/^#define FALSE	/;"	d
+FALSE	fire/ch04/DLinkedList2.h	/^#define FALSE	/;"	d
+FALSE	fire/ch05/5-1/CLinkedList.h	/^#define FALSE	/;"	d
+FALSE	fire/ch05/5-2/DBDLinkedList.h	/^#define FALSE	/;"	d
+FALSE	fire/ch05/CLinkedList.h	/^#define FALSE	/;"	d
+FALSE	fire/ch06/6-1/CLLBaseStack.h	/^#define FALSE	/;"	d
+FALSE	fire/ch06/6-1/CLinkedList.h	/^#define FALSE	/;"	d
+FALSE	fire/ch06/ArrayBaseStack.h	/^#define FALSE	/;"	d
+FALSE	fire/ch06/ListBaseStack.h	/^#define FALSE	/;"	d
+FALSE	fire/ch06/calc1/ListBaseStack.h	/^#define FALSE /;"	d
+FALSE	fire/ch06/calc2/ListBaseStack.h	/^#define FALSE /;"	d
+FALSE	fire/ch06/calc3/ListBaseStack.h	/^#define FALSE /;"	d
+FALSE	fire/ch07/7-1/Deque.h	/^#define FALSE	/;"	d
+FALSE	fire/ch07/CircularQueue.h	/^#define FALSE	/;"	d
+FALSE	fire/ch07/ListBaseQueue.h	/^#define FALSE	/;"	d
+FALSE	fire/ch07/deck/Deque.h	/^#define FALSE	/;"	d
+FALSE	fire/ch07/simul/CircularQueue.h	/^#define FALSE	/;"	d
+FALSE	fire/ch08/8-2/ListBaseStack.h	/^#define FALSE	/;"	d
+FALSE	fire/ch08/ExpressionTree/ListBaseStack.h	/^#define FALSE	/;"	d
+FALSE	fire/ch09/9-1/UsefulHeap.h	/^#define FALSE /;"	d
+FALSE	fire/ch09/PQ/UsefulHeap.h	/^#define FALSE /;"	d
+FALSE	fire/ch09/SimpleHeap.h	/^#define FALSE /;"	d
+FALSE	fire/ch09/UsefulHeap/UsefulHeap.h	/^#define FALSE /;"	d
+FALSE	fire/ch10/HeapSort/UsefulHeap.h	/^#define FALSE /;"	d
+FALSE	fire/ch10/RadixSort/ListBaseQueue.h	/^#define FALSE /;"	d
+FInsert	fire/ch04/DLinkedList.c	/^void FInsert(List *plist, LData data)$/;"	f
+FInsert	fire/ch04/DLinkedList2.c	/^void FInsert(List *plist, LData data)$/;"	f
+G	BOJ/lv5/10775.cpp	/^int G, P;$/;"	v
+GetData	fire/ch08/8-1/BinaryTree2.c	/^BTData GetData(BTreeNode * bt)$/;"	f
+GetData	fire/ch08/8-2/BinaryTree2.c	/^BTData GetData(BTreeNode * bt)$/;"	f
+GetData	fire/ch08/BinaryTree.c	/^BTData GetData(BTreeNode * bt)$/;"	f
+GetData	fire/ch08/BinaryTree2/BinaryTree2.c	/^BTData GetData(BTreeNode * bt)$/;"	f
+GetData	fire/ch08/ExpressionTree/BinaryTree2.c	/^BTData GetData(BTreeNode * bt)$/;"	f
+GetData	fire/ch12/BinaryTree3.c	/^BTData GetData(BTreeNode * bt) {$/;"	f
+GetHeight	fire/ch12/AVLRebalance.c	/^int GetHeight(BTreeNode * bst) {$/;"	f
+GetHeightDiff	fire/ch12/AVLRebalance.c	/^int GetHeightDiff(BTreeNode * bst) {$/;"	f
+GetHiPriChildIDX	fire/ch09/9-1/UsefulHeap.c	/^int GetHiPriChildIDX(Heap *ph, int idx) {$/;"	f
+GetHiPriChildIDX	fire/ch09/PQ/UsefulHeap.c	/^int GetHiPriChildIDX(Heap *ph, int idx) {$/;"	f
+GetHiPriChildIDX	fire/ch09/SimpleHeap.c	/^int GetHiPriChildIDX(Heap *ph, int idx) {$/;"	f
+GetHiPriChildIDX	fire/ch09/UsefulHeap/UsefulHeap.c	/^int GetHiPriChildIDX(Heap *ph, int idx) {$/;"	f
+GetHiPriChildIDX	fire/ch10/HeapSort/UsefulHeap.c	/^int GetHiPriChildIDX(Heap *ph, int idx) {$/;"	f
+GetLChildIDX	fire/ch09/9-1/UsefulHeap.c	/^int GetLChildIDX(int idx) {$/;"	f
+GetLChildIDX	fire/ch09/PQ/UsefulHeap.c	/^int GetLChildIDX(int idx) {$/;"	f
+GetLChildIDX	fire/ch09/SimpleHeap.c	/^int GetLChildIDX(int idx) {$/;"	f
+GetLChildIDX	fire/ch09/UsefulHeap/UsefulHeap.c	/^int GetLChildIDX(int idx) {$/;"	f
+GetLChildIDX	fire/ch10/HeapSort/UsefulHeap.c	/^int GetLChildIDX(int idx) {$/;"	f
+GetLeftSubTree	fire/ch08/8-1/BinaryTree2.c	/^BTreeNode * GetLeftSubTree(BTreeNode * bt)$/;"	f
+GetLeftSubTree	fire/ch08/8-2/BinaryTree2.c	/^BTreeNode * GetLeftSubTree(BTreeNode * bt)$/;"	f
+GetLeftSubTree	fire/ch08/BinaryTree.c	/^BTreeNode * GetLeftSubTree(BTreeNode * bt)$/;"	f
+GetLeftSubTree	fire/ch08/BinaryTree2/BinaryTree2.c	/^BTreeNode * GetLeftSubTree(BTreeNode * bt)$/;"	f
+GetLeftSubTree	fire/ch08/ExpressionTree/BinaryTree2.c	/^BTreeNode * GetLeftSubTree(BTreeNode * bt)$/;"	f
+GetLeftSubTree	fire/ch12/BinaryTree3.c	/^BTreeNode * GetLeftSubTree(BTreeNode * bt) {$/;"	f
+GetOpPrec	BOJ/lv4/1918.cpp	/^int GetOpPrec(char op)$/;"	f
+GetOpPrec	fire/ch06/calc1/InfixToPostfix.c	/^int GetOpPrec(char op) {$/;"	f
+GetOpPrec	fire/ch06/calc3/InfixToPostfix.c	/^int GetOpPrec(char op) {$/;"	f
+GetParentIDX	fire/ch09/9-1/UsefulHeap.c	/^int GetParentIDX(int idx) {$/;"	f
+GetParentIDX	fire/ch09/PQ/UsefulHeap.c	/^int GetParentIDX(int idx) {$/;"	f
+GetParentIDX	fire/ch09/SimpleHeap.c	/^int GetParentIDX(int idx) {$/;"	f
+GetParentIDX	fire/ch09/UsefulHeap/UsefulHeap.c	/^int GetParentIDX(int idx) {$/;"	f
+GetParentIDX	fire/ch10/HeapSort/UsefulHeap.c	/^int GetParentIDX(int idx) {$/;"	f
+GetRChildIDX	fire/ch09/9-1/UsefulHeap.c	/^int GetRChildIDX(int idx) {$/;"	f
+GetRChildIDX	fire/ch09/PQ/UsefulHeap.c	/^int GetRChildIDX(int idx) {$/;"	f
+GetRChildIDX	fire/ch09/SimpleHeap.c	/^int GetRChildIDX(int idx) {$/;"	f
+GetRChildIDX	fire/ch09/UsefulHeap/UsefulHeap.c	/^int GetRChildIDX(int idx) {$/;"	f
+GetRChildIDX	fire/ch10/HeapSort/UsefulHeap.c	/^int GetRChildIDX(int idx) {$/;"	f
+GetRightSubTree	fire/ch08/8-1/BinaryTree2.c	/^BTreeNode * GetRightSubTree(BTreeNode * bt)$/;"	f
+GetRightSubTree	fire/ch08/8-2/BinaryTree2.c	/^BTreeNode * GetRightSubTree(BTreeNode * bt)$/;"	f
+GetRightSubTree	fire/ch08/BinaryTree.c	/^BTreeNode * GetRightSubTree(BTreeNode * bt)$/;"	f
+GetRightSubTree	fire/ch08/BinaryTree2/BinaryTree2.c	/^BTreeNode * GetRightSubTree(BTreeNode * bt)$/;"	f
+GetRightSubTree	fire/ch08/ExpressionTree/BinaryTree2.c	/^BTreeNode * GetRightSubTree(BTreeNode * bt)$/;"	f
+GetRightSubTree	fire/ch12/BinaryTree3.c	/^BTreeNode * GetRightSubTree(BTreeNode * bt) {$/;"	f
+H	BOJ_EASY/b5/1297.cpp	/^ll D, H, W;$/;"	v
+HData	fire/ch09/9-1/UsefulHeap.h	/^typedef char * HData;$/;"	t
+HData	fire/ch09/PQ/UsefulHeap.h	/^typedef char HData;$/;"	t
+HData	fire/ch09/SimpleHeap.h	/^typedef char HData;$/;"	t
+HData	fire/ch09/UsefulHeap/UsefulHeap.h	/^typedef char HData;$/;"	t
+HData	fire/ch10/HeapSort/UsefulHeap.h	/^typedef int HData;$/;"	t
+HDelete	fire/ch09/9-1/UsefulHeap.c	/^HData HDelete(Heap *ph) {$/;"	f
+HDelete	fire/ch09/PQ/UsefulHeap.c	/^HData HDelete(Heap *ph) {$/;"	f
+HDelete	fire/ch09/SimpleHeap.c	/^HData HDelete(Heap *ph) {$/;"	f
+HDelete	fire/ch09/UsefulHeap/UsefulHeap.c	/^HData HDelete(Heap *ph) {$/;"	f
+HDelete	fire/ch10/HeapSort/UsefulHeap.c	/^HData HDelete(Heap *ph) {$/;"	f
+HEAP_LEN	fire/ch09/9-1/UsefulHeap.h	/^#define HEAP_LEN /;"	d
+HEAP_LEN	fire/ch09/PQ/UsefulHeap.h	/^#define HEAP_LEN /;"	d
+HEAP_LEN	fire/ch09/SimpleHeap.h	/^#define HEAP_LEN /;"	d
+HEAP_LEN	fire/ch09/UsefulHeap/UsefulHeap.h	/^#define HEAP_LEN /;"	d
+HEAP_LEN	fire/ch10/HeapSort/UsefulHeap.h	/^#define HEAP_LEN /;"	d
+HInsert	fire/ch09/9-1/UsefulHeap.c	/^void HInsert(Heap *ph, HData data) {$/;"	f
+HInsert	fire/ch09/PQ/UsefulHeap.c	/^void HInsert(Heap *ph, HData data) {$/;"	f
+HInsert	fire/ch09/SimpleHeap.c	/^void HInsert(Heap *ph, HData data, Priority pr) {$/;"	f
+HInsert	fire/ch09/UsefulHeap/UsefulHeap.c	/^void HInsert(Heap *ph, HData data) {$/;"	f
+HInsert	fire/ch10/HeapSort/UsefulHeap.c	/^void HInsert(Heap *ph, HData data) {$/;"	f
+HIsEmpty	fire/ch09/9-1/UsefulHeap.c	/^int HIsEmpty(Heap *ph) {$/;"	f
+HIsEmpty	fire/ch09/PQ/UsefulHeap.c	/^int HIsEmpty(Heap *ph) {$/;"	f
+HIsEmpty	fire/ch09/SimpleHeap.c	/^int HIsEmpty(Heap *ph) {$/;"	f
+HIsEmpty	fire/ch09/UsefulHeap/UsefulHeap.c	/^int HIsEmpty(Heap *ph) {$/;"	f
+HIsEmpty	fire/ch10/HeapSort/UsefulHeap.c	/^int HIsEmpty(Heap *ph) {$/;"	f
+HanoiTowerMove	fire/ch02/HanoiTowerSolu.c	/^void HanoiTowerMove(int num, char from, char by, char to)$/;"	f
+Heap	fire/ch09/9-1/UsefulHeap.h	/^} Heap;$/;"	t	typeref:struct:_heap
+Heap	fire/ch09/PQ/UsefulHeap.h	/^} Heap;$/;"	t	typeref:struct:_heap
+Heap	fire/ch09/SimpleHeap.h	/^} Heap;$/;"	t	typeref:struct:_heap
+Heap	fire/ch09/UsefulHeap/UsefulHeap.h	/^} Heap;$/;"	t	typeref:struct:_heap
+Heap	fire/ch10/HeapSort/UsefulHeap.h	/^} Heap;$/;"	t	typeref:struct:_heap
+HeapElem	fire/ch09/SimpleHeap.h	/^} HeapElem;$/;"	t	typeref:struct:_heapElem
+HeapInit	fire/ch09/9-1/UsefulHeap.c	/^void HeapInit(Heap *ph, PriorityComp pc) {$/;"	f
+HeapInit	fire/ch09/PQ/UsefulHeap.c	/^void HeapInit(Heap *ph, PriorityComp pc) {$/;"	f
+HeapInit	fire/ch09/SimpleHeap.c	/^void HeapInit(Heap *ph) {$/;"	f
+HeapInit	fire/ch09/UsefulHeap/UsefulHeap.c	/^void HeapInit(Heap *ph, PriorityComp pc) {$/;"	f
+HeapInit	fire/ch10/HeapSort/UsefulHeap.c	/^void HeapInit(Heap *ph, PriorityComp pc) {$/;"	f
+HeapSort	fire/ch10/HeapSort/HeapSort.c	/^void HeapSort(int arr[], int n, PriorityComp pc) {$/;"	f
+INF	BOJ/lv4/11404.cpp	/^#define INF /;"	d	file:
+INF	BOJ/lv4/11779.cpp	/^#define INF /;"	d	file:
+INF	BOJ/lv4/1238.cpp	/^#define INF /;"	d	file:
+INF	BOJ/lv4/14936.cpp	/^#define INF /;"	d	file:
+INF	BOJ/lv4/1753.cpp	/^#define INF /;"	d	file:
+INF	BOJ/lv4/1865.cpp	/^#define INF /;"	d	file:
+INF	BOJ/lv4/1916.cpp	/^#define INF /;"	d	file:
+INF	BOJ/lv5/11049.cpp	/^#define INF /;"	d	file:
+ISearch	fire/ch11/InterpoleSearch.c	/^int ISearch(int ar[], int first, int last, int target) {$/;"	f
+InorderTraverse	fire/ch08/8-1/BinaryTree2.c	/^void InorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+InorderTraverse	fire/ch08/8-2/BinaryTree2.c	/^void InorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+InorderTraverse	fire/ch08/BinaryTree2/BinaryTree2.c	/^void InorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+InorderTraverse	fire/ch08/BinaryTreeTraverseMain.c	/^void InorderTraverse(BTreeNode *bt)$/;"	f
+InorderTraverse	fire/ch08/ExpressionTree/BinaryTree2.c	/^void InorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+InorderTraverse	fire/ch12/BinaryTree3.c	/^void InorderTraverse(BTreeNode * bt, VisitFuncPtr action) {$/;"	f
+InserSort	fire/ch10/InsertionSort.c	/^void InserSort(int arr[], int n) $/;"	f
+K	BOJ/lv4/12865.cpp	/^int N, K;$/;"	v
+K	BOJ/lv5/1005.cpp	/^int T, N, K, W;$/;"	v
+K	category/binary_search/1300.cpp	/^long long	N, K;$/;"	v
+L	BOJ_EASY/b4/5532.cpp	/^int L, A, B, C, D;$/;"	v
+L	BOJ_EASY/b5/15727.cpp	/^ll L;$/;"	v
+LCount	fire/ch03/ArrayList.c	/^int LCount(List *plist)$/;"	f
+LCount	fire/ch03/ArrayList2.c	/^int LCount(List *plist)$/;"	f
+LCount	fire/ch03/ArrayList3.c	/^int LCount(List *plist)$/;"	f
+LCount	fire/ch04/DLinkedList.c	/^int LCount(List *plist)$/;"	f
+LCount	fire/ch04/DLinkedList2.c	/^int LCount(List * plist)$/;"	f
+LCount	fire/ch05/5-1/CLinkedList.c	/^int LCount(List * plist)$/;"	f
+LCount	fire/ch05/5-2/DBDLinkedList.c	/^int LCount(List * plist)$/;"	f
+LCount	fire/ch05/CLinkdedList.c	/^int LCount(List * plist)$/;"	f
+LCount	fire/ch06/6-1/CLinkedList.c	/^int LCount(List * plist)$/;"	f
+LData	fire/ch03/ArrayList.h	/^typedef int LData;$/;"	t
+LData	fire/ch03/ArrayList2.h	/^typedef Point *LData;$/;"	t
+LData	fire/ch03/ArrayList3.h	/^typedef NameCard * LData;$/;"	t
+LData	fire/ch04/DLinkedList.h	/^typedef int LData;$/;"	t
+LData	fire/ch04/DLinkedList2.h	/^typedef Point *LData;$/;"	t
+LFirst	fire/ch03/ArrayList.c	/^int LFirst(List *plist, LData *pdata)$/;"	f
+LFirst	fire/ch03/ArrayList2.c	/^int LFirst(List *plist, LData *pdata)$/;"	f
+LFirst	fire/ch03/ArrayList3.c	/^int LFirst(List *plist, LData *pdata)$/;"	f
+LFirst	fire/ch04/DLinkedList.c	/^int LFirst(List *plist, LData *pdata)$/;"	f
+LFirst	fire/ch04/DLinkedList2.c	/^int LFirst(List * plist, LData * pdata)$/;"	f
+LFirst	fire/ch05/5-1/CLinkedList.c	/^int LFirst(List * plist, Data * pdata)$/;"	f
+LFirst	fire/ch05/5-2/DBDLinkedList.c	/^int LFirst(List * plist, Data * pdata)$/;"	f
+LFirst	fire/ch05/CLinkdedList.c	/^int LFirst(List * plist, Data * pdata)$/;"	f
+LFirst	fire/ch06/6-1/CLinkedList.c	/^int LFirst(List * plist, Data * pdata)$/;"	f
+LIS	BOJ/lv5/12015.cpp	/^vector<int> LIS;$/;"	v
+LIST_LEN	fire/ch03/ArrayList.h	/^#define LIST_LEN	/;"	d
+LIST_LEN	fire/ch03/ArrayList2.h	/^#define LIST_LEN /;"	d
+LIST_LEN	fire/ch03/ArrayList3.h	/^#define LIST_LEN	/;"	d
+LInsert	fire/ch03/ArrayList.c	/^void LInsert(List *plist, LData data)$/;"	f
+LInsert	fire/ch03/ArrayList2.c	/^void LInsert(List *plist, LData data)$/;"	f
+LInsert	fire/ch03/ArrayList3.c	/^void LInsert(List *plist, LData data)$/;"	f
+LInsert	fire/ch04/DLinkedList.c	/^void LInsert(List *plist, LData data)$/;"	f
+LInsert	fire/ch04/DLinkedList2.c	/^void LInsert(List * plist, LData data)$/;"	f
+LInsert	fire/ch05/5-1/CLinkedList.c	/^void LInsert(List * plist, Data data)$/;"	f
+LInsert	fire/ch05/5-2/DBDLinkedList.c	/^void LInsert(List * plist, Data data) $/;"	f
+LInsert	fire/ch05/CLinkdedList.c	/^void LInsert(List * plist, Data data)$/;"	f
+LInsert	fire/ch06/6-1/CLinkedList.c	/^void LInsert(List * plist, Data data)$/;"	f
+LInsertFront	fire/ch05/5-1/CLinkedList.c	/^void LInsertFront(List * plist, Data data)$/;"	f
+LInsertFront	fire/ch05/CLinkdedList.c	/^void LInsertFront(List * plist, Data data)$/;"	f
+LInsertFront	fire/ch06/6-1/CLinkedList.c	/^void LInsertFront(List * plist, Data data)$/;"	f
+LNext	fire/ch03/ArrayList.c	/^int LNext(List *plist, LData *pdata)$/;"	f
+LNext	fire/ch03/ArrayList2.c	/^int LNext(List *plist, LData *pdata)$/;"	f
+LNext	fire/ch03/ArrayList3.c	/^int LNext(List *plist, LData *pdata)$/;"	f
+LNext	fire/ch04/DLinkedList.c	/^int LNext(List *plist, LData *pdata)$/;"	f
+LNext	fire/ch04/DLinkedList2.c	/^int LNext(List * plist, LData * pdata)$/;"	f
+LNext	fire/ch05/5-1/CLinkedList.c	/^int LNext(List * plist, Data * pdata)$/;"	f
+LNext	fire/ch05/5-2/DBDLinkedList.c	/^int LNext(List * plist, Data * pdata)$/;"	f
+LNext	fire/ch05/CLinkdedList.c	/^int LNext(List * plist, Data * pdata)$/;"	f
+LNext	fire/ch06/6-1/CLinkedList.c	/^int LNext(List * plist, Data * pdata)$/;"	f
+LQueue	fire/ch07/ListBaseQueue.h	/^} LQueue;$/;"	t	typeref:struct:_lQueue
+LQueue	fire/ch10/RadixSort/ListBaseQueue.h	/^} LQueue;$/;"	t	typeref:struct:_lQueue
+LRemove	fire/ch03/ArrayList.c	/^int LRemove(List *plist)$/;"	f
+LRemove	fire/ch03/ArrayList2.c	/^LData LRemove(List *plist)$/;"	f
+LRemove	fire/ch03/ArrayList3.c	/^LData LRemove(List *plist)$/;"	f
+LRemove	fire/ch04/DLinkedList.c	/^LData LRemove(List *plist)$/;"	f
+LRemove	fire/ch04/DLinkedList2.c	/^LData LRemove(List * plist)$/;"	f
+LRemove	fire/ch05/5-1/CLinkedList.c	/^Data LRemove(List * plist)$/;"	f
+LRemove	fire/ch05/5-2/DBDLinkedList.c	/^Data LRemove(List * plist)$/;"	f
+LRemove	fire/ch05/CLinkdedList.c	/^Data LRemove(List * plist)$/;"	f
+LRemove	fire/ch06/6-1/CLinkedList.c	/^Data LRemove(List * plist)$/;"	f
+LSearch	fire/ch01/LinearSearch.c	/^int LSearch(int arr[], int len, int target)$/;"	f
+LinkedList	fire/ch04/DLinkedList.h	/^} LinkedList;$/;"	t	typeref:struct:_linkedList
+LinkedList	fire/ch04/DLinkedList2.h	/^} LinkedList;$/;"	t	typeref:struct:_linkedList
+List	fire/ch03/ArrayList.h	/^typedef ArrayList List;$/;"	t
+List	fire/ch03/ArrayList2.h	/^typedef ArrayList List;$/;"	t
+List	fire/ch03/ArrayList3.h	/^typedef ArrayList List;$/;"	t
+List	fire/ch04/DLinkedList.h	/^typedef LinkedList List;$/;"	t
+List	fire/ch04/DLinkedList2.h	/^typedef LinkedList List;$/;"	t
+List	fire/ch05/5-1/CLinkedList.h	/^typedef CList List;$/;"	t
+List	fire/ch05/5-2/DBDLinkedList.h	/^typedef DBDLinkedList List;$/;"	t
+List	fire/ch05/CLinkedList.h	/^typedef CList List;$/;"	t
+List	fire/ch06/6-1/CLinkedList.h	/^typedef CList List;$/;"	t
+ListInit	fire/ch03/ArrayList.c	/^void ListInit(List *plist)$/;"	f
+ListInit	fire/ch03/ArrayList2.c	/^void ListInit(List *plist)$/;"	f
+ListInit	fire/ch03/ArrayList3.c	/^void ListInit(List *plist)$/;"	f
+ListInit	fire/ch04/DLinkedList.c	/^void ListInit(List *plist)$/;"	f
+ListInit	fire/ch04/DLinkedList2.c	/^void ListInit(List *plist)$/;"	f
+ListInit	fire/ch05/5-1/CLinkedList.c	/^void ListInit(List * plist)$/;"	f
+ListInit	fire/ch05/5-2/DBDLinkedList.c	/^void ListInit(List * plist)$/;"	f
+ListInit	fire/ch05/CLinkdedList.c	/^void ListInit(List * plist)$/;"	f
+ListInit	fire/ch06/6-1/CLinkedList.c	/^void ListInit(List * plist)$/;"	f
+ListStack	fire/ch06/6-1/CLLBaseStack.h	/^} ListStack;$/;"	t	typeref:struct:_listStack
+ListStack	fire/ch06/ListBaseStack.h	/^} ListStack;$/;"	t	typeref:struct:_listStack
+ListStack	fire/ch06/calc1/ListBaseStack.h	/^} ListStack;$/;"	t	typeref:struct:_listStack
+ListStack	fire/ch06/calc2/ListBaseStack.h	/^} ListStack;$/;"	t	typeref:struct:_listStack
+ListStack	fire/ch06/calc3/ListBaseStack.h	/^} ListStack;$/;"	t	typeref:struct:_listStack
+ListStack	fire/ch08/8-2/ListBaseStack.h	/^} ListStack;$/;"	t	typeref:struct:_listStack
+ListStack	fire/ch08/ExpressionTree/ListBaseStack.h	/^} ListStack;$/;"	t	typeref:struct:_listStack
+M	BOJ/lv3/14500.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/11660.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/1238.cpp	/^int N, M, X;$/;"	v
+M	BOJ/lv4/14502.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/15650.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/15652.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/15654.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/15657.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/15663.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/15666.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/15686.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/1865.cpp	/^int N, M, W;$/;"	v
+M	BOJ/lv4/2206.cpp	/^int N, M;$/;"	v
+M	BOJ/lv4/2638.cpp	/^int N, M;$/;"	v
+M	BOJ/lv5/10942.cpp	/^int N, M, S, E;$/;"	v
+M	BOJ/lv5/16724.cpp	/^int N, M, safe_zone;$/;"	v
+M	BOJ/lv5/1766.cpp	/^int N, M;$/;"	v
+M	BOJ/lv5/2252.cpp	/^int N, M;$/;"	v
+M	BOJ/lv5/2623.cpp	/^int N, M;$/;"	v
+M	BOJ/lv5/7579.cpp	/^int N, M;$/;"	v
+M	BOJ_EASY/b4/2420.cpp	/^ll N, M;$/;"	v
+M	category/binary_search/1654.cpp	/^long long N, M;$/;"	v
+M	category/binary_search/2343.cpp	/^int N, M;$/;"	v
+M	category/binary_search/2512.cpp	/^int N, M;$/;"	v
+M	category/binary_search/2805.cpp	/^int N, M;$/;"	v
+M	category/binary_search/6236.cpp	/^int N, M;$/;"	v
+MAX	BOJ/lv4/11053.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv4/11660.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv4/1167.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv4/11725.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv4/1504.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv4/15650.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv4/15652.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv4/15654.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv4/15657.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv4/15663.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv4/15666.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv4/17144.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv4/1753.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv4/1865.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv4/9465.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/1005.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/10775.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/10942.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/11049.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/1197.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/12015.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/12100.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/1647.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/16724.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/17404.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/1766.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/1806.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/1987.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/20040.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/2143.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/2239.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/2252.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/2342.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/2473.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/2623.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/7579.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/9252.cpp	/^# define MAX /;"	d	file:
+MAX	BOJ/lv5/9466.cpp	/^#define MAX /;"	d	file:
+MAX	BOJ/lv5/9527.cpp	/^#define MAX /;"	d	file:
+MAX	category/binary_search/2110.cpp	/^#define MAX /;"	d	file:
+MAX	category/recursive/10870.cpp	/^#define MAX /;"	d	file:
+MAX2	BOJ/lv5/12100.cpp	/^#define MAX2 /;"	d	file:
+MAX_BUDGET	category/binary_search/2512.cpp	/^#define MAX_BUDGET /;"	d	file:
+MAX_CNT	category/binary_search/1654.cpp	/^#define MAX_CNT /;"	d	file:
+MAX_CNT	category/binary_search/2343.cpp	/^#define MAX_CNT /;"	d	file:
+MAX_COST	BOJ/lv5/17404.cpp	/^# define MAX_COST /;"	d	file:
+MAX_DAY	category/binary_search/6236.cpp	/^#define MAX_DAY /;"	d	file:
+MAX_HEIGHT	category/binary_search/2805.cpp	/^#define MAX_HEIGHT /;"	d	file:
+MAX_LEN	category/recursive/1780.cpp	/^#define MAX_LEN /;"	d	file:
+MAX_LEN	category/recursive/1992.cpp	/^#define MAX_LEN /;"	d	file:
+MAX_LEN	category/recursive/2448.cpp	/^#define MAX_LEN /;"	d	file:
+MAX_LEN	category/recursive/2630.cpp	/^#define MAX_LEN /;"	d	file:
+MAX_LEN	dog/09/1926/1926.cpp	/^# define MAX_LEN /;"	d	file:
+MAX_REGION	category/binary_search/2512.cpp	/^#define MAX_REGION /;"	d	file:
+MX	dog/04/test1.cpp	/^const int MX = 1000005;$/;"	v
+MX	dog/04/test3.cpp	/^const int MX = 1000005;$/;"	v
+MakeBTreeNode	fire/ch08/8-1/BinaryTree2.c	/^BTreeNode * MakeBTreeNode(void)$/;"	f
+MakeBTreeNode	fire/ch08/8-2/BinaryTree2.c	/^BTreeNode * MakeBTreeNode(void)$/;"	f
+MakeBTreeNode	fire/ch08/BinaryTree.c	/^BTreeNode * MakeBTreeNode(void)$/;"	f
+MakeBTreeNode	fire/ch08/BinaryTree2/BinaryTree2.c	/^BTreeNode * MakeBTreeNode(void)$/;"	f
+MakeBTreeNode	fire/ch08/ExpressionTree/BinaryTree2.c	/^BTreeNode * MakeBTreeNode(void)$/;"	f
+MakeBTreeNode	fire/ch12/BinaryTree3.c	/^BTreeNode * MakeBTreeNode(void) {$/;"	f
+MakeExpTree	fire/ch08/8-2/ExpressionTree.c	/^BTreeNode * MakeExpTree(char exp[])$/;"	f
+MakeExpTree	fire/ch08/ExpressionTree/ExpressionTree.c	/^BTreeNode * MakeExpTree(char exp[])$/;"	f
+MakeLeftSubTree	fire/ch08/8-1/BinaryTree2.c	/^void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeLeftSubTree	fire/ch08/8-2/BinaryTree2.c	/^void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeLeftSubTree	fire/ch08/BinaryTree.c	/^void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeLeftSubTree	fire/ch08/BinaryTree2/BinaryTree2.c	/^void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeLeftSubTree	fire/ch08/ExpressionTree/BinaryTree2.c	/^void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeLeftSubTree	fire/ch12/BinaryTree3.c	/^void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub) {$/;"	f
+MakeNameCard	fire/ch03/NameCard.c	/^NameCard *MakeNameCard(char *name, char *phone)$/;"	f
+MakeRightSubTree	fire/ch08/8-1/BinaryTree2.c	/^void MakeRightSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeRightSubTree	fire/ch08/8-2/BinaryTree2.c	/^void MakeRightSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeRightSubTree	fire/ch08/BinaryTree.c	/^void MakeRightSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeRightSubTree	fire/ch08/BinaryTree2/BinaryTree2.c	/^void MakeRightSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeRightSubTree	fire/ch08/ExpressionTree/BinaryTree2.c	/^void MakeRightSubTree(BTreeNode * main, BTreeNode * sub)$/;"	f
+MakeRightSubTree	fire/ch12/BinaryTree3.c	/^void MakeRightSubTree(BTreeNode * main, BTreeNode * sub) {$/;"	f
+Max	BOJ/lv4/1932.cpp	/^int Max;$/;"	v
+Max	category/binary_search/2512.cpp	/^int	Max, temp, low, high, center, ans, sum;$/;"	v
+Max	category/binary_search/6236.cpp	/^int Max;$/;"	v
+MedianOfThree	fire/ch10/10-1/medianOfThree.c	/^int MedianOfThree(int arr[], int left, int right) {$/;"	f
+MergeSort	fire/ch10/MergeSort.c	/^void MergeSort(int arr[], int left, int right) {$/;"	f
+MergeTwoArea	fire/ch10/MergeSort.c	/^void MergeTwoArea(int arr[], int left, int mid, int right) {$/;"	f
+N	BOJ/lv3/10026.cpp	/^int N;$/;"	v
+N	BOJ/lv3/14500.cpp	/^int N, M;$/;"	v
+N	BOJ/lv3/16236.cpp	/^int N;$/;"	v
+N	BOJ/lv4/10830.cpp	/^long long N, B;$/;"	v
+N	BOJ/lv4/11053.cpp	/^int N, length;$/;"	v
+N	BOJ/lv4/11054.cpp	/^int N;$/;"	v
+N	BOJ/lv4/11660.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/1167.cpp	/^int N, NV, D; $/;"	v
+N	BOJ/lv4/11725.cpp	/^int N;$/;"	v
+N	BOJ/lv4/1238.cpp	/^int N, M, X;$/;"	v
+N	BOJ/lv4/12865.cpp	/^int N, K;$/;"	v
+N	BOJ/lv4/14502.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/1504.cpp	/^int N, E;$/;"	v
+N	BOJ/lv4/15650.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/15652.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/15654.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/15657.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/15663.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/15666.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/15686.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/17070.cpp	/^int N;$/;"	v
+N	BOJ/lv4/1865.cpp	/^int N, M, W;$/;"	v
+N	BOJ/lv4/1967.cpp	/^int N, max_node, max_dist;$/;"	v
+N	BOJ/lv4/2206.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/2638.cpp	/^int N, M;$/;"	v
+N	BOJ/lv4/9663.cpp	/^int N;$/;"	v
+N	BOJ/lv5/1005.cpp	/^int T, N, K, W;$/;"	v
+N	BOJ/lv5/1007.cpp	/^int T, N;$/;"	v
+N	BOJ/lv5/10942.cpp	/^int N, M, S, E;$/;"	v
+N	BOJ/lv5/11049.cpp	/^int N;$/;"	v
+N	BOJ/lv5/12015.cpp	/^int	N;$/;"	v
+N	BOJ/lv5/12100.cpp	/^int N;$/;"	v
+N	BOJ/lv5/1644.cpp	/^int N;$/;"	v
+N	BOJ/lv5/16724.cpp	/^int N, M, safe_zone;$/;"	v
+N	BOJ/lv5/17404.cpp	/^int N;$/;"	v
+N	BOJ/lv5/1766.cpp	/^int N, M;$/;"	v
+N	BOJ/lv5/2166.cpp	/^int N;$/;"	v
+N	BOJ/lv5/2252.cpp	/^int N, M;$/;"	v
+N	BOJ/lv5/2623.cpp	/^int N, M;$/;"	v
+N	BOJ/lv5/7579.cpp	/^int N, M;$/;"	v
+N	BOJ_EASY/b4/2420.cpp	/^ll N, M;$/;"	v
+N	BOJ_EASY/b5/15439.cpp	/^int	N;$/;"	v
+N	BOJ_EASY/b5/18096.cpp	/^ll N;$/;"	v
+N	BOJ_EASY/b5/20492.cpp	/^ll N;$/;"	v
+N	category/binary_search/1300.cpp	/^long long	N, K;$/;"	v
+N	category/binary_search/1654.cpp	/^long long N, M;$/;"	v
+N	category/binary_search/2110.cpp	/^long long	N, C;$/;"	v
+N	category/binary_search/2343.cpp	/^int N, M;$/;"	v
+N	category/binary_search/2512.cpp	/^int N, M;$/;"	v
+N	category/binary_search/2805.cpp	/^int N, M;$/;"	v
+N	category/binary_search/6236.cpp	/^int N, M;$/;"	v
+N	category/recursive/10872.cpp	/^ll N;$/;"	v
+N	category/recursive/1992.cpp	/^ll N;$/;"	v
+N	category/recursive/2447.cpp	/^int N;$/;"	v
+N	category/recursive/2448.cpp	/^int N;$/;"	v
+NAME_LEN	fire/ch03/NameCard.h	/^#define NAME_LEN	/;"	d
+NODE	dog/04/test.cpp	/^struct NODE $/;"	s	file:
+NV	BOJ/lv4/1167.cpp	/^int N, NV, D; $/;"	v
+NameCard	fire/ch03/NameCard.h	/^} NameCard;$/;"	t	typeref:struct:__namecard
+NameCompare	fire/ch03/NameCard.c	/^int NameCompare(NameCard *pcard, char *name)$/;"	f
+NextPosIdx	fire/ch07/CircularQueue.c	/^int NextPosIdx(int pos)$/;"	f
+NextPosIdx	fire/ch07/simul/CircularQueue.c	/^int NextPosIdx(int pos)$/;"	f
+Node	fire/ch04/DLinkedList.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch04/DLinkedList2.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch04/DLinkedRead.c	/^} Node;$/;"	t	typeref:struct:_node	file:
+Node	fire/ch04/LinkedRead.c	/^} Node;$/;"	t	typeref:struct:_node	file:
+Node	fire/ch05/5-1/CLinkedList.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch05/5-2/DBDLinkedList.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch05/CLinkedList.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch06/6-1/CLinkedList.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch06/ListBaseStack.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch06/calc1/ListBaseStack.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch06/calc2/ListBaseStack.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch06/calc3/ListBaseStack.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch07/7-1/Deque.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch07/ListBaseQueue.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch07/deck/Deque.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch08/8-2/ListBaseStack.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch08/ExpressionTree/ListBaseStack.h	/^} Node;$/;"	t	typeref:struct:_node
+Node	fire/ch10/RadixSort/ListBaseQueue.h	/^} Node;$/;"	t	typeref:struct:_node
+P	BOJ/lv5/10775.cpp	/^int G, P;$/;"	v
+PDequeue	fire/ch09/9-1/PriorityQueue.c	/^PQData PDequeue(PQueue *ppq) {$/;"	f
+PDequeue	fire/ch09/PQ/PriorityQueue.c	/^PQData PDequeue(PQueue *ppq) {$/;"	f
+PDequeue	fire/ch09/UsefulHeap/PriorityQueue.c	/^PQData PDequeue(PQueue *ppq) {$/;"	f
+PEnqueue	fire/ch09/9-1/PriorityQueue.c	/^void PEnqueue(PQueue *ppq, PQData data) {$/;"	f
+PEnqueue	fire/ch09/PQ/PriorityQueue.c	/^void PEnqueue(PQueue *ppq, PQData data) {$/;"	f
+PEnqueue	fire/ch09/UsefulHeap/PriorityQueue.c	/^void PEnqueue(PQueue *ppq, PQData data) {$/;"	f
+PHONE_LEN	fire/ch03/NameCard.h	/^#define PHONE_LEN	/;"	d
+POINT_H	fire/ch03/Point.h	/^# define POINT_H$/;"	d
+POINT_H	fire/ch04/Point.h	/^# define POINT_H$/;"	d
+PQData	fire/ch09/9-1/PriorityQueue.h	/^typedef HData PQData;$/;"	t
+PQData	fire/ch09/PQ/PriorityQueue.h	/^typedef HData PQData;$/;"	t
+PQData	fire/ch09/UsefulHeap/PriorityQueue.h	/^typedef HData PQData;$/;"	t
+PQIsEmpty	fire/ch09/9-1/PriorityQueue.c	/^int PQIsEmpty(PQueue *ppq) {$/;"	f
+PQIsEmpty	fire/ch09/PQ/PriorityQueue.c	/^int PQIsEmpty(PQueue *ppq) {$/;"	f
+PQIsEmpty	fire/ch09/UsefulHeap/PriorityQueue.c	/^int PQIsEmpty(PQueue *ppq) {$/;"	f
+PQueue	fire/ch09/9-1/PriorityQueue.h	/^typedef Heap PQueue;$/;"	t
+PQueue	fire/ch09/PQ/PriorityQueue.h	/^typedef Heap PQueue;$/;"	t
+PQueue	fire/ch09/UsefulHeap/PriorityQueue.h	/^typedef Heap PQueue;$/;"	t
+PQueueInit	fire/ch09/9-1/PriorityQueue.c	/^void PQueueInit(PQueue *ppq, PriorityComp pc) {$/;"	f
+PQueueInit	fire/ch09/PQ/PriorityQueue.c	/^void PQueueInit(PQueue *ppq, PriorityComp pc) {$/;"	f
+PQueueInit	fire/ch09/UsefulHeap/PriorityQueue.c	/^void PQueueInit(PQueue *ppq, PriorityComp pc) {$/;"	f
+Partition	fire/ch10/10-1/medianOfThree.c	/^int Partition(int arr[], int left, int right) {$/;"	f
+Partition	fire/ch10/QuickSort.c	/^int Partition(int arr[], int left, int right) {$/;"	f
+Person	BOJ/lv2/10814.cpp	/^} Person;$/;"	t	typeref:struct:__anon1	file:
+Point	fire/ch03/Point.h	/^} Point;$/;"	t	typeref:struct:_point
+Point	fire/ch04/Point.h	/^} Point;$/;"	t	typeref:struct:_point
+PointComp	fire/ch03/Point.c	/^int PointComp(Point *pos1, Point *pos2)$/;"	f
+PointComp	fire/ch04/Point.c	/^int PointComp(Point *pos1, Point *pos2)$/;"	f
+PostorderTraverse	fire/ch08/8-1/BinaryTree2.c	/^void PostorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+PostorderTraverse	fire/ch08/8-2/BinaryTree2.c	/^void PostorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+PostorderTraverse	fire/ch08/BinaryTree2/BinaryTree2.c	/^void PostorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+PostorderTraverse	fire/ch08/BinaryTreeTraverseMain.c	/^void PostorderTraverse(BTreeNode *bt)$/;"	f
+PostorderTraverse	fire/ch08/ExpressionTree/BinaryTree2.c	/^void PostorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+PostorderTraverse	fire/ch12/BinaryTree3.c	/^void PostorderTraverse(BTreeNode * bt, VisitFuncPtr action) {$/;"	f
+PreorderTraverse	fire/ch08/8-1/BinaryTree2.c	/^void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+PreorderTraverse	fire/ch08/8-2/BinaryTree2.c	/^void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+PreorderTraverse	fire/ch08/BinaryTree2/BinaryTree2.c	/^void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+PreorderTraverse	fire/ch08/BinaryTreeTraverseMain.c	/^void PreorderTraverse(BTreeNode *bt)$/;"	f
+PreorderTraverse	fire/ch08/ExpressionTree/BinaryTree2.c	/^void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action)$/;"	f
+PreorderTraverse	fire/ch12/BinaryTree3.c	/^void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action) {$/;"	f
+PriComp	fire/ch10/HeapSort/HeapSort.c	/^int PriComp(int n1, int n2) {$/;"	f
+Priority	fire/ch09/SimpleHeap.h	/^typedef int Priority;$/;"	t
+PriorityComp	fire/ch09/9-1/UsefulHeap.h	/^typedef int PriorityComp(HData data1, HData data2);$/;"	t
+PriorityComp	fire/ch09/PQ/UsefulHeap.h	/^typedef int PriorityComp(HData data1, HData data2);$/;"	t
+PriorityComp	fire/ch09/UsefulHeap/UsefulHeap.h	/^typedef int PriorityComp(HData data1, HData data2);$/;"	t
+PriorityComp	fire/ch10/HeapSort/UsefulHeap.h	/^typedef int PriorityComp(HData data1, HData data2);$/;"	t
+QIsEmpty	fire/ch07/7-1/DequeBaseQueue.c	/^int QIsEmpty(Queue * pq)$/;"	f
+QIsEmpty	fire/ch07/CircularQueue.c	/^int QIsEmpty(Queue * pq)$/;"	f
+QIsEmpty	fire/ch07/ListBaseQueue.c	/^int QIsEmpty(Queue * pq)$/;"	f
+QIsEmpty	fire/ch07/simul/CircularQueue.c	/^int QIsEmpty(Queue * pq)$/;"	f
+QIsEmpty	fire/ch10/RadixSort/ListBaseQueue.c	/^int QIsEmpty(Queue *pq) {$/;"	f
+QPeek	fire/ch07/7-1/DequeBaseQueue.c	/^Data QPeek(Queue * pq)$/;"	f
+QPeek	fire/ch07/CircularQueue.c	/^Data QPeek(Queue * pq)$/;"	f
+QPeek	fire/ch07/ListBaseQueue.c	/^Data QPeek(Queue * pq)$/;"	f
+QPeek	fire/ch07/simul/CircularQueue.c	/^Data QPeek(Queue * pq)$/;"	f
+QPeek	fire/ch10/RadixSort/ListBaseQueue.c	/^Data QPeek(Queue *pq) {$/;"	f
+QUE_LEN	fire/ch07/CircularQueue.h	/^#define QUE_LEN	/;"	d
+QUE_LEN	fire/ch07/simul/CircularQueue.h	/^#define QUE_LEN	/;"	d
+Queue	fire/ch07/7-1/DequeBaseQueue.h	/^typedef Deque Queue;$/;"	t
+Queue	fire/ch07/CircularQueue.h	/^typedef CQueue Queue;$/;"	t
+Queue	fire/ch07/ListBaseQueue.h	/^typedef LQueue Queue;$/;"	t
+Queue	fire/ch07/simul/CircularQueue.h	/^typedef CQueue Queue;$/;"	t
+Queue	fire/ch10/RadixSort/ListBaseQueue.h	/^typedef LQueue Queue;$/;"	t
+QueueInit	fire/ch07/7-1/DequeBaseQueue.c	/^void QueueInit(Queue * pq)$/;"	f
+QueueInit	fire/ch07/CircularQueue.c	/^void QueueInit(Queue * pq)$/;"	f
+QueueInit	fire/ch07/ListBaseQueue.c	/^void QueueInit(Queue * pq)$/;"	f
+QueueInit	fire/ch07/simul/CircularQueue.c	/^void QueueInit(Queue * pq)$/;"	f
+QueueInit	fire/ch10/RadixSort/ListBaseQueue.c	/^void QueueInit(Queue *pq) {$/;"	f
+QuickSort	fire/ch10/10-1/medianOfThree.c	/^void QuickSort(int arr[], int left, int right) {$/;"	f
+QuickSort	fire/ch10/QuickSort.c	/^void QuickSort(int arr[], int left, int right) {$/;"	f
+R	BOJ/lv4/17144.cpp	/^int R, C, T;$/;"	v
+R1	BOJ_EASY/b5/3046.cpp	/^int R1, R2;$/;"	v
+R2	BOJ_EASY/b5/3046.cpp	/^int R1, R2;$/;"	v
+RadixSort	fire/ch10/RadixSort/RadixSort.c	/^void RadixSort(int arr[], int num, int maxLen) {$/;"	f
+Rebalance	fire/ch12/AVLRebalance.c	/^BTreeNode * Rebalance(BTreeNode ** pRoot) {$/;"	f
+RecursiveBSearch	fire/ch02/RecursiveBSearch.c	/^int RecursiveBSearch(int arr[], int left, int right, int number)$/;"	f
+RemoveLeftSubTree	fire/ch12/BinaryTree3.c	/^BTreeNode * RemoveLeftSubTree(BTreeNode * bt) {$/;"	f
+RemoveRightSubTree	fire/ch12/BinaryTree3.c	/^BTreeNode * RemoveRightSubTree(BTreeNode * bt) {$/;"	f
+RotateLL	fire/ch12/AVLRebalance.c	/^BTreeNode * RotateLL(BTreeNode * bst) {$/;"	f
+RotateLR	fire/ch12/AVLRebalance.c	/^BTreeNode * RotateLR(BTreeNode * bst) {$/;"	f
+RotateRL	fire/ch12/AVLRebalance.c	/^BTreeNode * RotateRL(BTreeNode * bst) {$/;"	f
+RotateRR	fire/ch12/AVLRebalance.c	/^BTreeNode * RotateRR(BTreeNode * bst) {$/;"	f
+S	BOJ/lv5/10942.cpp	/^int N, M, S, E;$/;"	v
+S	BOJ_EASY/b5/3046.cpp	/^int S;$/;"	v
+SInsert	fire/ch04/DLinkedList.c	/^void SInsert(List * plist, LData data)$/;"	f
+SInsert	fire/ch04/DLinkedList2.c	/^void SInsert(List * plist, LData data)$/;"	f
+SIsEmpty	fire/ch06/6-1/CLLBaseStack.c	/^int SIsEmpty(Stack * pstack)$/;"	f
+SIsEmpty	fire/ch06/ArrayBaseStack.c	/^int SIsEmpty(Stack * pstack)$/;"	f
+SIsEmpty	fire/ch06/ListBaseStack.c	/^int SIsEmpty(Stack * pstack)$/;"	f
+SIsEmpty	fire/ch06/calc1/ListBaseStack.c	/^int SIsEmpty(Stack *pstack) {$/;"	f
+SIsEmpty	fire/ch06/calc2/ListBaseStack.c	/^int SIsEmpty(Stack *pstack) {$/;"	f
+SIsEmpty	fire/ch06/calc3/ListBaseStack.c	/^int SIsEmpty(Stack *pstack) {$/;"	f
+SIsEmpty	fire/ch08/8-2/ListBaseStack.c	/^int SIsEmpty(Stack * pstack)$/;"	f
+SIsEmpty	fire/ch08/ExpressionTree/ListBaseStack.c	/^int SIsEmpty(Stack * pstack)$/;"	f
+SPeek	fire/ch06/6-1/CLLBaseStack.c	/^Data SPeek(Stack * pstack)$/;"	f
+SPeek	fire/ch06/ArrayBaseStack.c	/^Data SPeek(Stack * pstack)$/;"	f
+SPeek	fire/ch06/ListBaseStack.c	/^Data SPeek(Stack * pstack)$/;"	f
+SPeek	fire/ch06/calc1/ListBaseStack.c	/^Data SPeek(Stack *pstack) {$/;"	f
+SPeek	fire/ch06/calc2/ListBaseStack.c	/^Data SPeek(Stack *pstack) {$/;"	f
+SPeek	fire/ch06/calc3/ListBaseStack.c	/^Data SPeek(Stack *pstack) {$/;"	f
+SPeek	fire/ch08/8-2/ListBaseStack.c	/^Data SPeek(Stack * pstack)$/;"	f
+SPeek	fire/ch08/ExpressionTree/ListBaseStack.c	/^Data SPeek(Stack * pstack)$/;"	f
+SPop	fire/ch06/6-1/CLLBaseStack.c	/^Data SPop(Stack * pstack)$/;"	f
+SPop	fire/ch06/ArrayBaseStack.c	/^Data SPop(Stack * pstack)$/;"	f
+SPop	fire/ch06/ListBaseStack.c	/^Data SPop(Stack * pstack)$/;"	f
+SPop	fire/ch06/calc1/ListBaseStack.c	/^Data SPop(Stack *pstack) {$/;"	f
+SPop	fire/ch06/calc2/ListBaseStack.c	/^Data SPop(Stack *pstack) {$/;"	f
+SPop	fire/ch06/calc3/ListBaseStack.c	/^Data SPop(Stack *pstack) {$/;"	f
+SPop	fire/ch08/8-2/ListBaseStack.c	/^Data SPop(Stack * pstack)$/;"	f
+SPop	fire/ch08/ExpressionTree/ListBaseStack.c	/^Data SPop(Stack * pstack)$/;"	f
+SPush	fire/ch06/6-1/CLLBaseStack.c	/^void SPush(Stack * pstack, Data data)$/;"	f
+SPush	fire/ch06/ArrayBaseStack.c	/^void SPush(Stack * pstack, Data data)$/;"	f
+SPush	fire/ch06/ListBaseStack.c	/^void SPush(Stack * pstack, Data data)$/;"	f
+SPush	fire/ch06/calc1/ListBaseStack.c	/^void SPush(Stack *pstack, Data data) {$/;"	f
+SPush	fire/ch06/calc2/ListBaseStack.c	/^void SPush(Stack *pstack, Data data) {$/;"	f
+SPush	fire/ch06/calc3/ListBaseStack.c	/^void SPush(Stack *pstack, Data data) {$/;"	f
+SPush	fire/ch08/8-2/ListBaseStack.c	/^void SPush(Stack * pstack, Data data)$/;"	f
+SPush	fire/ch08/ExpressionTree/ListBaseStack.c	/^void SPush(Stack * pstack, Data data)$/;"	f
+STACK_LEN	fire/ch06/ArrayBaseStack.h	/^#define STACK_LEN	/;"	d
+SelSort	fire/ch10/SelectionSort.c	/^void SelSort(int arr[], int n) $/;"	f
+SetData	fire/ch08/8-1/BinaryTree2.c	/^void SetData(BTreeNode * bt, BTData data)$/;"	f
+SetData	fire/ch08/8-2/BinaryTree2.c	/^void SetData(BTreeNode * bt, BTData data)$/;"	f
+SetData	fire/ch08/BinaryTree.c	/^void SetData(BTreeNode * bt, BTData data)$/;"	f
+SetData	fire/ch08/BinaryTree2/BinaryTree2.c	/^void SetData(BTreeNode * bt, BTData data)$/;"	f
+SetData	fire/ch08/ExpressionTree/BinaryTree2.c	/^void SetData(BTreeNode * bt, BTData data)$/;"	f
+SetData	fire/ch12/BinaryTree3.c	/^void SetData(BTreeNode * bt, BTData data) {$/;"	f
+SetPointPos	fire/ch03/Point.c	/^void SetPointPos(Point *ppos, int xpos, int ypos)$/;"	f
+SetPointPos	fire/ch04/Point.c	/^void SetPointPos(Point *ppos, int xpos, int ypos)$/;"	f
+SetSortRule	fire/ch04/DLinkedList.c	/^void SetSortRule(List *plist, int (*comp)(LData d1, LData d2))$/;"	f
+SetSortRule	fire/ch04/DLinkedList2.c	/^void SetSortRule(List * plist, int (*comp)(LData d1, LData d2))$/;"	f
+ShowEmployeeInfo	fire/ch05/5-1/NightDutyMain.c	/^void ShowEmployeeInfo(Employee * emp)$/;"	f
+ShowInfixTypeExp	fire/ch08/8-2/ExpressionTree.c	/^void ShowInfixTypeExp(BTreeNode * bt)$/;"	f
+ShowInfixTypeExp	fire/ch08/ExpressionTree/ExpressionTree.c	/^void ShowInfixTypeExp(BTreeNode * bt)$/;"	f
+ShowIntData	fire/ch08/8-1/BinaryTreeDeleteMain.c	/^void ShowIntData(int data)$/;"	f
+ShowIntData	fire/ch08/BinaryTree2/BinaryTreeMain2.c	/^void ShowIntData(int data)$/;"	f
+ShowIntData	fire/ch12/BinarySearchTree3.c	/^void ShowIntData(int data) {$/;"	f
+ShowNameCardInfo	fire/ch03/NameCard.c	/^void ShowNameCardInfo(NameCard *pcard)$/;"	f
+ShowNodeData	fire/ch08/8-2/ExpressionTree.c	/^void ShowNodeData(int data)$/;"	f
+ShowNodeData	fire/ch08/ExpressionTree/ExpressionTree.c	/^void ShowNodeData(int data)$/;"	f
+ShowPointPos	fire/ch03/Point.c	/^void ShowPointPos(Point *ppos)$/;"	f
+ShowPointPos	fire/ch04/Point.c	/^void ShowPointPos(Point *ppos)$/;"	f
+ShowPostfixTypeExp	fire/ch08/8-2/ExpressionTree.c	/^void ShowPostfixTypeExp(BTreeNode * bt)$/;"	f
+ShowPostfixTypeExp	fire/ch08/ExpressionTree/ExpressionTree.c	/^void ShowPostfixTypeExp(BTreeNode * bt)$/;"	f
+ShowPrefixTypeExp	fire/ch08/8-2/ExpressionTree.c	/^void ShowPrefixTypeExp(BTreeNode * bt)$/;"	f
+ShowPrefixTypeExp	fire/ch08/ExpressionTree/ExpressionTree.c	/^void ShowPrefixTypeExp(BTreeNode * bt)$/;"	f
+Stack	fire/ch06/6-1/CLLBaseStack.h	/^typedef ListStack Stack;$/;"	t
+Stack	fire/ch06/ArrayBaseStack.h	/^typedef ArrayStack Stack;$/;"	t
+Stack	fire/ch06/ListBaseStack.h	/^typedef ListStack Stack;$/;"	t
+Stack	fire/ch06/calc1/ListBaseStack.h	/^typedef ListStack Stack;$/;"	t
+Stack	fire/ch06/calc2/ListBaseStack.h	/^typedef ListStack Stack;$/;"	t
+Stack	fire/ch06/calc3/ListBaseStack.h	/^typedef ListStack Stack;$/;"	t
+Stack	fire/ch08/8-2/ListBaseStack.h	/^typedef ListStack Stack;$/;"	t
+Stack	fire/ch08/ExpressionTree/ListBaseStack.h	/^typedef ListStack Stack;$/;"	t
+StackInit	fire/ch06/6-1/CLLBaseStack.c	/^void StackInit(Stack * pstack)$/;"	f
+StackInit	fire/ch06/ArrayBaseStack.c	/^void StackInit(Stack * pstack)$/;"	f
+StackInit	fire/ch06/ListBaseStack.c	/^void StackInit(Stack * pstack)$/;"	f
+StackInit	fire/ch06/calc1/ListBaseStack.c	/^void StackInit(Stack *pstack) { $/;"	f
+StackInit	fire/ch06/calc2/ListBaseStack.c	/^void StackInit(Stack *pstack) { $/;"	f
+StackInit	fire/ch06/calc3/ListBaseStack.c	/^void StackInit(Stack *pstack) { $/;"	f
+StackInit	fire/ch08/8-2/ListBaseStack.c	/^void StackInit(Stack * pstack)$/;"	f
+StackInit	fire/ch08/ExpressionTree/ListBaseStack.c	/^void StackInit(Stack * pstack)$/;"	f
+Start	BOJ/lv4/11779.cpp	/^int Start, End;$/;"	v
+Start	BOJ/lv4/1753.cpp	/^int V, E, Start;$/;"	v
+Swap	fire/ch10/10-1/medianOfThree.c	/^void Swap(int arr[], int idx1, int idx2) {$/;"	f
+Swap	fire/ch10/QuickSort.c	/^void Swap(int arr[], int idx1, int idx2) {$/;"	f
+T	BOJ/lv4/17144.cpp	/^int R, C, T;$/;"	v
+T	BOJ/lv4/9465.cpp	/^int T, n;$/;"	v
+T	BOJ/lv5/1005.cpp	/^int T, N, K, W;$/;"	v
+T	BOJ/lv5/1007.cpp	/^int T, N;$/;"	v
+T	BOJ/lv5/2143.cpp	/^long long T;$/;"	v
+T	BOJ/lv5/9466.cpp	/^int T;$/;"	v
+T	BOJ_EASY/b5/9086.cpp	/^int T;$/;"	v
+TREE_COUNT	category/binary_search/2805.cpp	/^#define TREE_COUNT /;"	d	file:
+TRUE	fire/ch03/ArrayList.h	/^#define TRUE	/;"	d
+TRUE	fire/ch03/ArrayList2.h	/^#define TRUE /;"	d
+TRUE	fire/ch03/ArrayList3.h	/^#define TRUE	/;"	d
+TRUE	fire/ch04/DLinkedList.h	/^#define TRUE	/;"	d
+TRUE	fire/ch04/DLinkedList2.h	/^#define TRUE	/;"	d
+TRUE	fire/ch05/5-1/CLinkedList.h	/^#define TRUE	/;"	d
+TRUE	fire/ch05/5-2/DBDLinkedList.h	/^#define TRUE	/;"	d
+TRUE	fire/ch05/CLinkedList.h	/^#define TRUE	/;"	d
+TRUE	fire/ch06/6-1/CLLBaseStack.h	/^#define TRUE	/;"	d
+TRUE	fire/ch06/6-1/CLinkedList.h	/^#define TRUE	/;"	d
+TRUE	fire/ch06/ArrayBaseStack.h	/^#define TRUE	/;"	d
+TRUE	fire/ch06/ListBaseStack.h	/^#define TRUE	/;"	d
+TRUE	fire/ch06/calc1/ListBaseStack.h	/^#define TRUE /;"	d
+TRUE	fire/ch06/calc2/ListBaseStack.h	/^#define TRUE /;"	d
+TRUE	fire/ch06/calc3/ListBaseStack.h	/^#define TRUE /;"	d
+TRUE	fire/ch07/7-1/Deque.h	/^#define TRUE	/;"	d
+TRUE	fire/ch07/CircularQueue.h	/^#define TRUE	/;"	d
+TRUE	fire/ch07/ListBaseQueue.h	/^#define TRUE	/;"	d
+TRUE	fire/ch07/deck/Deque.h	/^#define TRUE	/;"	d
+TRUE	fire/ch07/simul/CircularQueue.h	/^#define TRUE	/;"	d
+TRUE	fire/ch08/8-2/ListBaseStack.h	/^#define TRUE	/;"	d
+TRUE	fire/ch08/ExpressionTree/ListBaseStack.h	/^#define TRUE	/;"	d
+TRUE	fire/ch09/9-1/UsefulHeap.h	/^#define TRUE /;"	d
+TRUE	fire/ch09/PQ/UsefulHeap.h	/^#define TRUE /;"	d
+TRUE	fire/ch09/SimpleHeap.h	/^#define TRUE /;"	d
+TRUE	fire/ch09/UsefulHeap/UsefulHeap.h	/^#define TRUE /;"	d
+TRUE	fire/ch10/HeapSort/UsefulHeap.h	/^#define TRUE /;"	d
+TRUE	fire/ch10/RadixSort/ListBaseQueue.h	/^#define TRUE /;"	d
+V	BOJ/lv4/1167.cpp	/^int V; $/;"	v
+V	BOJ/lv4/1753.cpp	/^int V, E, Start;$/;"	v
+V	BOJ/lv4/2638.cpp	/^vector<pair<pair<int, int>, bool>> V;$/;"	v
+Vec	BOJ/lv4/1753.cpp	/^vector<pair<int, int>> Vec[MAX];$/;"	v
+VisitFuncPtr	fire/ch08/8-1/BinaryTree2.h	/^typedef void VisitFuncPtr(BTData data);$/;"	t
+VisitFuncPtr	fire/ch08/8-2/BinaryTree2.h	/^typedef void VisitFuncPtr(BTData data);$/;"	t
+VisitFuncPtr	fire/ch08/BinaryTree2/BinaryTree2.h	/^typedef void VisitFuncPtr(BTData data);$/;"	t
+VisitFuncPtr	fire/ch08/ExpressionTree/BinaryTree2.h	/^typedef void VisitFuncPtr(BTData data);$/;"	t
+VisitFuncPtr	fire/ch12/BinaryTree3.h	/^typedef void VisitFuncPtr(BTData data);$/;"	t
+W	BOJ/lv4/1865.cpp	/^int N, M, W;$/;"	v
+W	BOJ/lv5/1005.cpp	/^int T, N, K, W;$/;"	v
+W	BOJ_EASY/b5/1297.cpp	/^ll D, H, W;$/;"	v
+WhoIsPrecede	fire/ch04/DLinkedListSortMain.c	/^int WhoIsPrecede(int d1, int d2)$/;"	f
+WhoPrecOp	BOJ/lv4/1918.cpp	/^int WhoPrecOp(char op1, char op2)$/;"	f
+WhoPrecOp	fire/ch06/calc1/InfixToPostfix.c	/^int WhoPrecOp(char op1, char op2) {$/;"	f
+WhoPrecOp	fire/ch06/calc3/InfixToPostfix.c	/^int WhoPrecOp(char op1, char op2) {$/;"	f
+WhosNightDuty	fire/ch05/5-1/NightDutyMain.c	/^Employee * WhosNightDuty(List * plist, char * name, int day)$/;"	f
+X	BOJ/lv4/1238.cpp	/^int N, M, X;$/;"	v
+X	BOJ_EASY/b5/24078.cpp	/^int X;$/;"	v
+X	BOJ_EASY/b5/24082.cpp	/^int	X;$/;"	v
+X	BOJ_EASY/b5/8871.cpp	/^int	X;$/;"	v
+_CLL	fire/ch05/5-1/CLinkedList.h	/^typedef struct _CLL$/;"	s
+_CLL	fire/ch05/CLinkedList.h	/^typedef struct _CLL$/;"	s
+_CLL	fire/ch06/6-1/CLinkedList.h	/^typedef struct _CLL$/;"	s
+_Employee	fire/ch05/5-1/Employee.h	/^typedef struct _Employee$/;"	s
+__AB_STACK_H__	fire/ch06/ArrayBaseStack.h	/^#define __AB_STACK_H__$/;"	d
+__ARRAY_LIST_H__	fire/ch03/ArrayList.h	/^#define __ARRAY_LIST_H__$/;"	d
+__ARRAY_LIST_H__	fire/ch03/ArrayList3.h	/^#define __ARRAY_LIST_H__$/;"	d
+__AVL_REBALANCE_H__	fire/ch12/AVLRebalance.h	/^#define __AVL_REBALANCE_H__$/;"	d
+__ArrayList	fire/ch03/ArrayList.h	/^typedef struct __ArrayList$/;"	s
+__ArrayList	fire/ch03/ArrayList3.h	/^typedef struct __ArrayList$/;"	s
+__BINARY_SEARCH_TREE3_H__	fire/ch12/BinarySearchTree3.h	/^#define __BINARY_SEARCH_TREE3_H__$/;"	d
+__BINARY_TREE2_H__	fire/ch08/8-1/BinaryTree2.h	/^#define __BINARY_TREE2_H__$/;"	d
+__BINARY_TREE2_H__	fire/ch08/8-2/BinaryTree2.h	/^#define __BINARY_TREE2_H__$/;"	d
+__BINARY_TREE2_H__	fire/ch08/BinaryTree2/BinaryTree2.h	/^#define __BINARY_TREE2_H__$/;"	d
+__BINARY_TREE2_H__	fire/ch08/ExpressionTree/BinaryTree2.h	/^#define __BINARY_TREE2_H__$/;"	d
+__BINARY_TREE3_H__	fire/ch12/BinaryTree3.h	/^#define __BINARY_TREE3_H__$/;"	d
+__BINARY_TREE_H__	fire/ch08/BinaryTree.h	/^#define __BINARY_TREE_H__$/;"	d
+__CLL_STACK_H__	fire/ch06/6-1/CLLBaseStack.h	/^#define __CLL_STACK_H__$/;"	d
+__C_LINKED_LIST_H__	fire/ch05/5-1/CLinkedList.h	/^#define __C_LINKED_LIST_H__$/;"	d
+__C_LINKED_LIST_H__	fire/ch05/CLinkedList.h	/^#define __C_LINKED_LIST_H__$/;"	d
+__C_LINKED_LIST_H__	fire/ch06/6-1/CLinkedList.h	/^#define __C_LINKED_LIST_H__$/;"	d
+__C_QUEUE_H__	fire/ch07/CircularQueue.h	/^#define __C_QUEUE_H__$/;"	d
+__C_QUEUE_H__	fire/ch07/simul/CircularQueue.h	/^#define __C_QUEUE_H__$/;"	d
+__DBD_LINKED_LIST_H__	fire/ch05/5-2/DBDLinkedList.h	/^#define __DBD_LINKED_LIST_H__$/;"	d
+__DEQUE_BASE_QUEUE_H__	fire/ch07/7-1/DequeBaseQueue.h	/^#define __DEQUE_BASE_QUEUE_H__$/;"	d
+__DEQUE_H__	fire/ch07/7-1/Deque.h	/^#define __DEQUE_H__$/;"	d
+__DEQUE_H__	fire/ch07/deck/Deque.h	/^#define __DEQUE_H__$/;"	d
+__EMPLOYEE_H__	fire/ch05/5-1/Employee.h	/^#define __EMPLOYEE_H__$/;"	d
+__EXPRESSION_TREE_H__	fire/ch08/8-2/ExpressionTree.h	/^#define __EXPRESSION_TREE_H__$/;"	d
+__EXPRESSION_TREE_H__	fire/ch08/ExpressionTree/ExpressionTree.h	/^#define __EXPRESSION_TREE_H__$/;"	d
+__INFIX_CALCULATOR_H__	fire/ch06/calc3/InfixCalculator.h	/^#define __INFIX_CALCULATOR_H__$/;"	d
+__INFIX_TO_POSTFIX_H__	fire/ch06/calc1/InfixToPostfix.h	/^#define __INFIX_TO_POSTFIX_H__$/;"	d
+__INFIX_TO_POSTFIX_H__	fire/ch06/calc3/InfixToPostfix.h	/^#define __INFIX_TO_POSTFIX_H__$/;"	d
+__LB_QUEUE_H__	fire/ch07/ListBaseQueue.h	/^#define __LB_QUEUE_H__$/;"	d
+__LB_QUEUE_H__	fire/ch10/RadixSort/ListBaseQueue.h	/^#define __LB_QUEUE_H__$/;"	d
+__LB_STACK_H__	fire/ch06/ListBaseStack.h	/^#define __LB_STACK_H__$/;"	d
+__LB_STACK_H__	fire/ch06/calc1/ListBaseStack.h	/^#define __LB_STACK_H__$/;"	d
+__LB_STACK_H__	fire/ch06/calc2/ListBaseStack.h	/^#define __LB_STACK_H__$/;"	d
+__LB_STACK_H__	fire/ch06/calc3/ListBaseStack.h	/^#define __LB_STACK_H__$/;"	d
+__LB_STACK_H__	fire/ch08/8-2/ListBaseStack.h	/^#define __LB_STACK_H__$/;"	d
+__LB_STACK_H__	fire/ch08/ExpressionTree/ListBaseStack.h	/^#define __LB_STACK_H__$/;"	d
+__NAME_CARD_H__	fire/ch03/NameCard.h	/^#define __NAME_CARD_H__$/;"	d
+__POST_CALCULATOR_H__	fire/ch06/calc2/PostCalculator.h	/^#define __POST_CALCULATOR_H__$/;"	d
+__POST_CALCULATOR_H__	fire/ch06/calc3/PostCalculator.h	/^#define __POST_CALCULATOR_H__$/;"	d
+__PRIORITY_QUEUE_H__	fire/ch09/9-1/PriorityQueue.h	/^#define __PRIORITY_QUEUE_H__$/;"	d
+__PRIORITY_QUEUE_H__	fire/ch09/PQ/PriorityQueue.h	/^#define __PRIORITY_QUEUE_H__$/;"	d
+__PRIORITY_QUEUE_H__	fire/ch09/UsefulHeap/PriorityQueue.h	/^#define __PRIORITY_QUEUE_H__$/;"	d
+__SIMPLE_HEAP_H__	fire/ch09/SimpleHeap.h	/^#define __SIMPLE_HEAP_H__$/;"	d
+__USEFUL_HEAP_H__	fire/ch09/9-1/UsefulHeap.h	/^#define __USEFUL_HEAP_H__$/;"	d
+__USEFUL_HEAP_H__	fire/ch09/PQ/UsefulHeap.h	/^#define __USEFUL_HEAP_H__$/;"	d
+__USEFUL_HEAP_H__	fire/ch09/UsefulHeap/UsefulHeap.h	/^#define __USEFUL_HEAP_H__$/;"	d
+__USEFUL_HEAP_H__	fire/ch10/HeapSort/UsefulHeap.h	/^#define __USEFUL_HEAP_H__$/;"	d
+__namecard	fire/ch03/NameCard.h	/^typedef struct __namecard$/;"	s
+_arrayStack	fire/ch06/ArrayBaseStack.h	/^typedef struct _arrayStack$/;"	s
+_bTreeNode	fire/ch08/8-1/BinaryTree2.h	/^typedef struct _bTreeNode$/;"	s
+_bTreeNode	fire/ch08/8-2/BinaryTree2.h	/^typedef struct _bTreeNode$/;"	s
+_bTreeNode	fire/ch08/BinaryTree.h	/^typedef struct _bTreeNode$/;"	s
+_bTreeNode	fire/ch08/BinaryTree2/BinaryTree2.h	/^typedef struct _bTreeNode$/;"	s
+_bTreeNode	fire/ch08/ExpressionTree/BinaryTree2.h	/^typedef struct _bTreeNode$/;"	s
+_bTreeNode	fire/ch12/BinaryTree3.h	/^typedef struct _bTreeNode$/;"	s
+_cQueue	fire/ch07/CircularQueue.h	/^typedef struct _cQueue$/;"	s
+_cQueue	fire/ch07/simul/CircularQueue.h	/^typedef struct _cQueue$/;"	s
+_dbDLinkedList	fire/ch05/5-2/DBDLinkedList.h	/^typedef struct _dbDLinkedList$/;"	s
+_dlDeque	fire/ch07/7-1/Deque.h	/^typedef struct _dlDeque$/;"	s
+_dlDeque	fire/ch07/deck/Deque.h	/^typedef struct _dlDeque$/;"	s
+_heap	fire/ch09/9-1/UsefulHeap.h	/^typedef struct _heap {$/;"	s
+_heap	fire/ch09/PQ/UsefulHeap.h	/^typedef struct _heap {$/;"	s
+_heap	fire/ch09/SimpleHeap.h	/^typedef struct _heap {$/;"	s
+_heap	fire/ch09/UsefulHeap/UsefulHeap.h	/^typedef struct _heap {$/;"	s
+_heap	fire/ch10/HeapSort/UsefulHeap.h	/^typedef struct _heap {$/;"	s
+_heapElem	fire/ch09/SimpleHeap.h	/^typedef struct _heapElem {$/;"	s
+_lQueue	fire/ch07/ListBaseQueue.h	/^typedef struct _lQueue$/;"	s
+_lQueue	fire/ch10/RadixSort/ListBaseQueue.h	/^typedef struct _lQueue {$/;"	s
+_linkedList	fire/ch04/DLinkedList.h	/^typedef struct _linkedList$/;"	s
+_linkedList	fire/ch04/DLinkedList2.h	/^typedef struct _linkedList$/;"	s
+_listStack	fire/ch06/6-1/CLLBaseStack.h	/^typedef struct _listStack$/;"	s
+_listStack	fire/ch06/ListBaseStack.h	/^typedef struct _listStack$/;"	s
+_listStack	fire/ch06/calc1/ListBaseStack.h	/^typedef struct _listStack {$/;"	s
+_listStack	fire/ch06/calc2/ListBaseStack.h	/^typedef struct _listStack {$/;"	s
+_listStack	fire/ch06/calc3/ListBaseStack.h	/^typedef struct _listStack {$/;"	s
+_listStack	fire/ch08/8-2/ListBaseStack.h	/^typedef struct _listStack$/;"	s
+_listStack	fire/ch08/ExpressionTree/ListBaseStack.h	/^typedef struct _listStack$/;"	s
+_node	fire/ch04/DLinkedList.h	/^typedef struct _node$/;"	s
+_node	fire/ch04/DLinkedList2.h	/^typedef struct _node$/;"	s
+_node	fire/ch04/DLinkedRead.c	/^typedef struct _node$/;"	s	file:
+_node	fire/ch04/LinkedRead.c	/^typedef struct _node$/;"	s	file:
+_node	fire/ch05/5-1/CLinkedList.h	/^typedef struct _node$/;"	s
+_node	fire/ch05/5-2/DBDLinkedList.h	/^typedef struct _node$/;"	s
+_node	fire/ch05/CLinkedList.h	/^typedef struct _node$/;"	s
+_node	fire/ch06/6-1/CLinkedList.h	/^typedef struct _node$/;"	s
+_node	fire/ch06/ListBaseStack.h	/^typedef struct _node$/;"	s
+_node	fire/ch06/calc1/ListBaseStack.h	/^typedef struct _node {$/;"	s
+_node	fire/ch06/calc2/ListBaseStack.h	/^typedef struct _node {$/;"	s
+_node	fire/ch06/calc3/ListBaseStack.h	/^typedef struct _node {$/;"	s
+_node	fire/ch07/7-1/Deque.h	/^typedef struct _node$/;"	s
+_node	fire/ch07/ListBaseQueue.h	/^typedef struct _node$/;"	s
+_node	fire/ch07/deck/Deque.h	/^typedef struct _node$/;"	s
+_node	fire/ch08/8-2/ListBaseStack.h	/^typedef struct _node$/;"	s
+_node	fire/ch08/ExpressionTree/ListBaseStack.h	/^typedef struct _node$/;"	s
+_node	fire/ch10/RadixSort/ListBaseQueue.h	/^typedef struct _node {$/;"	s
+_point	fire/ch03/Point.h	/^typedef struct _point$/;"	s
+_point	fire/ch04/Point.h	/^typedef struct _point$/;"	s
+a	BOJ/lv4/14936.cpp	/^int a, b, l;$/;"	v
+a	BOJ_EASY/b4/6764.cpp	/^int a, b, c, d;$/;"	v
+a	BOJ_EASY/b4/6778.cpp	/^int a, b;$/;"	v
+a	BOJ_EASY/b4/6810.cpp	/^int a, b, c;$/;"	v
+a	BOJ_EASY/b5/20492.cpp	/^ll a, b;$/;"	v
+a	BOJ_EASY/b5/21300.cpp	/^int a, b, c, d, e, f;$/;"	v
+a	BOJ_EASY/b5/22193.cpp	/^int	a, b, c, d;$/;"	v
+a	BOJ_EASY/b5/24736.cpp	/^int a, b, c, d, e;$/;"	v
+a	dog/03/test1.cpp	/^int a[21];$/;"	v
+a1	BOJ_EASY/b4/5575.cpp	/^int a1, a2, a3, a4, a5, a6;$/;"	v
+a2	BOJ_EASY/b4/5575.cpp	/^int a1, a2, a3, a4, a5, a6;$/;"	v
+a3	BOJ_EASY/b4/5575.cpp	/^int a1, a2, a3, a4, a5, a6;$/;"	v
+a4	BOJ_EASY/b4/5575.cpp	/^int a1, a2, a3, a4, a5, a6;$/;"	v
+a5	BOJ_EASY/b4/5575.cpp	/^int a1, a2, a3, a4, a5, a6;$/;"	v
+a6	BOJ_EASY/b4/5575.cpp	/^int a1, a2, a3, a4, a5, a6;$/;"	v
+add_num	BOJ/lv4/2407.cpp	/^string add_num(string a, string b)$/;"	f
+age	BOJ/lv2/10814.cpp	/^	int age;$/;"	m	struct:__anon1	file:
+air_cleaner	BOJ/lv4/17144.cpp	/^pair<int, int> air_cleaner[2];$/;"	v
+alpha	BOJ/lv1/1157.cpp	/^int alpha[26];$/;"	v
+alpha	dog/03/10808.cpp	/^char alpha[101];$/;"	v
+alpha	dog/03/10808.cpp	/^char alpha[26];$/;"	v
+alpha	dog/03/11328.cpp	/^char alpha[1001];$/;"	v
+alpha	dog/03/1919.cpp	/^char alpha[1001];$/;"	v
+ans	BOJ/lv3/14500.cpp	/^int ans;$/;"	v
+ans	BOJ/lv4/1043.cpp	/^int ans;$/;"	v
+ans	BOJ/lv4/10830.cpp	/^long long ans[5][5];$/;"	v
+ans	BOJ/lv4/11054.cpp	/^int ans;$/;"	v
+ans	BOJ/lv4/1149.cpp	/^int ans[1001][3];$/;"	v
+ans	BOJ/lv4/13549.cpp	/^int ans;$/;"	v
+ans	BOJ/lv4/15654.cpp	/^int ans[MAX];$/;"	v
+ans	BOJ/lv4/15657.cpp	/^int ans[MAX];$/;"	v
+ans	BOJ/lv4/15663.cpp	/^int ans[MAX];$/;"	v
+ans	BOJ/lv4/15666.cpp	/^int ans[MAX];$/;"	v
+ans	BOJ/lv4/15686.cpp	/^int chicken_num, ans;$/;"	v
+ans	BOJ/lv4/1865.cpp	/^string ans;$/;"	v
+ans	BOJ/lv4/2206.cpp	/^int ans;$/;"	v
+ans	BOJ/lv5/12100.cpp	/^int ans;$/;"	v
+ans	BOJ/lv5/2166.cpp	/^double ans;$/;"	v
+ans	BOJ_EASY/b5/11283.cpp	/^int	base, pos, ans;$/;"	v
+ans	BOJ_EASY/b5/15727.cpp	/^ll ans;$/;"	v
+ans	category/binary_search/1300.cpp	/^long long	cnt, ans;$/;"	v
+ans	category/binary_search/1654.cpp	/^long long ans;$/;"	v
+ans	category/binary_search/2110.cpp	/^long long	ans;$/;"	v
+ans	category/binary_search/2512.cpp	/^int	Max, temp, low, high, center, ans, sum;$/;"	v
+ans	category/binary_search/2805.cpp	/^int	low, high, center, ans;$/;"	v
+ans	category/recursive/1780.cpp	/^ll ans[3];$/;"	v
+ans	category/recursive/2630.cpp	/^ll ans[2];$/;"	v
+area	dog/09/1926/1926.cpp	/^int	area;$/;"	v
+arr	BOJ/lv1/10809.cpp	/^int arr[26];$/;"	v
+arr	BOJ/lv1/10818.cpp	/^int arr[1000000];$/;"	v
+arr	BOJ/lv1/1157.cpp	/^char arr[1000001];$/;"	v
+arr	BOJ/lv1/11720.cpp	/^char arr[101];$/;"	v
+arr	BOJ/lv1/1546.cpp	/^double arr[1000];$/;"	v
+arr	BOJ/lv1/2108.cpp	/^int arr[500001];$/;"	v
+arr	BOJ/lv1/2920.cpp	/^int arr[8];$/;"	v
+arr	BOJ/lv1/3052.cpp	/^int arr[10];$/;"	v
+arr	BOJ/lv2/1085.cpp	/^int arr[4];$/;"	v
+arr	BOJ/lv2/10989.cpp	/^int arr[10001];$/;"	v
+arr	BOJ/lv2/1920.cpp	/^int arr[100000];$/;"	v
+arr	BOJ/lv2/2108.cpp	/^int arr[500001];$/;"	v
+arr	BOJ/lv2/2751.cpp	/^int arr[1000000];$/;"	v
+arr	BOJ/lv2/2775.cpp	/^int arr[15][14];$/;"	v
+arr	BOJ/lv2/2798.cpp	/^int arr[300];$/;"	v
+arr	BOJ/lv2/4153.cpp	/^int arr[3];$/;"	v
+arr	BOJ/lv3/11047.cpp	/^int arr[11];$/;"	v
+arr	BOJ/lv4/11053.cpp	/^int arr[MAX];$/;"	v
+arr	BOJ/lv4/11054.cpp	/^int arr[1001];$/;"	v
+arr	BOJ/lv4/11404.cpp	/^int arr[101][101];$/;"	v
+arr	BOJ/lv4/11660.cpp	/^int arr[MAX][MAX];$/;"	v
+arr	BOJ/lv4/15650.cpp	/^int arr[MAX];$/;"	v
+arr	BOJ/lv4/15652.cpp	/^int arr[MAX];$/;"	v
+arr	BOJ/lv4/15654.cpp	/^int arr[MAX];$/;"	v
+arr	BOJ/lv4/15657.cpp	/^int arr[MAX];$/;"	v
+arr	BOJ/lv4/15663.cpp	/^int arr[MAX];$/;"	v
+arr	BOJ/lv4/15666.cpp	/^int arr[MAX];$/;"	v
+arr	BOJ/lv4/1932.cpp	/^int arr[501][501];$/;"	v
+arr	BOJ/lv4/1991.cpp	/^struct s_tool arr[100];$/;"	v	typeref:struct:s_tool
+arr	BOJ/lv4/9465.cpp	/^int arr[2][MAX];$/;"	v
+arr	BOJ/lv5/12015.cpp	/^int arr[MAX];$/;"	v
+arr	BOJ/lv5/2166.cpp	/^double arr[10001][2];$/;"	v
+arr	BOJ_EASY/b5/5554.cpp	/^int arr[4];$/;"	v
+arr	dog/02/10804_good.cpp	/^int arr[21];$/;"	v
+arr	dog/02/10871.cpp	/^int arr[10000];$/;"	v
+arr	dog/02/2309_good.cpp	/^int arr[10];$/;"	v
+arr	dog/02/2576_good.cpp	/^int arr[7];$/;"	v
+arr	dog/02/test7.cpp	/^int arr[10000];$/;"	v
+arr	dog/03/10807.cpp	/^int arr[101];$/;"	v
+arr	dog/03/3273_good.cpp	/^int arr[2000001];$/;"	v
+arr	dog/11/1780.cpp	/^int arr[2187][2187];$/;"	v
+arr	dog/11/1992.cpp	/^int arr[65][65];$/;"	v
+arr	dog/11/2448.cpp	/^char arr[3073][6144];$/;"	v
+arr	dog/11/2630.cpp	/^int arr[128][128];$/;"	v
+arr	fire/ch03/ArrayList.h	/^	LData arr[LIST_LEN];$/;"	m	struct:__ArrayList
+arr	fire/ch03/ArrayList2.h	/^	LData arr[LIST_LEN];$/;"	m	struct:Array_List
+arr	fire/ch03/ArrayList3.h	/^	LData arr[LIST_LEN];$/;"	m	struct:__ArrayList
+array_insert	dog/03/test.cpp	/^void	array_insert(int idx, int num, int arr[], int &len)$/;"	f
+b	BOJ/lv4/14936.cpp	/^int a, b, l;$/;"	v
+b	BOJ_EASY/b4/6764.cpp	/^int a, b, c, d;$/;"	v
+b	BOJ_EASY/b4/6778.cpp	/^int a, b;$/;"	v
+b	BOJ_EASY/b4/6810.cpp	/^int a, b, c;$/;"	v
+b	BOJ_EASY/b5/20492.cpp	/^ll a, b;$/;"	v
+b	BOJ_EASY/b5/21300.cpp	/^int a, b, c, d, e, f;$/;"	v
+b	BOJ_EASY/b5/22193.cpp	/^int	a, b, c, d;$/;"	v
+b	BOJ_EASY/b5/24736.cpp	/^int a, b, c, d, e;$/;"	v
+b	dog/03/test1.cpp	/^int b[21][21];$/;"	v
+b_check	BOJ/lv5/1644.cpp	/^vector<bool> b_check;$/;"	v
+b_cnt	dog/11/2630.cpp	/^int b_cnt;$/;"	v
+b_visited	BOJ/lv5/1987.cpp	/^bool b_visited[26];$/;"	v
+base	BOJ_EASY/b5/11283.cpp	/^int	base, pos, ans;$/;"	v
+before	fire/ch04/DLinkedList.h	/^	Node *before;$/;"	m	struct:_linkedList
+before	fire/ch04/DLinkedList2.h	/^	Node *before;$/;"	m	struct:_linkedList
+before	fire/ch05/5-1/CLinkedList.h	/^	Node * before;$/;"	m	struct:_CLL
+before	fire/ch05/CLinkedList.h	/^	Node * before;$/;"	m	struct:_CLL
+before	fire/ch06/6-1/CLinkedList.h	/^	Node * before;$/;"	m	struct:_CLL
+bellManFord	BOJ/lv4/1865.cpp	/^void bellManFord()$/;"	f
+bfs	BOJ/lv3/10026.cpp	/^void bfs(int a, int b)$/;"	f
+bfs	BOJ/lv3/1260.cpp	/^void bfs(int v, int n)$/;"	f
+bfs	BOJ/lv3/1389.cpp	/^void bfs(int a, int N)$/;"	f
+bfs	BOJ/lv3/16236.cpp	/^void bfs(int x, int y) $/;"	f
+bfs	BOJ/lv3/1697.cpp	/^void bfs(int N, int K)$/;"	f
+bfs	BOJ/lv3/9019.cpp	/^void bfs(int a, int b)$/;"	f
+bfs	BOJ/lv4/14502.cpp	/^void bfs(int a, int b)$/;"	f
+bfs	BOJ/lv4/17070.cpp	/^void bfs()$/;"	f
+bfs	BOJ/lv4/2206.cpp	/^int bfs()$/;"	f
+bfs	BOJ/lv5/1005.cpp	/^void bfs()$/;"	f
+bfs	BOJ/lv5/1766.cpp	/^void bfs(void)$/;"	f
+bfs	BOJ/lv5/2252.cpp	/^void bfs(void) $/;"	f
+bfs	BOJ/lv5/2623.cpp	/^void bfs(void)$/;"	f
+binary_search	BOJ/lv2/1920.cpp	/^void binary_search(int number, int key)$/;"	f
+binary_search	BOJ/lv5/12015.cpp	/^void 	binary_search(int find)$/;"	f
+board	BOJ/lv2/1012.cpp	/^int board[51][51];$/;"	v
+board	BOJ/lv2/18111.cpp	/^int board[501][501];$/;"	v
+board	BOJ/lv3/10026.cpp	/^char board[101][101];$/;"	v
+board	BOJ/lv3/1260.cpp	/^int board[1001][1001];$/;"	v
+board	BOJ/lv3/1389.cpp	/^int board[101][101];$/;"	v
+board	BOJ/lv3/14500.cpp	/^int board[501][501], visited[501][501];$/;"	v
+board	BOJ/lv3/16236.cpp	/^int board[21][21];$/;"	v
+board	BOJ/lv3/16928.cpp	/^int board[101];$/;"	v
+board	BOJ/lv3/2606.cpp	/^int board[101][101];$/;"	v
+board	BOJ/lv3/2667.cpp	/^int board[26][26];$/;"	v
+board	BOJ/lv4/14502.cpp	/^int board[8][8];$/;"	v
+board	BOJ/lv4/15686.cpp	/^int board[50][50];$/;"	v
+board	BOJ/lv4/17070.cpp	/^int board[16][16];$/;"	v
+board	BOJ/lv4/17144.cpp	/^int board[MAX][MAX];$/;"	v
+board	BOJ/lv4/2206.cpp	/^int board[1001][1001];$/;"	v
+board	BOJ/lv4/2638.cpp	/^int board[101][101];$/;"	v
+board	BOJ/lv5/11049.cpp	/^int board[MAX][2]; $/;"	v
+board	BOJ/lv5/12100.cpp	/^int board[MAX][MAX];$/;"	v
+board	BOJ/lv5/16724.cpp	/^int	board[MAX][MAX];$/;"	v
+board	category/recursive/1780.cpp	/^ll board[MAX_LEN][MAX_LEN];$/;"	v
+board	category/recursive/2448.cpp	/^char board[MAX_LEN][MAX_LEN * 2 + 1];$/;"	v
+board	category/recursive/2630.cpp	/^ll board[MAX_LEN][MAX_LEN];$/;"	v
+board	dog/09/1926/1926.cpp	/^int	board[501][501];$/;"	v
+button	BOJ/lv3/1107.cpp	/^int button[10];$/;"	v
+c	BOJ_EASY/b4/6764.cpp	/^int a, b, c, d;$/;"	v
+c	BOJ_EASY/b4/6810.cpp	/^int a, b, c;$/;"	v
+c	BOJ_EASY/b5/21300.cpp	/^int a, b, c, d, e, f;$/;"	v
+c	BOJ_EASY/b5/22193.cpp	/^int	a, b, c, d;$/;"	v
+c	BOJ_EASY/b5/24736.cpp	/^int a, b, c, d, e;$/;"	v
+c1	BOJ_EASY/b5/17256.cpp	/^ll c1, c2, c3;$/;"	v
+c2	BOJ_EASY/b5/17256.cpp	/^ll c1, c2, c3;$/;"	v
+c3	BOJ_EASY/b5/17256.cpp	/^ll c1, c2, c3;$/;"	v
+c_board	BOJ/lv4/17144.cpp	/^int c_board[MAX][MAX];$/;"	v
+c_board	BOJ/lv5/12100.cpp	/^int c_board[MAX][MAX];$/;"	v
+c_board	BOJ/lv5/1987.cpp	/^char c_board[MAX][MAX];$/;"	v
+card_key	BOJ/lv2/10816.cpp	/^int card_key[500001];$/;"	v
+card_number	BOJ/lv2/10816.cpp	/^int card_number[500001];$/;"	v
+card_sang	BOJ/lv2/10816.cpp	/^int card_sang[500001];$/;"	v
+ccw	BOJ/lv5/2166.cpp	/^double ccw(int idx)$/;"	f
+center	category/binary_search/2512.cpp	/^int	Max, temp, low, high, center, ans, sum;$/;"	v
+center	category/binary_search/2805.cpp	/^int	low, high, center, ans;$/;"	v
+character	BOJ/lv1/2675.cpp	/^char character[21];$/;"	v
+check	BOJ/lv3/16236.cpp	/^int check[21][21];$/;"	v
+check	BOJ/lv4/14502.cpp	/^bool check[8 * 8];$/;"	v
+check	dog/11/1780.cpp	/^int check(int x, int y, int z)$/;"	f
+check_col	BOJ/lv5/2239.cpp	/^int check_col(int i_col, int i_num)$/;"	f
+check_divisor	programmers/1_1.cpp	/^int check_divisor(int number)$/;"	f
+check_possible_line	BOJ/lv5/2239.cpp	/^int check_possible_line(int i_row, int i_col, int i_num)$/;"	f
+check_possible_quad	BOJ/lv5/2239.cpp	/^int check_possible_quad(int i_row, int i_col, int i_num)$/;"	f
+check_row	BOJ/lv5/2239.cpp	/^int check_row(int i_row, int i_num)$/;"	f
+check_square	category/recursive/1992.cpp	/^int	check_square(ll row, ll col, ll N)$/;"	f
+check_square	category/recursive/2630.cpp	/^ll	check_square(ll row, ll col, ll N)$/;"	f
+chess	BOJ/lv2/1018.cpp	/^char chess[51][51];$/;"	v
+chess_board	BOJ/lv4/9663.cpp	/^} chess_board;$/;"	v	typeref:struct:s_chess
+chicken	BOJ/lv4/15686.cpp	/^vector<pair<int, int>> house, chicken, v;$/;"	v
+chicken_num	BOJ/lv4/15686.cpp	/^int chicken_num, ans;$/;"	v
+cmp	BOJ/lv2/10814.cpp	/^int cmp(const Person &a, const Person &b)$/;"	f
+cmp	BOJ/lv2/11651.cpp	/^bool cmp(pair<int, int> a, pair<int, int> b)$/;"	f
+cnt	BOJ/lv3/11724.cpp	/^int cnt;$/;"	v
+cnt	BOJ/lv3/16928.cpp	/^int cnt[101];$/;"	v
+cnt	BOJ/lv3/2667.cpp	/^int cnt;$/;"	v
+cnt	BOJ/lv4/12851.cpp	/^int cnt;$/;"	v
+cnt	BOJ/lv4/15652.cpp	/^int cnt;$/;"	v
+cnt	BOJ/lv4/16953.cpp	/^long long cnt = 1;$/;"	v
+cnt	BOJ/lv4/17070.cpp	/^int cnt;$/;"	v
+cnt	BOJ_EASY/b4/1264.cpp	/^int cnt;$/;"	v
+cnt	BOJ_EASY/b5/2743.cpp	/^int cnt;$/;"	v
+cnt	category/binary_search/1300.cpp	/^long long	cnt, ans;$/;"	v
+cnt	category/binary_search/1654.cpp	/^long long cnt;$/;"	v
+cnt	category/binary_search/2343.cpp	/^int	cnt;$/;"	v
+cnt	category/recursive/11729.cpp	/^ll cnt;$/;"	v
+cnt	dog/11/17478.cpp	/^int cnt = -4;$/;"	v
+cnt	dog/11/1780.cpp	/^int cnt[3];$/;"	v
+cnt	fire/ch02/test.cpp	/^long long cnt;$/;"	v
+col	BOJ/lv5/11049.cpp	/^int row, col;$/;"	v
+comp	BOJ/lv3/1931.cpp	/^bool comp(pair <int, int>a, pair<int, int> b){$/;"	f
+comp	fire/ch04/DLinkedList.h	/^	int (*comp)(LData d1, LData d2);$/;"	m	struct:_linkedList
+comp	fire/ch04/DLinkedList2.h	/^	int (*comp)(LData d1, LData d2);$/;"	m	struct:_linkedList
+comp	fire/ch09/9-1/UsefulHeap.h	/^	PriorityComp *comp;$/;"	m	struct:_heap
+comp	fire/ch09/PQ/UsefulHeap.h	/^	PriorityComp *comp;$/;"	m	struct:_heap
+comp	fire/ch09/UsefulHeap/UsefulHeap.h	/^	PriorityComp *comp;$/;"	m	struct:_heap
+comp	fire/ch10/HeapSort/UsefulHeap.h	/^	PriorityComp *comp;$/;"	m	struct:_heap
+compare	BOJ/lv2/1181.cpp	/^bool compare(string &a, string &b)$/;"	f
+connect	BOJ/lv3/1389.cpp	/^int connect[101];$/;"	v
+copy_board	BOJ/lv4/14502.cpp	/^int copy_board[8][8];$/;"	v
+copy_board	BOJ/lv4/17144.cpp	/^void copy_board(int A[][MAX], int B[][MAX])$/;"	f
+copy_board	BOJ/lv5/12100.cpp	/^void copy_board()$/;"	f
+cost	category/binary_search/6236.cpp	/^int cost[MAX_DAY];$/;"	v
+count	BOJ/lv4/9663.cpp	/^	int		count;$/;"	m	struct:s_chess	file:
+count_dust	BOJ/lv4/17144.cpp	/^void count_dust()$/;"	f
+count_safe_zone	BOJ/lv4/14502.cpp	/^int count_safe_zone()$/;"	f
+cur	fire/ch04/DLinkedList.h	/^	Node *cur;$/;"	m	struct:_linkedList
+cur	fire/ch04/DLinkedList2.h	/^	Node *cur;$/;"	m	struct:_linkedList
+cur	fire/ch05/5-1/CLinkedList.h	/^	Node * cur;$/;"	m	struct:_CLL
+cur	fire/ch05/5-2/DBDLinkedList.h	/^	Node *cur;$/;"	m	struct:_dbDLinkedList
+cur	fire/ch05/CLinkedList.h	/^	Node * cur;$/;"	m	struct:_CLL
+cur	fire/ch06/6-1/CLinkedList.h	/^	Node * cur;$/;"	m	struct:_CLL
+curr_x	dog/09/1926/1926.cpp	/^int	curr_x, curr_y;$/;"	v
+curr_y	dog/09/1926/1926.cpp	/^int	curr_x, curr_y;$/;"	v
+cursor	fire/ch03/ArrayList.h	/^	int cursor;$/;"	m	struct:__ArrayList
+cursor	fire/ch03/ArrayList2.h	/^	int cursor;$/;"	m	struct:Array_List
+cursor	fire/ch03/ArrayList3.h	/^	int cursor;$/;"	m	struct:__ArrayList
+d	BOJ_EASY/b4/5928.cpp	/^int d, h, m;$/;"	v
+d	BOJ_EASY/b4/6764.cpp	/^int a, b, c, d;$/;"	v
+d	BOJ_EASY/b5/21300.cpp	/^int a, b, c, d, e, f;$/;"	v
+d	BOJ_EASY/b5/22193.cpp	/^int	a, b, c, d;$/;"	v
+d	BOJ_EASY/b5/24736.cpp	/^int a, b, c, d, e;$/;"	v
+d	dog/11/1000.cpp	/^int d[4][4][2] = {  {{0,0},{0,1},{1,1},{1,0}},$/;"	v
+d	dog/11/14956.cpp	/^int d[4][4][2] = {  {{0,0},{0,1},{1,1},{1,0}},$/;"	v
+d_ans	BOJ/lv5/4386.cpp	/^double d_ans;$/;"	v
+d_ii_vec_edge	BOJ/lv5/4386.cpp	/^vector<pair<double, pair<int, int>>> d_ii_vec_edge;$/;"	v
+dat	dog/04/test1.cpp	/^int dat[MX], pre[MX], nxt[MX];$/;"	v
+dat	dog/04/test3.cpp	/^int dat[MX], pre[MX], nxt[MX];$/;"	v
+data	dog/04/test.cpp	/^	int data;$/;"	m	struct:NODE	file:
+data	fire/ch04/DLinkedList.h	/^	LData data;$/;"	m	struct:_node
+data	fire/ch04/DLinkedList2.h	/^	LData data;$/;"	m	struct:_node
+data	fire/ch04/DLinkedRead.c	/^    int data;$/;"	m	struct:_node	file:
+data	fire/ch04/LinkedRead.c	/^	int data;$/;"	m	struct:_node	file:
+data	fire/ch05/5-1/CLinkedList.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch05/5-2/DBDLinkedList.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch05/CLinkedList.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch06/6-1/CLinkedList.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch06/ListBaseStack.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch06/calc1/ListBaseStack.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch06/calc2/ListBaseStack.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch06/calc3/ListBaseStack.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch07/7-1/Deque.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch07/ListBaseQueue.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch07/deck/Deque.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch08/8-1/BinaryTree2.h	/^	BTData data;$/;"	m	struct:_bTreeNode
+data	fire/ch08/8-2/BinaryTree2.h	/^	BTData data;$/;"	m	struct:_bTreeNode
+data	fire/ch08/8-2/ListBaseStack.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch08/BinaryTree.h	/^	BTData data;$/;"	m	struct:_bTreeNode
+data	fire/ch08/BinaryTree2/BinaryTree2.h	/^	BTData data;$/;"	m	struct:_bTreeNode
+data	fire/ch08/ExpressionTree/BinaryTree2.h	/^	BTData data;$/;"	m	struct:_bTreeNode
+data	fire/ch08/ExpressionTree/ListBaseStack.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch09/SimpleHeap.h	/^	HData data;$/;"	m	struct:_heapElem
+data	fire/ch10/RadixSort/ListBaseQueue.h	/^	Data data;$/;"	m	struct:_node
+data	fire/ch12/BinaryTree3.h	/^	BTData data;$/;"	m	struct:_bTreeNode
+dd_vec_coord	BOJ/lv5/4386.cpp	/^vector<pair<double, double>> dd_vec_coord;$/;"	v
+deque	dog/09/1926/1926.cpp	/^t_point deque(t_queue *pq)$/;"	f
+devide	1271.cpp	/^void devide(char *a, char *b, char *r)$/;"	f
+devide	BOJ/lv1/3052.cpp	/^int devide[41];$/;"	v
+devidesubtract	1271.cpp	/^void	devidesubtract(char *a, char *b, char *r, int index)$/;"	f
+dfs	BOJ/lv2/1012.cpp	/^void dfs(int y, int x, int M, int N)$/;"	f
+dfs	BOJ/lv3/11724.cpp	/^void dfs(int n)$/;"	f
+dfs	BOJ/lv3/1260.cpp	/^void dfs(int v, int n)$/;"	f
+dfs	BOJ/lv3/2606.cpp	/^int dfs(int v, int N)$/;"	f
+dfs	BOJ/lv3/2667.cpp	/^void dfs(int x, int y, int N)$/;"	f
+dfs	BOJ/lv4/11725.cpp	/^void dfs(int node)$/;"	f
+dfs	BOJ/lv4/15650.cpp	/^void dfs(int cnt, int index) $/;"	f
+dfs	BOJ/lv4/15652.cpp	/^void dfs(int cnt, int value)$/;"	f
+dfs	BOJ/lv4/15654.cpp	/^void dfs(int index) $/;"	f
+dfs	BOJ/lv4/15657.cpp	/^void dfs(int cnt) $/;"	f
+dfs	BOJ/lv4/15663.cpp	/^void dfs(int cnt) $/;"	f
+dfs	BOJ/lv4/15666.cpp	/^void dfs(int cnt, int index) $/;"	f
+dfs	BOJ/lv4/16953.cpp	/^void dfs(long long A, long long cnt)$/;"	f
+dfs	BOJ/lv4/1967.cpp	/^void dfs(int cur, int dist) $/;"	f
+dfs	BOJ/lv5/1007.cpp	/^void dfs(int now, int cnt)$/;"	f
+dfs	BOJ/lv5/12100.cpp	/^void dfs(int cnt)$/;"	f
+dfs	BOJ/lv5/16724.cpp	/^void dfs(int y, int x)$/;"	f
+dfs	BOJ/lv5/1987.cpp	/^void dfs(int i_row, int i_col, int i_cnt)$/;"	f
+dfs	BOJ/lv5/2239.cpp	/^int dfs(void)$/;"	f
+dfs	BOJ/lv5/2342.cpp	/^int dfs(int _left, int _right, int _index)$/;"	f
+dfs	BOJ/lv5/9466.cpp	/^void dfs(int now)$/;"	f
+diag1	BOJ/lv4/9663.cpp	/^	char	diag1[30];$/;"	m	struct:s_chess	file:
+diag2	BOJ/lv4/9663.cpp	/^	char	diag2[28];$/;"	m	struct:s_chess	file:
+differ	BOJ_EASY/b4/4299.cpp	/^int	sum, differ;$/;"	v
+differ	BOJ_EASY/b5/8437.cpp	/^int differ;$/;"	v
+dijkstra	BOJ/lv4/11779.cpp	/^void dijkstra(int Start)$/;"	f
+dijkstra	BOJ/lv4/1238.cpp	/^void dijkstra(int start)$/;"	f
+dijkstra	BOJ/lv4/1504.cpp	/^void dijkstra(int start)$/;"	f
+dijkstra	BOJ/lv4/1753.cpp	/^void dijkstra()$/;"	f
+dijkstra	BOJ/lv4/1916.cpp	/^void dijkstra(int start)$/;"	f
+dist	BOJ/lv4/11779.cpp	/^int dist[1001];$/;"	v
+dist	BOJ/lv4/1238.cpp	/^int dist[1001], res[1001];$/;"	v
+dist	BOJ/lv4/14936.cpp	/^int dist[101][101];$/;"	v
+dist	BOJ/lv4/1504.cpp	/^int dist[801];$/;"	v
+dist	BOJ/lv4/1916.cpp	/^int dist[1001];$/;"	v
+dp	BOJ/lv3/11726.cpp	/^int dp[1001];$/;"	v
+dp	BOJ/lv3/11727.cpp	/^int dp[1001];$/;"	v
+dp	BOJ/lv3/1463.cpp	/^int dp[1000000];$/;"	v
+dp	BOJ/lv3/17626.cpp	/^int dp[50001];$/;"	v
+dp	BOJ/lv3/2579.cpp	/^int dp[301];$/;"	v
+dp	BOJ/lv3/9095.cpp	/^int dp[11];$/;"	v
+dp	BOJ/lv4/11053.cpp	/^int dp[MAX];$/;"	v
+dp	BOJ/lv4/11054.cpp	/^int dp[1001];$/;"	v
+dp	BOJ/lv4/11660.cpp	/^int dp[MAX][MAX];$/;"	v
+dp	BOJ/lv4/12865.cpp	/^int dp[101][100001];$/;"	v
+dp	BOJ/lv4/1932.cpp	/^int dp[501][501];$/;"	v
+dp	BOJ/lv4/9251.cpp	/^int dp[1001][1001];$/;"	v
+dp	BOJ/lv4/9465.cpp	/^int dp[2][MAX];$/;"	v
+dp	BOJ/lv5/10942.cpp	/^bool dp[MAX][MAX];$/;"	v
+dp	BOJ/lv5/11049.cpp	/^int dp[MAX][MAX];$/;"	v
+dp2	BOJ/lv4/11054.cpp	/^int dp2[1001];$/;"	v
+draw	dog/11/2448.cpp	/^void draw(int x, int y)$/;"	f
+dx	BOJ/lv2/1012.cpp	/^int dx[] = {0, 0, -1, 1};$/;"	v
+dx	BOJ/lv3/10026.cpp	/^int dx[] = {0, 0, 1, -1};$/;"	v
+dx	BOJ/lv3/14500.cpp	/^int dx[] = {0, 0, 1, -1};$/;"	v
+dx	BOJ/lv3/16236.cpp	/^int dx[] = {0, 0, 1, -1};$/;"	v
+dx	BOJ/lv3/2667.cpp	/^int dx[4] = {1, -1, 0, 0};$/;"	v
+dx	BOJ/lv4/14502.cpp	/^int dx[] = {0, 0, 1, -1};$/;"	v
+dx	BOJ/lv4/17070.cpp	/^int dx[] = {0, 1, 1};$/;"	v
+dx	BOJ/lv4/17144.cpp	/^int dx[] = { 0, 0, 1, -1 };$/;"	v
+dx	BOJ/lv4/2206.cpp	/^int dx[] = {0, 0, 1, -1};$/;"	v
+dx	BOJ/lv4/2638.cpp	/^int dx[] = {-1, 1, 0, 0};$/;"	v
+dx	BOJ/lv5/16724.cpp	/^int dx[4] = {0, 0, -1, 1};$/;"	v
+dx	dog/09/1926/1926.cpp	/^int	dx[4] = {-1, 1, 0, 0};$/;"	v
+dy	BOJ/lv2/1012.cpp	/^int dy[] = {-1, 1, 0, 0};$/;"	v
+dy	BOJ/lv3/10026.cpp	/^int dy[] = {1, -1, 0 ,0};$/;"	v
+dy	BOJ/lv3/14500.cpp	/^int dy[] = {1, -1, 0, 0};$/;"	v
+dy	BOJ/lv3/16236.cpp	/^int dy[] = {-1, 1, 0, 0};$/;"	v
+dy	BOJ/lv3/2667.cpp	/^int dy[4] = {0, 0, 1, -1};$/;"	v
+dy	BOJ/lv4/14502.cpp	/^int dy[] = {1, -1, 0, 0};$/;"	v
+dy	BOJ/lv4/17070.cpp	/^int dy[] = {1, 0, 1};$/;"	v
+dy	BOJ/lv4/17144.cpp	/^int dy[] = { 1, -1, 0, 0 };$/;"	v
+dy	BOJ/lv4/2206.cpp	/^int dy[] = {1, -1, 0, 0};$/;"	v
+dy	BOJ/lv4/2638.cpp	/^int dy[] = {0, 0, 1, -1};$/;"	v
+dy	BOJ/lv5/16724.cpp	/^int dy[4] = {-1, 1, 0, 0};$/;"	v
+dy	dog/09/1926/1926.cpp	/^int dy[4] = {0, 0, -1, 1};$/;"	v
+e	BOJ_EASY/b5/21300.cpp	/^int a, b, c, d, e, f;$/;"	v
+e	BOJ_EASY/b5/24736.cpp	/^int a, b, c, d, e;$/;"	v
+eat_cnt	BOJ/lv3/16236.cpp	/^int eat_cnt, shark_size = 2;$/;"	v
+edge	BOJ/lv4/11404.cpp	/^int	vertex, edge;$/;"	v
+edge	BOJ/lv5/1197.cpp	/^int vertex, edge;$/;"	v
+edge	BOJ/lv5/1647.cpp	/^int vertex, edge;$/;"	v
+empNum	fire/ch05/5-1/Employee.h	/^	int empNum;      \/\/ 사번$/;"	m	struct:_Employee
+empty_size	BOJ/lv4/14502.cpp	/^int empty_size, safe_max;$/;"	v
+enqueue	dog/09/1926/1926.cpp	/^void enqueue(t_queue *pq, int x, int y)$/;"	f
+erase	dog/03/test.cpp	/^void	erase(int idx, int arr[], int &len)$/;"	f
+erase	dog/04/test3.cpp	/^void erase(int addr)$/;"	f
+erase_test	dog/04/test3.cpp	/^void erase_test(){$/;"	f
+expand_dust	BOJ/lv4/17144.cpp	/^void expand_dust()$/;"	f
+f	BOJ/lv4/13172.cpp	/^ll f(ll x, ll y)$/;"	f
+f	BOJ_EASY/b5/21300.cpp	/^int a, b, c, d, e, f;$/;"	v
+f_stoi	BOJ/lv3/1541.cpp	/^int f_stoi(string s1)$/;"	f
+facto	fire/ch02/RecursiveFactorial.c	/^int facto(int n)$/;"	f
+fibo	BOJ/lv2/1003.cpp	/^long long fibo(int n)$/;"	f
+fibo	fire/ch02/test.cpp	/^int fibo(int n)$/;"	f
+fibo3	fire/ch02/FibonacciFunc.c	/^int fibo3(int n, int r[])$/;"	f
+fibo3	fire/ch02/test.cpp	/^int fibo3(int n, int r[])$/;"	f
+find	BOJ/lv4/1043.cpp	/^int find(int x)$/;"	f
+find	dog/11/1780.cpp	/^void find(int x, int y, int z)$/;"	f
+findMax	BOJ/lv3/14500.cpp	/^void findMax(int y, int x)$/;"	f
+find_LIS	BOJ/lv5/12015.cpp	/^void	find_LIS()$/;"	f
+find_arithmetic_mean	BOJ/lv1/2108.cpp	/^void find_arithmetic_mean(int sum, int N)$/;"	f
+find_arithmetic_mean	BOJ/lv2/2108.cpp	/^void find_arithmetic_mean(int sum, int N)$/;"	f
+find_cheese	BOJ/lv4/2638.cpp	/^void	find_cheese()$/;"	f
+find_cnt	category/binary_search/2343.cpp	/^int	find_cnt(int mid)$/;"	f
+find_dist	BOJ/lv5/4386.cpp	/^double find_dist(double d_x1, double d_y1, double d_x2, double d_y2)$/;"	f
+find_gcd	BOJ/lv2/2609.cpp	/^int find_gcd(int a, int b)$/;"	f
+find_gcd	BOJ/lv3/6064.cpp	/^int find_gcd(int a, int b)$/;"	f
+find_gcd	BOJ/lv4/13172.cpp	/^ll find_gcd(ll a, ll b)$/;"	f
+find_gcd	category/recursive/2609.cpp	/^int find_gcd(int a, int b)$/;"	f
+find_lcm	BOJ/lv2/2609.cpp	/^int find_lcm(int a, int b, int gcd)$/;"	f
+find_lcm	BOJ/lv3/6064.cpp	/^int find_lcm(int a, int b)$/;"	f
+find_lcm	category/recursive/2609.cpp	/^int find_lcm(int a, int b, int gcd)$/;"	f
+find_max	BOJ/lv5/12100.cpp	/^int find_max()$/;"	f
+find_median	BOJ/lv1/2108.cpp	/^void find_median(int arr[], int N)$/;"	f
+find_median	BOJ/lv2/2108.cpp	/^void find_median(int arr[], int N)$/;"	f
+find_min	BOJ/lv3/1107.cpp	/^int find_min(int num)$/;"	f
+find_min	BOJ/lv4/16953.cpp	/^long long find_min = LONG_MAX;$/;"	v
+find_min_second	BOJ/lv4/12851.cpp	/^int	find_min_second(int N, int End)$/;"	f
+find_min_second	BOJ/lv4/13549.cpp	/^int	find_min_second(int N, int End)$/;"	f
+find_mode	BOJ/lv1/2108.cpp	/^void find_mode(int arr[], int N)$/;"	f
+find_mode	BOJ/lv2/2108.cpp	/^void find_mode(int arr[], int N)$/;"	f
+find_normal	BOJ/lv3/14500.cpp	/^void find_normal(int y, int x, int score, int depth)$/;"	f
+find_one	BOJ/lv5/9527.cpp	/^long long find_one(long long n)$/;"	f
+find_optimal_position	BOJ/lv4/9663.cpp	/^void	find_optimal_position(int col)$/;"	f
+find_p	BOJ/lv3/9461.cpp	/^int find_p(int n)$/;"	f
+find_parent	BOJ/lv5/1197.cpp	/^bool find_parent(int x, int y)$/;"	f
+find_parent	BOJ/lv5/1647.cpp	/^bool find_parent(int x, int y)$/;"	f
+find_range	BOJ/lv1/2108.cpp	/^void find_range(int arr[], int N)$/;"	f
+find_range	BOJ/lv2/2108.cpp	/^void find_range(int arr[], int N)$/;"	f
+find_same_parent	BOJ/lv5/20040.cpp	/^bool find_same_parent(int i_x, int i_y)$/;"	f
+find_same_parent	BOJ/lv5/4386.cpp	/^bool find_same_parent(int i_x, int i_y)$/;"	f
+find_special	BOJ/lv3/14500.cpp	/^void find_special(int y, int x)$/;"	f
+find_square	category/recursive/1780.cpp	/^ll	find_square(ll row, ll col, ll N)$/;"	f
+find_sum	BOJ/lv5/1007.cpp	/^double find_sum()$/;"	f
+find_sum	BOJ/lv5/2143.cpp	/^void find_sum()$/;"	f
+find_sum	category/binary_search/2512.cpp	/^int find_sum(int cost)$/;"	f
+finished	BOJ/lv5/9466.cpp	/^bool finished[MAX];$/;"	v
+first	BOJ_EASY/b5/9086.cpp	/^char first;$/;"	v
+five_mult	BOJ_EASY/b5/23037.cpp	/^int five_mult;$/;"	v
+flag	BOJ/lv3/7662.cpp	/^int flag[1000001]; $/;"	v
+flag	category/recursive/17478.cpp	/^ll flag;$/;"	v
+floyd	BOJ/lv4/11404.cpp	/^void floyd()$/;"	f
+fow	dog/11/1629.cpp	/^ll fow(int a, int b, int c)$/;"	f
+from	BOJ/lv4/11404.cpp	/^int from, to, weight;$/;"	v
+front	dog/09/1926/1926.cpp	/^	int front;$/;"	m	struct:s_queue	file:
+front	dog/09/1926/1926.cpp	/^t_point front(t_queue *pq)$/;"	f
+front	fire/ch07/CircularQueue.h	/^	int front;$/;"	m	struct:_cQueue
+front	fire/ch07/ListBaseQueue.h	/^	Node * front;$/;"	m	struct:_lQueue
+front	fire/ch07/simul/CircularQueue.h	/^	int front;$/;"	m	struct:_cQueue
+front	fire/ch10/RadixSort/ListBaseQueue.h	/^	Node *front;$/;"	m	struct:_lQueue
+ft_ten_queens_puzzle	BOJ/lv4/9663.cpp	/^int	ft_ten_queens_puzzle(void)$/;"	f
+func	dog/01/test3.cpp	/^int	func(int N)$/;"	f
+func	fire/ch02/FibonacciFunc.c	/^int func(int n)$/;"	f
+func2	dog/01/test2.cpp	/^int	func2(int arr[], int N)$/;"	f
+func2	dog/03/test4.cpp	/^int func2(int arr[], int N)$/;"	f
+func2	fire/ch02/FibonacciFunc.c	/^int func2(int n)$/;"	f
+func4	dog/01/test4.cpp	/^int func4(int N)$/;"	f
+gap	BOJ_EASY/b5/6763.cpp	/^int gap;$/;"	v
+get_parent	BOJ/lv5/10775.cpp	/^int get_parent(int i_x)$/;"	f
+get_parent	BOJ/lv5/1197.cpp	/^int get_parent(int x)$/;"	f
+get_parent	BOJ/lv5/1647.cpp	/^int get_parent(int x)$/;"	f
+get_parent	BOJ/lv5/20040.cpp	/^int get_parent(int i_x)$/;"	f
+get_parent	BOJ/lv5/4386.cpp	/^int get_parent(int i_x)$/;"	f
+graph	BOJ/lv3/11403.cpp	/^int graph[101][101];$/;"	v
+h	BOJ_EASY/b4/5928.cpp	/^int d, h, m;$/;"	v
+hanoi	category/recursive/11729.cpp	/^void hanoi(int a, int c, int num)$/;"	f
+hanoi	dog/11/11729.cpp	/^void hanoi(int a, int b, int N)$/;"	f
+hanoi2	dog/11/11729.cpp	/^void hanoi2(int a, int b, int N, int *cnt)$/;"	f
+hanoi_cnt	category/recursive/11729.cpp	/^void hanoi_cnt(int a, int c, int num)$/;"	f
+head	fire/ch04/DLinkedList.h	/^	Node *head;$/;"	m	struct:_linkedList
+head	fire/ch04/DLinkedList2.h	/^	Node *head;$/;"	m	struct:_linkedList
+head	fire/ch05/5-2/DBDLinkedList.h	/^	Node *head;$/;"	m	struct:_dbDLinkedList
+head	fire/ch06/ListBaseStack.h	/^	Node * head;$/;"	m	struct:_listStack
+head	fire/ch06/calc1/ListBaseStack.h	/^	Node *head;		$/;"	m	struct:_listStack
+head	fire/ch06/calc2/ListBaseStack.h	/^	Node *head;		$/;"	m	struct:_listStack
+head	fire/ch06/calc3/ListBaseStack.h	/^	Node *head;		$/;"	m	struct:_listStack
+head	fire/ch07/7-1/Deque.h	/^	Node * head;$/;"	m	struct:_dlDeque
+head	fire/ch07/deck/Deque.h	/^	Node * head;$/;"	m	struct:_dlDeque
+head	fire/ch08/8-2/ListBaseStack.h	/^	Node * head;$/;"	m	struct:_listStack
+head	fire/ch08/ExpressionTree/ListBaseStack.h	/^	Node * head;$/;"	m	struct:_listStack
+heapArr	fire/ch09/9-1/UsefulHeap.h	/^	HData heapArr[HEAP_LEN];$/;"	m	struct:_heap
+heapArr	fire/ch09/PQ/UsefulHeap.h	/^	HData heapArr[HEAP_LEN];$/;"	m	struct:_heap
+heapArr	fire/ch09/SimpleHeap.h	/^	HeapElem heapArr[HEAP_LEN];$/;"	m	struct:_heap
+heapArr	fire/ch09/UsefulHeap/UsefulHeap.h	/^	HData heapArr[HEAP_LEN];$/;"	m	struct:_heap
+heapArr	fire/ch10/HeapSort/UsefulHeap.h	/^	HData heapArr[HEAP_LEN];$/;"	m	struct:_heap
+high	category/binary_search/1300.cpp	/^long long	low, high, mid;$/;"	v
+high	category/binary_search/1654.cpp	/^long long low, high, mid;$/;"	v
+high	category/binary_search/2110.cpp	/^long long	low, high, mid;$/;"	v
+high	category/binary_search/2343.cpp	/^int	high, low, mid;$/;"	v
+high	category/binary_search/2512.cpp	/^int	Max, temp, low, high, center, ans, sum;$/;"	v
+high	category/binary_search/2805.cpp	/^int	low, high, center, ans;$/;"	v
+high	category/binary_search/6236.cpp	/^int	low, high, mid;$/;"	v
+house	BOJ/lv4/15686.cpp	/^vector<pair<int, int>> house, chicken, v;$/;"	v
+house	category/binary_search/2110.cpp	/^long long	house[MAX];$/;"	v
+i_C	BOJ/lv5/1987.cpp	/^int i_R, i_C;$/;"	v
+i_R	BOJ/lv5/1987.cpp	/^int i_R, i_C;$/;"	v
+i_a	BOJ/lv5/2143.cpp	/^int i_a[MAX], i_b[MAX];$/;"	v
+i_ans	BOJ/lv5/10775.cpp	/^int i_ans;$/;"	v
+i_ans	BOJ/lv5/17404.cpp	/^int i_ans = INT_MAX;$/;"	v
+i_ans	BOJ/lv5/2467.cpp	/^int i_ans = INT_MAX;$/;"	v
+i_arr	BOJ/lv5/1806.cpp	/^int i_arr[MAX];$/;"	v
+i_arr	BOJ/lv5/2467.cpp	/^int i_arr[100001];$/;"	v
+i_b	BOJ/lv5/2143.cpp	/^int i_a[MAX], i_b[MAX];$/;"	v
+i_color	BOJ/lv5/17404.cpp	/^int i_color[MAX][3];$/;"	v
+i_complete_time	BOJ/lv5/1005.cpp	/^int i_complete_time[MAX];$/;"	v
+i_dp	BOJ/lv5/17404.cpp	/^int i_dp[MAX][3];$/;"	v
+i_dp	BOJ/lv5/2342.cpp	/^int i_dp[5][5][MAX + 1];$/;"	v
+i_dp	BOJ/lv5/7579.cpp	/^int i_dp[MAX * MAX];$/;"	v
+i_dx	BOJ/lv5/1987.cpp	/^int i_dx[] = {0, 0, 1, -1};$/;"	v
+i_dy	BOJ/lv5/1987.cpp	/^int i_dy[] = {1, -1, 0, 0};$/;"	v
+i_gen_cycle	BOJ/lv5/20040.cpp	/^int i_gen_cycle;$/;"	v
+i_in_degree	BOJ/lv5/1005.cpp	/^int i_in_degree[MAX];$/;"	v
+i_in_degree	BOJ/lv5/1766.cpp	/^int i_in_degree[MAX + 1];$/;"	v
+i_in_degree	BOJ/lv5/2252.cpp	/^int i_in_degree[MAX + 1];$/;"	v
+i_in_degree	BOJ/lv5/2623.cpp	/^int i_in_degree[MAX + 1];$/;"	v
+i_lcs_length	BOJ/lv5/9252.cpp	/^int i_lcs_length[MAX + 1][MAX + 1];$/;"	v
+i_left	BOJ/lv5/1644.cpp	/^int i_sum, i_left, i_right;$/;"	v
+i_m	BOJ/lv5/20040.cpp	/^int i_n, i_m;$/;"	v
+i_max_move	BOJ/lv5/1987.cpp	/^int i_max_move;$/;"	v
+i_n	BOJ/lv5/1806.cpp	/^int i_n;$/;"	v
+i_n	BOJ/lv5/20040.cpp	/^int i_n, i_m;$/;"	v
+i_n	BOJ/lv5/2467.cpp	/^int i_n;$/;"	v
+i_n	BOJ/lv5/2473.cpp	/^int i_n;$/;"	v
+i_n	BOJ/lv5/4386.cpp	/^int i_n;$/;"	v
+i_near_zero_x	BOJ/lv5/2467.cpp	/^int i_near_zero_x;$/;"	v
+i_near_zero_y	BOJ/lv5/2467.cpp	/^int i_near_zero_y;$/;"	v
+i_off_cost	BOJ/lv5/7579.cpp	/^int i_off_cost[MAX];$/;"	v
+i_parent	BOJ/lv5/10775.cpp	/^int i_parent[MAX];$/;"	v
+i_parent	BOJ/lv5/20040.cpp	/^int i_parent[MAX];$/;"	v
+i_parent	BOJ/lv5/4386.cpp	/^int i_parent[100];$/;"	v
+i_result	BOJ/lv5/1644.cpp	/^int i_result;$/;"	v
+i_right	BOJ/lv5/1644.cpp	/^int i_sum, i_left, i_right;$/;"	v
+i_sudoku	BOJ/lv5/2239.cpp	/^int i_sudoku[MAX][MAX];$/;"	v
+i_sum	BOJ/lv5/1644.cpp	/^int i_sum, i_left, i_right;$/;"	v
+i_target	BOJ/lv5/1806.cpp	/^int i_target;$/;"	v
+i_time	BOJ/lv5/1005.cpp	/^int i_time[MAX];$/;"	v
+i_use_memory	BOJ/lv5/7579.cpp	/^int i_use_memory[MAX];$/;"	v
+idx	dog/03/test1.cpp	/^int idx;$/;"	v
+in_order	BOJ/lv4/2263.cpp	/^int in_order[100001];$/;"	v
+info	BOJ/lv3/16236.cpp	/^struct info{$/;"	s	file:
+init_check	BOJ/lv3/16236.cpp	/^void init_check()$/;"	f
+inorder	BOJ/lv4/1991.cpp	/^void	inorder(char root)$/;"	f
+input	category/recursive/1992.cpp	/^void	input(void)$/;"	f
+insert	dog/04/test3.cpp	/^void insert(int addr, int num)$/;"	f
+insert_test	dog/04/test3.cpp	/^void insert_test(){$/;"	f
+is_char	BOJ/lv4/1918.cpp	/^int is_char(char c)$/;"	f
+is_number	BOJ/lv3/1620.cpp	/^int is_number(char c)$/;"	f
+is_possible	BOJ/lv2/2805.cpp	/^int is_possible(unsigned int height, int N, int M)$/;"	f
+is_possible	BOJ/lv3/1107.cpp	/^int is_possible(int num, int *length)$/;"	f
+is_possible	category/binary_search/2805.cpp	/^int is_possible(int height, int N, int M)$/;"	f
+is_prime	BOJ/lv2/1929.cpp	/^int is_prime(int n)$/;"	f
+is_prime	BOJ/lv2/1978.cpp	/^int is_prime(int number)$/;"	f
+item	BOJ/lv4/14936.cpp	/^int item[101];$/;"	v
+item_count	BOJ/lv4/14936.cpp	/^int item_count;$/;"	v
+j	BOJ_EASY/b5/8437.cpp	/^int j, w;$/;"	v
+jdx	dog/03/test1.cpp	/^int jdx;$/;"	v
+k1	BOJ_EASY/b5/8370.cpp	/^int n1, k1, n2, k2;$/;"	v
+k2	BOJ_EASY/b5/8370.cpp	/^int n1, k1, n2, k2;$/;"	v
+know_true	BOJ/lv4/1043.cpp	/^int know_true[51];$/;"	v
+l	BOJ/lv4/14936.cpp	/^int a, b, l;$/;"	v
+lan_line	category/binary_search/1654.cpp	/^long long lan_line[MAX_CNT];$/;"	v
+last	BOJ_EASY/b5/9086.cpp	/^char last;$/;"	v
+leaf	BOJ/lv4/1167.cpp	/^int leaf; $/;"	v
+lecture	category/binary_search/2343.cpp	/^int lecture[MAX_CNT];$/;"	v
+left	BOJ/lv4/1991.cpp	/^	char left;$/;"	m	struct:s_tool	file:
+left	fire/ch08/8-1/BinaryTree2.h	/^	struct _bTreeNode * left;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+left	fire/ch08/8-2/BinaryTree2.h	/^	struct _bTreeNode * left;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+left	fire/ch08/BinaryTree.h	/^	struct _bTreeNode * left;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+left	fire/ch08/BinaryTree2/BinaryTree2.h	/^	struct _bTreeNode * left;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+left	fire/ch08/ExpressionTree/BinaryTree2.h	/^	struct _bTreeNode * left;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+left	fire/ch12/BinaryTree3.h	/^	struct _bTreeNode * left;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+len_line	BOJ/lv2/1654.cpp	/^int len_line[10001];$/;"	v
+length	BOJ/lv4/11053.cpp	/^int N, length;$/;"	v
+limit	BOJ_EASY/b5/6763.cpp	/^int limit, speed;$/;"	v
+ll	BOJ_EASY/b3/11021.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/1264.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/2420.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/2525.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/2530.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/2588.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/4299.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/5532.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/5575.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/5928.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/6764.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/6778.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b4/6810.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/11718.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/1297.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/14681.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/15727.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/15964.cpp	/^#define ll /;"	d	file:
+ll	BOJ_EASY/b5/1712.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/17256.cpp	/^#define ll /;"	d	file:
+ll	BOJ_EASY/b5/17496.cpp	/^#define ll /;"	d	file:
+ll	BOJ_EASY/b5/18096.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/18301.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/20492.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/23037.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/2743.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/2744.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/2754.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/5597.cpp	/^typedef long long ll;$/;"	t	file:
+ll	BOJ_EASY/b5/9086.cpp	/^typedef long long ll;$/;"	t	file:
+ll	category/recursive/1074.cpp	/^#define ll /;"	d	file:
+ll	category/recursive/10870.cpp	/^typedef long long ll;$/;"	t	file:
+ll	category/recursive/10872.cpp	/^typedef long long ll;$/;"	t	file:
+ll	category/recursive/11729.cpp	/^#define ll /;"	d	file:
+ll	category/recursive/14956.cpp	/^typedef long long ll;$/;"	t	file:
+ll	category/recursive/1629.cpp	/^#define ll /;"	d	file:
+ll	category/recursive/17478.cpp	/^#define ll /;"	d	file:
+ll	category/recursive/1780.cpp	/^#define ll /;"	d	file:
+ll	category/recursive/1992.cpp	/^#define ll /;"	d	file:
+ll	category/recursive/2447.cpp	/^#define ll /;"	d	file:
+ll	category/recursive/2448.cpp	/^#define ll /;"	d	file:
+ll	category/recursive/2609.cpp	/^typedef long long ll;$/;"	t	file:
+ll	category/recursive/2630.cpp	/^#define ll /;"	d	file:
+ll_ans	BOJ/lv5/2473.cpp	/^long long ll_ans[3];$/;"	v
+ll_arr	BOJ/lv5/2473.cpp	/^long long ll_arr[MAX];$/;"	v
+ll_cnt	BOJ/lv5/2143.cpp	/^long long ll_cnt;$/;"	v
+ll_result	BOJ/lv5/2473.cpp	/^long long ll_result = LONG_MAX;$/;"	v
+low	category/binary_search/1300.cpp	/^long long	low, high, mid;$/;"	v
+low	category/binary_search/1654.cpp	/^long long low, high, mid;$/;"	v
+low	category/binary_search/2110.cpp	/^long long	low, high, mid;$/;"	v
+low	category/binary_search/2343.cpp	/^int	high, low, mid;$/;"	v
+low	category/binary_search/2512.cpp	/^int	Max, temp, low, high, center, ans, sum;$/;"	v
+low	category/binary_search/2805.cpp	/^int	low, high, center, ans;$/;"	v
+low	category/binary_search/6236.cpp	/^int	low, high, mid;$/;"	v
+lower	dog/03/1919.cpp	/^int lower[26];$/;"	v
+lower_bound	BOJ/lv2/10816.cpp	/^int lower_bound(int arr[], int size, int key) \/\/찾고자 하는 값(이상)$/;"	f
+m	BOJ/lv4/11779.cpp	/^int n, m; $/;"	v
+m	BOJ/lv4/14936.cpp	/^int n, m, r, t ;$/;"	v
+m	BOJ/lv4/2407.cpp	/^int n, m;$/;"	v
+m	BOJ/lv5/2143.cpp	/^int n, m;$/;"	v
+m	BOJ_EASY/b4/5928.cpp	/^int d, h, m;$/;"	v
+m	category/recursive/14956.cpp	/^ll n, m;$/;"	v
+m	dog/09/1926/1926.cpp	/^int	n, m;$/;"	v
+main	1271.cpp	/^int main(void)$/;"	f
+main	BOJ/lv1/1001.cpp	/^int main()$/;"	f
+main	BOJ/lv1/1008.cpp	/^int main()$/;"	f
+main	BOJ/lv1/10172.cpp	/^int main()$/;"	f
+main	BOJ/lv1/10809.cpp	/^int main()$/;"	f
+main	BOJ/lv1/10818.cpp	/^int main()$/;"	f
+main	BOJ/lv1/10950.cpp	/^int main()$/;"	f
+main	BOJ/lv1/10951.cpp	/^int main()$/;"	f
+main	BOJ/lv1/10952.cpp	/^int main()$/;"	f
+main	BOJ/lv1/10998.cpp	/^int main()$/;"	f
+main	BOJ/lv1/1152.cpp	/^int main()$/;"	f
+main	BOJ/lv1/1157.cpp	/^int main()$/;"	f
+main	BOJ/lv1/11654.cpp	/^int main()$/;"	f
+main	BOJ/lv1/11720.cpp	/^int main()$/;"	f
+main	BOJ/lv1/1330.cpp	/^int main()$/;"	f
+main	BOJ/lv1/1546.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2108.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2475.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2675.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2739.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2741.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2742.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2884.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2908.cpp	/^int main()$/;"	f
+main	BOJ/lv1/2920.cpp	/^int main()$/;"	f
+main	BOJ/lv1/3052.cpp	/^int main()$/;"	f
+main	BOJ/lv1/8958.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1003.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1012.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1018.cpp	/^int main()$/;"	f
+main	BOJ/lv2/10250.cpp	/^int main()$/;"	f
+main	BOJ/lv2/10814.cpp	/^int main()$/;"	f
+main	BOJ/lv2/10816.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1085.cpp	/^int main()$/;"	f
+main	BOJ/lv2/10989.cpp	/^int main()$/;"	f
+main	BOJ/lv2/11050.cpp	/^int main()$/;"	f
+main	BOJ/lv2/11650.cpp	/^int main()$/;"	f
+main	BOJ/lv2/11651.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1181.cpp	/^int main()$/;"	f
+main	BOJ/lv2/11866.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1259.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1436.cpp	/^int main()$/;"	f
+main	BOJ/lv2/15829.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1654.cpp	/^int main()$/;"	f
+main	BOJ/lv2/18111.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1920.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1929.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1966.cpp	/^int main()$/;"	f
+main	BOJ/lv2/1978.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2108.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2231.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2292.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2609.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2751.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2775.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2798.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2805.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2839.cpp	/^int main()$/;"	f
+main	BOJ/lv2/2869.cpp	/^int main()$/;"	f
+main	BOJ/lv2/4153.cpp	/^int main()$/;"	f
+main	BOJ/lv2/7568.cpp	/^int main()$/;"	f
+main	BOJ/lv3/10026.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11047.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1107.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11279.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11286.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11399.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11403.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11659.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11723.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11724.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11726.cpp	/^int main()$/;"	f
+main	BOJ/lv3/11727.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1260.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1389.cpp	/^int main()$/;"	f
+main	BOJ/lv3/14500.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1463.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1541.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1620.cpp	/^int main()$/;"	f
+main	BOJ/lv3/16236.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1676.cpp	/^int main()$/;"	f
+main	BOJ/lv3/16928.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1697.cpp	/^int main()$/;"	f
+main	BOJ/lv3/17219.cpp	/^int main()$/;"	f
+main	BOJ/lv3/17626.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1764.cpp	/^int main()$/;"	f
+main	BOJ/lv3/18870.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1927.cpp	/^int main()$/;"	f
+main	BOJ/lv3/1931.cpp	/^int main() $/;"	f
+main	BOJ/lv3/2579.cpp	/^int main()$/;"	f
+main	BOJ/lv3/2606.cpp	/^int main()$/;"	f
+main	BOJ/lv3/2667.cpp	/^int main()$/;"	f
+main	BOJ/lv3/5525.cpp	/^int main()$/;"	f
+main	BOJ/lv3/6064.cpp	/^int main()$/;"	f
+main	BOJ/lv3/7662.cpp	/^int main(){$/;"	f
+main	BOJ/lv3/9019.cpp	/^int main()$/;"	f
+main	BOJ/lv3/9095.cpp	/^int main()$/;"	f
+main	BOJ/lv3/9375.cpp	/^int main()$/;"	f
+main	BOJ/lv3/9461.cpp	/^int main()$/;"	f
+main	BOJ/lv4/1043.cpp	/^int main()$/;"	f
+main	BOJ/lv4/10830.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/11053.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/11054.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/11404.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/11444.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1149.cpp	/^int main()$/;"	f
+main	BOJ/lv4/11660.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1167.cpp	/^int main(void) $/;"	f
+main	BOJ/lv4/11725.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/11779.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1238.cpp	/^int main()$/;"	f
+main	BOJ/lv4/12851.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/12865.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/13172.cpp	/^int main()$/;"	f
+main	BOJ/lv4/13549.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/14502.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/14936.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1504.cpp	/^int main()$/;"	f
+main	BOJ/lv4/15650.cpp	/^int main(void) $/;"	f
+main	BOJ/lv4/15652.cpp	/^int main(void) $/;"	f
+main	BOJ/lv4/15654.cpp	/^int main() $/;"	f
+main	BOJ/lv4/15657.cpp	/^int main() $/;"	f
+main	BOJ/lv4/15663.cpp	/^int main() $/;"	f
+main	BOJ/lv4/15666.cpp	/^int main() $/;"	f
+main	BOJ/lv4/15686.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/16953.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/17070.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/17144.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1753.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1865.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1916.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1918.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1932.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/1967.cpp	/^int main() $/;"	f
+main	BOJ/lv4/1991.cpp	/^int main()$/;"	f
+main	BOJ/lv4/2096.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/2206.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/2263.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/2407.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/2638.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/5639.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/9251.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/9465.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/9663.cpp	/^int main(void)$/;"	f
+main	BOJ/lv4/9935.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/1005.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/1007.cpp	/^int main()$/;"	f
+main	BOJ/lv5/10775.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/10942.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/11049.cpp	/^int main()$/;"	f
+main	BOJ/lv5/1197.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/12015.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/12100.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/1644.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/1647.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/16724.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/17404.cpp	/^int main()$/;"	f
+main	BOJ/lv5/1766.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/1806.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/1987.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/20040.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/2143.cpp	/^int main()$/;"	f
+main	BOJ/lv5/2166.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/2239.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/2252.cpp	/^int main(void) $/;"	f
+main	BOJ/lv5/2342.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/2467.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/2473.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/2623.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/4386.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/7579.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/9252.cpp	/^int main(void)$/;"	f
+main	BOJ/lv5/9466.cpp	/^int main() $/;"	f
+main	BOJ/lv5/9527.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b3/11021.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/1264.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/2420.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/2525.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/2530.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/2588.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/4299.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/5532.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/5575.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/5928.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/6764.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/6778.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/6810.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b4/7891.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/10170.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/10430.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/10699.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/11283.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/11382.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/11718.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/11942.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/1297.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/14645.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/14681.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/15439.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/15727.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/15733.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/15894.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/15962.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/15964.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/16170.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/16394.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/1712.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/17256.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/17295.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/17496.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/18096.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/18108.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/18301.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/20254.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/20492.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/21300.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/22193.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/23037.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/24078.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/24082.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/24086.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/24736.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/24900.cpp	/^int main() $/;"	f
+main	BOJ_EASY/b5/25083.cpp	/^int	main(void)$/;"	f
+main	BOJ_EASY/b5/2743.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/2744.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/2754.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/3046.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/5337.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/5338.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/5339.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/5522.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/5543.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/5554.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/5597.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/6763.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/7287.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/8370.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/8437.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/8871.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/9086.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/9653.cpp	/^int main(void)$/;"	f
+main	BOJ_EASY/b5/9654.cpp	/^int main(void)$/;"	f
+main	category/binary_search/1300.cpp	/^int main(void)$/;"	f
+main	category/binary_search/1654.cpp	/^int main(void)$/;"	f
+main	category/binary_search/2110.cpp	/^int main(void)$/;"	f
+main	category/binary_search/2343.cpp	/^int main(void)$/;"	f
+main	category/binary_search/2512.cpp	/^int main(void)$/;"	f
+main	category/binary_search/2805.cpp	/^int main()$/;"	f
+main	category/binary_search/6236.cpp	/^int main(void)$/;"	f
+main	category/recursive/1074.cpp	/^int main(void)$/;"	f
+main	category/recursive/10870.cpp	/^int main(void)$/;"	f
+main	category/recursive/10872.cpp	/^int main(void)$/;"	f
+main	category/recursive/11729.cpp	/^int main(void)$/;"	f
+main	category/recursive/14956.cpp	/^int main(void)$/;"	f
+main	category/recursive/1629.cpp	/^int main(void)$/;"	f
+main	category/recursive/17478.cpp	/^int main(void)$/;"	f
+main	category/recursive/1780.cpp	/^int main(void)$/;"	f
+main	category/recursive/1992.cpp	/^int main(void)$/;"	f
+main	category/recursive/2447.cpp	/^int main(void)$/;"	f
+main	category/recursive/2448.cpp	/^int main(void)$/;"	f
+main	category/recursive/2609.cpp	/^int main()$/;"	f
+main	category/recursive/2630.cpp	/^int main(void)$/;"	f
+main	dog/01/test.cpp	/^int main()$/;"	f
+main	dog/01/test2.cpp	/^int main()$/;"	f
+main	dog/01/test3.cpp	/^int main()$/;"	f
+main	dog/01/test4.cpp	/^int main()$/;"	f
+main	dog/02/1000.cpp	/^int main()$/;"	f
+main	dog/02/10093_good.cpp	/^int main()$/;"	f
+main	dog/02/10171.cpp	/^int main()$/;"	f
+main	dog/02/10804_good.cpp	/^int main()$/;"	f
+main	dog/02/10869.cpp	/^int main()$/;"	f
+main	dog/02/10871.cpp	/^int     main(void)$/;"	f
+main	dog/02/1267.cpp	/^int main()$/;"	f
+main	dog/02/15552.cpp	/^int main()$/;"	f
+main	dog/02/2309_good.cpp	/^int main(void)$/;"	f
+main	dog/02/2438.cpp	/^int main()$/;"	f
+main	dog/02/2439.cpp	/^int main()$/;"	f
+main	dog/02/2440.cpp	/^int main()$/;"	f
+main	dog/02/2441.cpp	/^int main()$/;"	f
+main	dog/02/2442.cpp	/^int main()$/;"	f
+main	dog/02/2443.cpp	/^int main()$/;"	f
+main	dog/02/2444.cpp	/^int main()$/;"	f
+main	dog/02/2445.cpp	/^int main()$/;"	f
+main	dog/02/2446.cpp	/^int main()$/;"	f
+main	dog/02/2480_good.cpp	/^int main()$/;"	f
+main	dog/02/2490_good.cpp	/^int main()$/;"	f
+main	dog/02/2557.cpp	/^int main()$/;"	f
+main	dog/02/2562.cpp	/^int main()$/;"	f
+main	dog/02/2576_good.cpp	/^int main()$/;"	f
+main	dog/02/2587.cpp	/^int main()$/;"	f
+main	dog/02/2752_good.cpp	/^int main()$/;"	f
+main	dog/02/2753.cpp	/^int main()$/;"	f
+main	dog/02/9498.cpp	/^int main()$/;"	f
+main	dog/02/test.cpp	/^int	main(void)$/;"	f
+main	dog/02/test1.cpp	/^int	main(void)$/;"	f
+main	dog/02/test2.cpp	/^int	main(void)$/;"	f
+main	dog/02/test3.cpp	/^int	main(void)$/;"	f
+main	dog/02/test4.cpp	/^int main(void)$/;"	f
+main	dog/02/test5.cpp	/^int main(void)$/;"	f
+main	dog/02/test6.cpp	/^int main(void)$/;"	f
+main	dog/02/test7.cpp	/^int	main(void)$/;"	f
+main	dog/03/10807.cpp	/^int main()$/;"	f
+main	dog/03/10808.cpp	/^int main()$/;"	f
+main	dog/03/11328.cpp	/^int main()$/;"	f
+main	dog/03/13300.cpp	/^int main(void)$/;"	f
+main	dog/03/1475.cpp	/^int main(void)$/;"	f
+main	dog/03/1919.cpp	/^int main()$/;"	f
+main	dog/03/2577.cpp	/^int main()$/;"	f
+main	dog/03/3273_good.cpp	/^int main(void)$/;"	f
+main	dog/03/test2.cpp	/^int main(void)$/;"	f
+main	dog/03/test3.cpp	/^int main(void)$/;"	f
+main	dog/03/test4.cpp	/^int main()$/;"	f
+main	dog/04/test3.cpp	/^int main(void) {$/;"	f
+main	dog/04/test4.cpp	/^int main(void)$/;"	f
+main	dog/09/1926/1926.cpp	/^int main(void)$/;"	f
+main	dog/11/1000.cpp	/^int main()$/;"	f
+main	dog/11/1074.cpp	/^int main()$/;"	f
+main	dog/11/11729.cpp	/^int main()$/;"	f
+main	dog/11/14956.cpp	/^int main()$/;"	f
+main	dog/11/1629.cpp	/^int main()$/;"	f
+main	dog/11/17478.cpp	/^int main()$/;"	f
+main	dog/11/1780.cpp	/^int main()$/;"	f
+main	dog/11/1992.cpp	/^int main()$/;"	f
+main	dog/11/2447.cpp	/^int main()$/;"	f
+main	dog/11/2448.cpp	/^int main()$/;"	f
+main	dog/11/2630.cpp	/^int main()$/;"	f
+main	fire/ch01/BSWorstOpcount.c	/^int main(void)$/;"	f
+main	fire/ch01/BinarySearch.c	/^int main(void)$/;"	f
+main	fire/ch01/LinearSearch.c	/^int main(void)$/;"	f
+main	fire/ch02/FibonacciFunc.c	/^int main()$/;"	f
+main	fire/ch02/FibonacciFunc.c	/^int main(void)$/;"	f
+main	fire/ch02/HanoiTowerSolu.c	/^int main(void)$/;"	f
+main	fire/ch02/RecursiveBSearch.c	/^int main(void)$/;"	f
+main	fire/ch02/RecursiveFactorial.c	/^int main(void)$/;"	f
+main	fire/ch02/RecursiveFunc.c	/^int main()$/;"	f
+main	fire/ch02/test.cpp	/^int main()$/;"	f
+main	fire/ch03/ListMain.c	/^int main(void)$/;"	f
+main	fire/ch03/ListUseMain.c	/^int main(void)$/;"	f
+main	fire/ch03/NameCardList.c	/^int main(void)$/;"	f
+main	fire/ch03/PointListMain.c	/^int main(void)$/;"	f
+main	fire/ch04/ArrayRead.c	/^int main(void)$/;"	f
+main	fire/ch04/DLinkedListMain.c	/^int main(void)$/;"	f
+main	fire/ch04/DLinkedListSortMain.c	/^int main(void)$/;"	f
+main	fire/ch04/DLinkedRead.c	/^int main(void)$/;"	f
+main	fire/ch04/LinkedRead.c	/^int main(void)$/;"	f
+main	fire/ch04/PointListMain.c	/^int main(void)$/;"	f
+main	fire/ch04/PointListSortMain.c	/^int main(void)$/;"	f
+main	fire/ch05/5-1/NightDutyMain.c	/^int main(void)$/;"	f
+main	fire/ch05/5-2/DBDLinkedListMain.c	/^int main(void)$/;"	f
+main	fire/ch05/CLinkedListMain.c	/^int main(void)$/;"	f
+main	fire/ch06/6-1/CLLBaseStackMain.c	/^int main(void)$/;"	f
+main	fire/ch06/ArrayBaseStackMain.c	/^int main(void)$/;"	f
+main	fire/ch06/ListBaseStackMain.c	/^int main(void)$/;"	f
+main	fire/ch06/calc1/InfixToPostfixMain.c	/^int main(void) {$/;"	f
+main	fire/ch06/calc2/PostCalculatorMain.c	/^int main(void) {$/;"	f
+main	fire/ch06/calc3/InfixCalculatorMain.c	/^int main(void) {$/;"	f
+main	fire/ch07/7-1/DequeBaseQueueMain.c	/^int main(void)$/;"	f
+main	fire/ch07/CircularQueueMain.c	/^int main(void)$/;"	f
+main	fire/ch07/ListBaseQueueMain.c	/^int main(void)$/;"	f
+main	fire/ch07/deck/DequeMain.c	/^int main(void)$/;"	f
+main	fire/ch07/simul/HamburgerSim.c	/^int main(void)$/;"	f
+main	fire/ch08/8-1/BinaryTreeDeleteMain.c	/^int main(void)$/;"	f
+main	fire/ch08/8-2/ExpressionMain.c	/^int main(void) $/;"	f
+main	fire/ch08/BinaryTree2/BinaryTreeMain2.c	/^int main(void)$/;"	f
+main	fire/ch08/BinaryTreeMain.c	/^int main(void)$/;"	f
+main	fire/ch08/BinaryTreeTraverseMain.c	/^int main(void)$/;"	f
+main	fire/ch08/ExpressionTree/ExpressionMain.c	/^int main(void) $/;"	f
+main	fire/ch09/9-1/PriorityQueueMain.c	/^int main(void) {$/;"	f
+main	fire/ch09/PQ/PriorityQueueMain.c	/^int main(void) {$/;"	f
+main	fire/ch09/SimpleHeapMain.c	/^int main(void) {$/;"	f
+main	fire/ch09/UsefulHeap/PriorityQueueMain.c	/^int main(void) {$/;"	f
+main	fire/ch10/10-1/medianOfThree.c	/^int main(void) {$/;"	f
+main	fire/ch10/BubbleSort.c	/^int main(void) $/;"	f
+main	fire/ch10/HeapSort/HeapSort.c	/^int main(void) {$/;"	f
+main	fire/ch10/InsertionSort.c	/^int main(void) $/;"	f
+main	fire/ch10/MergeSort.c	/^int main(void) {$/;"	f
+main	fire/ch10/QuickSort.c	/^int main(void) {$/;"	f
+main	fire/ch10/RadixSort/RadixSort.c	/^int main(void) {$/;"	f
+main	fire/ch10/SelectionSort.c	/^int main(void) $/;"	f
+main	fire/ch11/InterpoleSearch.c	/^int main(void) {$/;"	f
+main	fire/ch12/AVLTreeMain.c	/^int main(void)$/;"	f
+make_board	BOJ/lv4/14502.cpp	/^void make_board(void)$/;"	f
+make_dp	BOJ/lv4/2407.cpp	/^void make_dp(void)$/;"	f
+make_dp	BOJ/lv4/9465.cpp	/^void make_dp(void)$/;"	f
+make_one	BOJ/lv3/1463.cpp	/^int make_one(int n)$/;"	f
+make_wall	BOJ/lv4/14502.cpp	/^void make_wall(int index, int cnt)$/;"	f
+matrix	BOJ/lv4/11444.cpp	/^typedef vector<vector<long long>> matrix;$/;"	t	file:
+max	1271.cpp	/^char *max(char *a, char *b)$/;"	f
+max_cost	BOJ/lv5/1647.cpp	/^int max_cost;$/;"	v
+max_dist	BOJ/lv4/1967.cpp	/^int N, max_node, max_dist;$/;"	v
+max_dp	BOJ/lv4/2096.cpp	/^int max_dp[3];$/;"	v
+max_item	BOJ/lv4/14936.cpp	/^int max_item;$/;"	v
+max_node	BOJ/lv4/1967.cpp	/^int N, max_node, max_dist;$/;"	v
+melt_cheese	BOJ/lv4/2638.cpp	/^void melt_cheese()$/;"	f
+memo	BOJ/lv2/1003.cpp	/^long long memo[40] = {0, 1, };$/;"	v
+memo	category/recursive/10870.cpp	/^ll memo[MAX];$/;"	v
+memo	fire/ch02/FibonacciFunc.c	/^int memo[100000];$/;"	v
+merge_air	BOJ/lv4/2638.cpp	/^void merge_air()$/;"	f
+mid	category/binary_search/1300.cpp	/^long long	low, high, mid;$/;"	v
+mid	category/binary_search/1654.cpp	/^long long low, high, mid;$/;"	v
+mid	category/binary_search/2110.cpp	/^long long	low, high, mid;$/;"	v
+mid	category/binary_search/2343.cpp	/^int	high, low, mid;$/;"	v
+mid	category/binary_search/6236.cpp	/^int	low, high, mid;$/;"	v
+min_dist	BOJ/lv3/16236.cpp	/^int min_dist, min_x, min_y, result;$/;"	v
+min_dp	BOJ/lv4/2096.cpp	/^int min_dp[3];$/;"	v
+min_second	BOJ/lv4/12851.cpp	/^int min_second;$/;"	v
+min_x	BOJ/lv3/16236.cpp	/^int min_dist, min_x, min_y, result;$/;"	v
+min_y	BOJ/lv3/16236.cpp	/^int min_dist, min_x, min_y, result;$/;"	v
+mod	BOJ/lv4/11444.cpp	/^long long mod = 1000000007;$/;"	v
+mode	BOJ/lv1/2108.cpp	/^int mode[8001];$/;"	v
+mode	BOJ/lv2/2108.cpp	/^int mode[8001];$/;"	v
+money	category/binary_search/6236.cpp	/^int	money;$/;"	v
+move	BOJ/lv5/12100.cpp	/^void move()$/;"	f
+move	BOJ/lv5/2342.cpp	/^int move(int from, int to)$/;"	f
+move_down	BOJ/lv5/12100.cpp	/^void move_down()$/;"	f
+move_dust	BOJ/lv4/17144.cpp	/^void move_dust()$/;"	f
+move_left	BOJ/lv5/12100.cpp	/^void move_left()$/;"	f
+move_right	BOJ/lv5/12100.cpp	/^void move_right()$/;"	f
+move_up	BOJ/lv5/12100.cpp	/^void move_up()$/;"	f
+mst	BOJ/lv5/1197.cpp	/^int mst;$/;"	v
+mst	BOJ/lv5/1647.cpp	/^int mst;$/;"	v
+multiply_matrix	BOJ/lv4/10830.cpp	/^void	multiply_matrix(long long a[5][5], long long b[5][5])$/;"	f
+n	BOJ/lv4/11444.cpp	/^long long n;$/;"	v
+n	BOJ/lv4/11779.cpp	/^int n, m; $/;"	v
+n	BOJ/lv4/14936.cpp	/^int n, m, r, t ;$/;"	v
+n	BOJ/lv4/2407.cpp	/^int n, m;$/;"	v
+n	BOJ/lv4/9465.cpp	/^int T, n;$/;"	v
+n	BOJ/lv5/2143.cpp	/^int n, m;$/;"	v
+n	BOJ/lv5/9466.cpp	/^int n, team_cnt;$/;"	v
+n	BOJ_EASY/b5/15894.cpp	/^long long	n;$/;"	v
+n	category/recursive/10870.cpp	/^ll n;$/;"	v
+n	category/recursive/14956.cpp	/^ll n, m;$/;"	v
+n	dog/09/1926/1926.cpp	/^int	n, m;$/;"	v
+n1	BOJ_EASY/b5/18301.cpp	/^ll n1, n2, n3;$/;"	v
+n1	BOJ_EASY/b5/8370.cpp	/^int n1, k1, n2, k2;$/;"	v
+n2	BOJ_EASY/b5/18301.cpp	/^ll n1, n2, n3;$/;"	v
+n2	BOJ_EASY/b5/8370.cpp	/^int n1, k1, n2, k2;$/;"	v
+n3	BOJ_EASY/b5/18301.cpp	/^ll n1, n2, n3;$/;"	v
+name	BOJ/lv2/10814.cpp	/^	string name;$/;"	m	struct:__anon1	file:
+name	fire/ch03/NameCard.h	/^	char name[NAME_LEN];$/;"	m	struct:__namecard
+name	fire/ch05/5-1/Employee.h	/^	char name[30];    \/\/ 이름$/;"	m	struct:_Employee
+next	dog/04/test.cpp	/^	struct NODE *prev, *next;$/;"	m	struct:NODE	typeref:struct:NODE::	file:
+next	fire/ch04/DLinkedList.h	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch04/DLinkedList2.h	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch04/DLinkedRead.c	/^    struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	fire/ch04/LinkedRead.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	fire/ch05/5-1/CLinkedList.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch05/5-2/DBDLinkedList.h	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch05/CLinkedList.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch06/6-1/CLinkedList.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch06/ListBaseStack.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch06/calc1/ListBaseStack.h	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch06/calc2/ListBaseStack.h	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch06/calc3/ListBaseStack.h	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch07/7-1/Deque.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch07/ListBaseQueue.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch07/deck/Deque.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch08/8-2/ListBaseStack.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch08/ExpressionTree/ListBaseStack.h	/^	struct _node * next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next	fire/ch10/RadixSort/ListBaseQueue.h	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node
+next_pos_idx	dog/09/1926/1926.cpp	/^int next_pos_idx(int pos)$/;"	f
+no	BOJ/lv3/10026.cpp	/^int no;$/;"	v
+no_cheese	BOJ/lv4/2638.cpp	/^int	no_cheese()$/;"	f
+node	BOJ/lv4/5639.cpp	/^int	node[1000001][2];$/;"	v
+num	BOJ/lv2/10814.cpp	/^	int num;$/;"	m	struct:__anon1	file:
+num1	BOJ/lv1/2908.cpp	/^char num1[4];$/;"	v
+num2	BOJ/lv1/2908.cpp	/^char num2[4];$/;"	v
+numOfData	fire/ch03/ArrayList.h	/^	int numOfData;$/;"	m	struct:__ArrayList
+numOfData	fire/ch03/ArrayList2.h	/^	int numOfData;$/;"	m	struct:Array_List
+numOfData	fire/ch03/ArrayList3.h	/^	int numOfData;$/;"	m	struct:__ArrayList
+numOfData	fire/ch04/DLinkedList.h	/^	int numOfData;$/;"	m	struct:_linkedList
+numOfData	fire/ch04/DLinkedList2.h	/^	int numOfData;$/;"	m	struct:_linkedList
+numOfData	fire/ch05/5-1/CLinkedList.h	/^	int numOfData;$/;"	m	struct:_CLL
+numOfData	fire/ch05/5-2/DBDLinkedList.h	/^	int numOfData;$/;"	m	struct:_dbDLinkedList
+numOfData	fire/ch05/CLinkedList.h	/^	int numOfData;$/;"	m	struct:_CLL
+numOfData	fire/ch06/6-1/CLinkedList.h	/^	int numOfData;$/;"	m	struct:_CLL
+numOfData	fire/ch09/9-1/UsefulHeap.h	/^	int numOfData;$/;"	m	struct:_heap
+numOfData	fire/ch09/PQ/UsefulHeap.h	/^	int numOfData;$/;"	m	struct:_heap
+numOfData	fire/ch09/SimpleHeap.h	/^	int numOfData;$/;"	m	struct:_heap
+numOfData	fire/ch09/UsefulHeap/UsefulHeap.h	/^	int numOfData;$/;"	m	struct:_heap
+numOfData	fire/ch10/HeapSort/UsefulHeap.h	/^	int numOfData;$/;"	m	struct:_heap
+number	BOJ_EASY/b5/23037.cpp	/^int	number;$/;"	v
+number	dog/03/10808.cpp	/^char number[27];$/;"	v
+number	dog/03/1475.cpp	/^int number[10];$/;"	v
+number	dog/03/2577.cpp	/^int number[10];$/;"	v
+nxt	BOJ/lv2/11866.cpp	/^int nxt[1001];$/;"	v
+nxt	dog/04/test1.cpp	/^int dat[MX], pre[MX], nxt[MX];$/;"	v
+nxt	dog/04/test3.cpp	/^int dat[MX], pre[MX], nxt[MX];$/;"	v
+operator *	BOJ/lv4/11444.cpp	/^matrix operator *(matrix &a, matrix &b)$/;"	f
+oxa	BOJ/lv1/8958.cpp	/^char oxa[81];$/;"	v
+p	BOJ/lv3/11399.cpp	/^int p[1001];$/;"	v
+p	BOJ/lv3/9461.cpp	/^int p[101];$/;"	v
+parent	BOJ/lv4/1043.cpp	/^int parent[51];$/;"	v
+parent	BOJ/lv4/11725.cpp	/^int parent[MAX];$/;"	v
+parent	BOJ/lv5/1197.cpp	/^int parent[MAX];$/;"	v
+parent	BOJ/lv5/1647.cpp	/^int parent[MAX];$/;"	v
+party	BOJ/lv4/1043.cpp	/^int party[51][51];$/;"	v
+peek	dog/09/1926/1926.cpp	/^t_point peek(t_queue *pq)$/;"	f
+pel	BOJ/lv5/10942.cpp	/^int pel[MAX];$/;"	v
+person	dog/03/13300.cpp	/^int person[2][6];$/;"	v
+phone	fire/ch03/NameCard.h	/^	char phone[PHONE_LEN];$/;"	m	struct:__namecard
+picture_number	dog/09/1926/1926.cpp	/^int	picture_size, picture_number;$/;"	v
+picture_size	dog/09/1926/1926.cpp	/^int	picture_size, picture_number;$/;"	v
+plist	fire/ch06/6-1/CLLBaseStack.h	/^	List * plist;$/;"	m	struct:_listStack
+point	dog/09/1926/1926.cpp	/^	t_point point[MAX_LEN];$/;"	m	struct:s_queue	file:
+pos	BOJ/lv4/2263.cpp	/^int pos[100001];$/;"	v
+pos	BOJ_EASY/b5/11283.cpp	/^int	base, pos, ans;$/;"	v
+post_order	BOJ/lv4/2263.cpp	/^int post_order[100001];$/;"	v
+post_order	BOJ/lv4/5639.cpp	/^void post_order(int root)$/;"	f
+postorder	BOJ/lv4/1991.cpp	/^void	postorder(char root)$/;"	f
+pow	category/recursive/1629.cpp	/^ll pow(ll a, ll b, ll mod)$/;"	f
+pr	fire/ch09/SimpleHeap.h	/^	Priority pr;$/;"	m	struct:_heapElem
+pre	BOJ/lv2/11866.cpp	/^int pre[1001];$/;"	v
+pre	dog/04/test1.cpp	/^int dat[MX], pre[MX], nxt[MX];$/;"	v
+pre	dog/04/test3.cpp	/^int dat[MX], pre[MX], nxt[MX];$/;"	v
+pre_order	BOJ/lv4/5639.cpp	/^void pre_order(int cur, int root)$/;"	f
+preorder	BOJ/lv4/1991.cpp	/^void	preorder(char root)$/;"	f
+prev	dog/04/test.cpp	/^	struct NODE *prev, *next;$/;"	m	struct:NODE	typeref:struct:NODE::NODE	file:
+prev	fire/ch05/5-2/DBDLinkedList.h	/^	struct _node *prev;$/;"	m	struct:_node	typeref:struct:_node::_node
+prev	fire/ch07/7-1/Deque.h	/^	struct _node * prev;$/;"	m	struct:_node	typeref:struct:_node::_node
+prev	fire/ch07/deck/Deque.h	/^	struct _node * prev;$/;"	m	struct:_node	typeref:struct:_node::_node
+print	BOJ/lv4/15652.cpp	/^void print() $/;"	f
+print	BOJ/lv4/15654.cpp	/^void print() $/;"	f
+print	BOJ/lv4/15657.cpp	/^void print() $/;"	f
+print	BOJ/lv4/15663.cpp	/^void print() $/;"	f
+print	BOJ/lv4/15666.cpp	/^void print() $/;"	f
+print_arr	BOJ/lv4/15650.cpp	/^void print_arr() $/;"	f
+print_space	category/recursive/17478.cpp	/^void	print_space(ll N, ll space)$/;"	f
+print_star	category/recursive/2448.cpp	/^void	print_star(int row, int col)$/;"	f
+q	BOJ/lv3/1260.cpp	/^queue<int> q;$/;"	v
+q	BOJ/lv3/2606.cpp	/^queue<int> q;$/;"	v
+q	BOJ/lv4/17070.cpp	/^queue<pair<pair<int, int>, int>> q;$/;"	v
+q	dog/11/1000.cpp	/^int q[4][4][2] = {  {{-1,-1},{-1,1},{1,1},{1,-1}},$/;"	v
+q	dog/11/14956.cpp	/^int q[4][4][2] = {  {{-1,-1},{-1,1},{1,1},{1,-1}},$/;"	v
+q_empty	BOJ/lv4/14502.cpp	/^vector<pair<int, int>> q_empty, q_virus; $/;"	v
+q_is_empty	dog/09/1926/1926.cpp	/^int q_is_empty(t_queue *pq)$/;"	f
+q_virus	BOJ/lv4/14502.cpp	/^vector<pair<int, int>> q_empty, q_virus; $/;"	v
+queArr	fire/ch07/CircularQueue.h	/^	Data queArr[QUE_LEN];$/;"	m	struct:_cQueue
+queArr	fire/ch07/simul/CircularQueue.h	/^	Data queArr[QUE_LEN];$/;"	m	struct:_cQueue
+queen_located	BOJ/lv4/9663.cpp	/^	int		queen_located[15];$/;"	m	struct:s_chess	file:
+queue_init	dog/09/1926/1926.cpp	/^void queue_init(t_queue *pq)$/;"	f
+r	BOJ/lv4/14936.cpp	/^int n, m, r, t ;$/;"	v
+r	dog/11/1000.cpp	/^int r[4][2] = {{3,1},{2,0},{1,3},{0,2}};$/;"	v
+r	dog/11/14956.cpp	/^int r[4][2] = {{3,1},{2,0},{1,3},{0,2}};$/;"	v
+r	fire/ch02/FibonacciFunc.c	/^int r[10000];$/;"	v
+r	fire/ch02/test.cpp	/^int r[1000000];$/;"	v
+rear	dog/09/1926/1926.cpp	/^	int rear;$/;"	m	struct:s_queue	file:
+rear	fire/ch07/CircularQueue.h	/^	int rear;$/;"	m	struct:_cQueue
+rear	fire/ch07/ListBaseQueue.h	/^	Node * rear;$/;"	m	struct:_lQueue
+rear	fire/ch07/simul/CircularQueue.h	/^	int rear;$/;"	m	struct:_cQueue
+rear	fire/ch10/RadixSort/ListBaseQueue.h	/^	Node *rear;$/;"	m	struct:_lQueue
+recur	category/recursive/1074.cpp	/^ll recur(ll N, ll r, ll c)$/;"	f
+recur	category/recursive/10870.cpp	/^ll recur(ll index)$/;"	f
+recur	category/recursive/10872.cpp	/^ll recur(ll N)$/;"	f
+recur	category/recursive/14956.cpp	/^pair<ll, ll> recur(ll n, ll m)$/;"	f
+recur	category/recursive/17478.cpp	/^void recur(ll N)$/;"	f
+recur	category/recursive/1780.cpp	/^void	recur(ll row, ll col, ll N)$/;"	f
+recur	category/recursive/1992.cpp	/^void	recur(ll row, ll col, ll N)$/;"	f
+recur	category/recursive/2447.cpp	/^void recur(int row, int col, int N)$/;"	f
+recur	category/recursive/2448.cpp	/^void	recur(int row, int col, int high)$/;"	f
+recur	category/recursive/2630.cpp	/^void	recur(ll row, ll col, ll N)$/;"	f
+recur	dog/11/1000.cpp	/^void recur(int n, int m, int rotate, int x, int y)$/;"	f
+recur	dog/11/1074.cpp	/^int recur(int n, int r, int c)$/;"	f
+recur	dog/11/14956.cpp	/^void recur(int n, int m, int rotate, int x, int y)$/;"	f
+recur	dog/11/17478.cpp	/^void recur(int N)$/;"	f
+recur	dog/11/1992.cpp	/^void recur(int a, int b, int n)$/;"	f
+recur	dog/11/2447.cpp	/^void recur(int i, int j, int n)$/;"	f
+recur	dog/11/2448.cpp	/^void recur(int x, int y, int h)$/;"	f
+recur	dog/11/2630.cpp	/^void recur(int x, int y, int n)$/;"	f
+recursive	fire/ch02/RecursiveFunc.c	/^void recursive(int n)$/;"	f
+region	category/binary_search/2512.cpp	/^int region[MAX_REGION];$/;"	v
+remain_zero	BOJ/lv5/2239.cpp	/^int remain_zero(int *p_row, int *p_col)$/;"	f
+res	BOJ/lv4/1238.cpp	/^int dist[1001], res[1001];$/;"	v
+result	BOJ/lv3/1389.cpp	/^int result[101];$/;"	v
+result	BOJ/lv3/16236.cpp	/^int min_dist, min_x, min_y, result;$/;"	v
+result	BOJ/lv4/1167.cpp	/^int result; $/;"	v
+result	BOJ/lv5/1007.cpp	/^double result;$/;"	v
+result	BOJ/lv5/9252.cpp	/^string result;$/;"	v
+result	BOJ_EASY/b4/6810.cpp	/^int result;$/;"	v
+ret	BOJ/lv4/1504.cpp	/^int ret = MAX;$/;"	v
+right	BOJ/lv4/1991.cpp	/^	char right;$/;"	m	struct:s_tool	file:
+right	fire/ch08/8-1/BinaryTree2.h	/^	struct _bTreeNode * right;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+right	fire/ch08/8-2/BinaryTree2.h	/^	struct _bTreeNode * right;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+right	fire/ch08/BinaryTree.h	/^	struct _bTreeNode * right;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+right	fire/ch08/BinaryTree2/BinaryTree2.h	/^	struct _bTreeNode * right;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+right	fire/ch08/ExpressionTree/BinaryTree2.h	/^	struct _bTreeNode * right;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+right	fire/ch12/BinaryTree3.h	/^	struct _bTreeNode * right;$/;"	m	struct:_bTreeNode	typeref:struct:_bTreeNode::_bTreeNode
+route	BOJ/lv4/11779.cpp	/^int route[1001];\/\/route[1] = 2, 1번 도시로 가기위해선 최소 2번 도시에서 와야 한다.$/;"	v
+router	category/binary_search/2110.cpp	/^long long	router;$/;"	v
+row	BOJ/lv4/9663.cpp	/^	int		row[14];$/;"	m	struct:s_chess	file:
+row	BOJ/lv5/11049.cpp	/^int row, col;$/;"	v
+s1	BOJ/lv4/9251.cpp	/^char s1[1002];$/;"	v
+s1	BOJ_EASY/b5/2743.cpp	/^string s1;$/;"	v
+s1	BOJ_EASY/b5/2744.cpp	/^string s1;$/;"	v
+s1	BOJ_EASY/b5/9086.cpp	/^string s1;$/;"	v
+s1	category/recursive/1992.cpp	/^string s1;$/;"	v
+s2	BOJ/lv4/9251.cpp	/^char s2[1002];$/;"	v
+sToV1	BOJ/lv4/1504.cpp	/^int sToV1, sToV2, v1ToV2, v1ToN, v2ToN;$/;"	v
+sToV2	BOJ/lv4/1504.cpp	/^int sToV1, sToV2, v1ToV2, v1ToN, v2ToN;$/;"	v
+s_chess	BOJ/lv4/9663.cpp	/^struct s_chess {$/;"	s	file:
+s_point	dog/09/1926/1926.cpp	/^typedef struct s_point$/;"	s	file:
+s_queue	dog/09/1926/1926.cpp	/^typedef struct s_queue$/;"	s	file:
+s_tool	BOJ/lv4/1991.cpp	/^struct s_tool$/;"	s	file:
+safe_max	BOJ/lv4/14502.cpp	/^int empty_size, safe_max;$/;"	v
+safe_zone	BOJ/lv5/16724.cpp	/^int N, M, safe_zone;$/;"	v
+select_chicken	BOJ/lv4/15686.cpp	/^void select_chicken(int index, int Cnt)$/;"	f
+selected	BOJ/lv4/15686.cpp	/^int selected[13];$/;"	v
+selected	BOJ/lv5/12100.cpp	/^int selected[MAX2];$/;"	v
+set_queen_checklist	BOJ/lv4/9663.cpp	/^void	set_queen_checklist(int row, int col, int queen)$/;"	f
+shark_size	BOJ/lv3/16236.cpp	/^int eat_cnt, shark_size = 2;$/;"	v
+shark_x	BOJ/lv3/16236.cpp	/^int shark_x, shark_y; $/;"	v
+shark_y	BOJ/lv3/16236.cpp	/^int shark_x, shark_y; $/;"	v
+sign	dog/11/17478.cpp	/^void sign(int jdx)$/;"	f
+solution	dog/00/test1.cpp	/^int solution(int arr[])$/;"	f
+solution	programmers/1_1.cpp	/^int solution(int left, int right) $/;"	f
+solution2	dog/00/test1.cpp	/^int solution2(int arr[])$/;"	f
+solve	BOJ/lv4/2263.cpp	/^void	solve(int start, int end, int post_start, int post_end)$/;"	f
+space	category/recursive/17478.cpp	/^ll space;$/;"	v
+speed	BOJ_EASY/b5/6763.cpp	/^int limit, speed;$/;"	v
+spread_virus	BOJ/lv4/14502.cpp	/^void spread_virus()$/;"	f
+stackArr	fire/ch06/ArrayBaseStack.h	/^	Data stackArr[STACK_LEN];$/;"	m	struct:_arrayStack
+stair	BOJ/lv3/2579.cpp	/^int stair[301];$/;"	v
+std	fire/ch02/FibonacciFunc.c	/^using namespace std;$/;"	v
+str	BOJ_EASY/b5/11283.cpp	/^char str[25];$/;"	v
+strlen	BOJ/lv4/1918.cpp	/^int	strlen(char *str)$/;"	f
+student	BOJ/lv5/9466.cpp	/^int student[MAX];$/;"	v
+student	BOJ_EASY/b5/5597.cpp	/^int student[30];$/;"	v
+subtotal	BOJ/lv5/9527.cpp	/^long long subtotal[MAX];$/;"	v
+subtract	1271.cpp	/^void	subtract(char *a, char *b)$/;"	f
+sum	BOJ/lv3/11659.cpp	/^int sum[100001];$/;"	v
+sum	BOJ_EASY/b4/4299.cpp	/^int	sum, differ;$/;"	v
+sum	BOJ_EASY/b5/23037.cpp	/^int sum;$/;"	v
+sum	BOJ_EASY/b5/5554.cpp	/^int sum;$/;"	v
+sum	BOJ_EASY/b5/8437.cpp	/^int sum;$/;"	v
+sum	category/binary_search/2343.cpp	/^int sum;$/;"	v
+sum	category/binary_search/2512.cpp	/^int	Max, temp, low, high, center, ans, sum;$/;"	v
+t	BOJ/lv4/14936.cpp	/^int n, m, r, t ;$/;"	v
+t_point	dog/09/1926/1926.cpp	/^}	t_point;$/;"	t	typeref:struct:s_point	file:
+t_queue	dog/09/1926/1926.cpp	/^} 	t_queue;$/;"	t	typeref:struct:s_queue	file:
+tail	fire/ch05/5-1/CLinkedList.h	/^	Node * tail;$/;"	m	struct:_CLL
+tail	fire/ch05/5-2/DBDLinkedList.h	/^	Node *tail;$/;"	m	struct:_dbDLinkedList
+tail	fire/ch05/CLinkedList.h	/^	Node * tail;$/;"	m	struct:_CLL
+tail	fire/ch06/6-1/CLinkedList.h	/^	Node * tail;$/;"	m	struct:_CLL
+tail	fire/ch07/7-1/Deque.h	/^	Node * tail;$/;"	m	struct:_dlDeque
+tail	fire/ch07/deck/Deque.h	/^	Node * tail;$/;"	m	struct:_dlDeque
+team_cnt	BOJ/lv5/9466.cpp	/^int n, team_cnt;$/;"	v
+temp	BOJ/lv4/10830.cpp	/^long long temp[5][5];$/;"	v
+temp	category/binary_search/2512.cpp	/^int	Max, temp, low, high, center, ans, sum;$/;"	v
+to	BOJ/lv4/11404.cpp	/^int from, to, weight;$/;"	v
+topIndex	fire/ch06/ArrayBaseStack.h	/^	int topIndex;$/;"	m	struct:_arrayStack
+traverse	dog/04/test2.cpp	/^void traverse()$/;"	f
+traverse	dog/04/test3.cpp	/^void traverse()$/;"	f
+tree	BOJ/lv4/11725.cpp	/^vector<int> tree[MAX];$/;"	v
+tree	category/binary_search/2805.cpp	/^int tree[TREE_COUNT];$/;"	v
+trees	BOJ/lv2/2805.cpp	/^int trees[1000001];$/;"	v
+uni	BOJ/lv4/1043.cpp	/^void uni(int x, int y)$/;"	f
+union_parent	BOJ/lv5/10775.cpp	/^void union_parent(int i_x, int i_y)$/;"	f
+union_parent	BOJ/lv5/1197.cpp	/^void union_parent(int x, int y)$/;"	f
+union_parent	BOJ/lv5/1647.cpp	/^void union_parent(int x, int y)$/;"	f
+union_parent	BOJ/lv5/20040.cpp	/^void union_parent(int i_x, int i_y)$/;"	f
+union_parent	BOJ/lv5/4386.cpp	/^void union_parent(int i_x, int i_y)$/;"	f
+unused	dog/04/test1.cpp	/^int unused = 1;$/;"	v
+unused	dog/04/test3.cpp	/^int unused = 1;$/;"	v
+upper_bound	BOJ/lv2/10816.cpp	/^int upper_bound(int arr[], int size, int key) \/\/ 찾고자 하는 값(초과)$/;"	f
+v	BOJ/lv3/2667.cpp	/^vector<int> v;$/;"	v
+v	BOJ/lv4/11779.cpp	/^vector<pair<int, int>> v[1001];$/;"	v
+v	BOJ/lv4/1238.cpp	/^vector<pair<int, int>> v[1001];$/;"	v
+v	BOJ/lv4/1504.cpp	/^vector<pair<int, int>> v[801];$/;"	v
+v	BOJ/lv4/15652.cpp	/^vector<int> v;  $/;"	v
+v	BOJ/lv4/15686.cpp	/^vector<pair<int, int>> house, chicken, v;$/;"	v
+v	BOJ/lv4/1865.cpp	/^vector<pair<pair<int, int>, int>> v;$/;"	v
+v	BOJ/lv4/1916.cpp	/^vector<pair<int, int>> v[100001];$/;"	v
+v1	BOJ/lv4/1504.cpp	/^int v1, v2;$/;"	v
+v1	BOJ/lv4/1967.cpp	/^vector<pair<int, int>> v1[10001];$/;"	v
+v1ToN	BOJ/lv4/1504.cpp	/^int sToV1, sToV2, v1ToV2, v1ToN, v2ToN;$/;"	v
+v1ToV2	BOJ/lv4/1504.cpp	/^int sToV1, sToV2, v1ToV2, v1ToN, v2ToN;$/;"	v
+v2	BOJ/lv4/1504.cpp	/^int v1, v2;$/;"	v
+v2ToN	BOJ/lv4/1504.cpp	/^int sToV1, sToV2, v1ToV2, v1ToN, v2ToN;$/;"	v
+valid_digit	BOJ_EASY/b5/11283.cpp	/^int valid_digit[16] = {0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12 ,13, 16, 17, 18, 19};$/;"	v
+value	BOJ/lv4/12865.cpp	/^int value[101];$/;"	v
+vec	BOJ/lv4/1167.cpp	/^vector<pair<int, int>> vec[MAX]; $/;"	v
+vec	BOJ/lv5/1197.cpp	/^vector<pair<int, pair<int, int>>> vec;$/;"	v
+vec	BOJ/lv5/1647.cpp	/^vector<pair<int, pair<int, int>>> vec;$/;"	v
+vec_a_sum	BOJ/lv5/2143.cpp	/^vector<long long> vec_a_sum, vec_b_sum;$/;"	v
+vec_b_sum	BOJ/lv5/2143.cpp	/^vector<long long> vec_a_sum, vec_b_sum;$/;"	v
+vec_edge	BOJ/lv5/1005.cpp	/^vector<int> vec_edge[MAX];$/;"	v
+vec_edge	BOJ/lv5/1766.cpp	/^vector<int> vec_edge[MAX + 1];$/;"	v
+vec_edge	BOJ/lv5/2252.cpp	/^vector<int> vec_edge[MAX + ];$/;"	v
+vec_edge	BOJ/lv5/2623.cpp	/^vector<int> vec_edge[MAX + 1];$/;"	v
+vec_i_coord	BOJ/lv5/1007.cpp	/^vector<pair<int, int>> vec_i_coord;$/;"	v
+vec_primes	BOJ/lv5/1644.cpp	/^vector<int> vec_primes;$/;"	v
+vertex	BOJ/lv4/11404.cpp	/^int	vertex, edge;$/;"	v
+vertex	BOJ/lv5/1197.cpp	/^int vertex, edge;$/;"	v
+vertex	BOJ/lv5/1647.cpp	/^int vertex, edge;$/;"	v
+visited	BOJ/lv2/1012.cpp	/^int visited[51][51];$/;"	v
+visited	BOJ/lv3/10026.cpp	/^int visited[101][101];$/;"	v
+visited	BOJ/lv3/11724.cpp	/^int visited[1001];$/;"	v
+visited	BOJ/lv3/1260.cpp	/^int visited[1001];$/;"	v
+visited	BOJ/lv3/1389.cpp	/^int visited[101];$/;"	v
+visited	BOJ/lv3/14500.cpp	/^int board[501][501], visited[501][501];$/;"	v
+visited	BOJ/lv3/1697.cpp	/^int visited[100001];$/;"	v
+visited	BOJ/lv3/2606.cpp	/^int visited[101];$/;"	v
+visited	BOJ/lv3/2667.cpp	/^int visited[26][26];$/;"	v
+visited	BOJ/lv3/9019.cpp	/^int visited[10001];$/;"	v
+visited	BOJ/lv4/1167.cpp	/^bool visited[MAX]; $/;"	v
+visited	BOJ/lv4/11725.cpp	/^bool visited[MAX];$/;"	v
+visited	BOJ/lv4/12851.cpp	/^int visited[100001];$/;"	v
+visited	BOJ/lv4/13549.cpp	/^int visited[100001];$/;"	v
+visited	BOJ/lv4/14502.cpp	/^bool visited[8][8];$/;"	v
+visited	BOJ/lv4/15650.cpp	/^bool visited[MAX];$/;"	v
+visited	BOJ/lv4/15652.cpp	/^bool visited[MAX][MAX];$/;"	v
+visited	BOJ/lv4/15654.cpp	/^bool visited[MAX];$/;"	v
+visited	BOJ/lv4/15657.cpp	/^bool visited[MAX][MAX];$/;"	v
+visited	BOJ/lv4/15663.cpp	/^bool visited[MAX];$/;"	v
+visited	BOJ/lv4/1967.cpp	/^int visited[10001];$/;"	v
+visited	BOJ/lv4/2206.cpp	/^int visited[1001][1001][2];$/;"	v
+visited	BOJ/lv4/2638.cpp	/^int visited[101][101];$/;"	v
+visited	BOJ/lv5/1007.cpp	/^bool visited[21];$/;"	v
+visited	BOJ/lv5/12100.cpp	/^bool visited[MAX][MAX];$/;"	v
+visited	BOJ/lv5/16724.cpp	/^int visited[MAX][MAX];$/;"	v
+visited	BOJ/lv5/9466.cpp	/^bool visited[MAX];$/;"	v
+visited	dog/09/1926/1926.cpp	/^int	visited[501][501];$/;"	v
+w	BOJ_EASY/b5/8437.cpp	/^int j, w;$/;"	v
+w_cnt	dog/11/2630.cpp	/^int w_cnt;$/;"	v
+weight	BOJ/lv4/11404.cpp	/^int from, to, weight;$/;"	v
+weight	BOJ/lv4/12865.cpp	/^int weight[101];$/;"	v
+who_is_precede	fire/ch04/PointListSortMain.c	/^int who_is_precede(Point *ppos1, Point *ppos2)$/;"	f
+word	BOJ/lv1/10809.cpp	/^char word[101];$/;"	v
+x	BOJ/lv3/16236.cpp	/^    int x, y;$/;"	m	struct:info	file:
+x	dog/09/1926/1926.cpp	/^	int x;$/;"	m	struct:s_point	file:
+xpos	fire/ch03/Point.h	/^	int xpos;$/;"	m	struct:_point
+xpos	fire/ch04/Point.h	/^	int xpos;$/;"	m	struct:_point
+y	BOJ/lv3/16236.cpp	/^    int x, y;$/;"	m	struct:info	file:
+y	dog/09/1926/1926.cpp	/^	int y;$/;"	m	struct:s_point	file:
+yes	BOJ/lv3/10026.cpp	/^int yes;$/;"	v
+ypos	fire/ch03/Point.h	/^	int ypos;$/;"	m	struct:_point
+ypos	fire/ch04/Point.h	/^	int ypos;$/;"	m	struct:_point
