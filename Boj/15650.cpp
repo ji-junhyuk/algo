@@ -9,8 +9,8 @@
 using namespace std;
 
 int N, M;
-int selected[10];
-bool is_selected[10];
+bool is_selected[9];
+int	selected[9];
 
 void	bt(int depth)
 {
@@ -23,18 +23,15 @@ void	bt(int depth)
 		cout << '\n';
 		return ;
 	}
-	for (int i = 1; i <= N; ++i) 
+	int start = 1;
+	if (depth)
+		start = selected[depth - 1] + 1;
+	for (int i = start; i <= N; ++i) 
 	{
-		if (!is_selected[i])
-		{
-			is_selected[i] = true;
-			selected[depth] = i;
-			bt(depth + 1);
-			is_selected[i] = false;
-		}
+		selected[depth] = i;
+		bt(depth + 1);
 	}
 }
-
 int main(void)
 {
 	ios::sync_with_stdio(false);
@@ -43,4 +40,3 @@ int main(void)
 	cin >> N >> M;
 	bt(0);
 }
-
