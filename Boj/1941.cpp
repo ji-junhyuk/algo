@@ -9,75 +9,84 @@
 using namespace std;
 
 string cr[5];
+bool selected[25] = {};
 int cnt;
+int dy[] = {-1, 1, 0, 0};
+int dx[] = {0, 0, -1, 1};
 
-pair<int, int>selected[25];
-pair<int, int>coord[25];
-bool is_selected[25];
-
-bool	is_connected(int depth, int i) // 지금 보고 있는 점이랑 selected[depth]에 있는점이랑...
+void get_input()
 {
-	if (!depth)
-		return true;
-	if (abs(coord[depth - 1].first - coord[i].first) <= 1 && 
-			abs(coord[depth - 1].second - coord[i].second) <= 1)
-		return true;
-	return false;
-}
-
-void	bt(int depth, int S, int Y)
-{
-	if (depth == 7)
+	for (int i = 0; i < 5; ++i) 
 	{
-		if (S >= 4 && Y >= 1)
-		{
-			++cnt;
-		}
-		return ;
-	}
-	if (Y > 3)
-		return ;
-	for (int i = 0; i < 25; ++i) 
-	{
-		if (!is_selected[i] && is_connected(depth, i))
-		{
-			int s = 0;
-			int y = 0;
-			is_selected[i] = true;
-			selected[depth] = coord[i];
-			if (cr[coord[i].first][coord[i].second] == 'Y')
-			{
-				y = 1;
-			}
-			else
-			{
-				s = 1;
-			}
-			S += s;
-			Y += y;
-			bt(depth + 1, S, Y);
-			is_selected[i] = false;
-			S -= s;
-			Y -= y;
-		}
+		cin >> cr[i];
 	}
 }
+
 int main(void)
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 
-	for (int i = 0; i < 5; ++i) 
-	{
-		cin >> cr[i];
-	}
+	get_input();
+	pair<int, int> arr[25];
 	for (int i = 0; i < 5; ++i) 
 	{
 		for (int j = 0; j < 5; ++j) 
 		{
-			coord[i * 5 + j] = {i, j};
+			arr[i * 5 + j] = {i, j};
 		}
 	}
-	bt(0, 0, 0);
+	fill(selected + 7, selected + 25, 1);
+	do {
+		int Y = 0;
+		int S = 0;
+		int is_first = 1;
+		queue<pair<int, int>> Q;
+		bool is_visited[5][5] = {};
+		bool is_checked[5][5] = {};
+		for (int i = 0; i < 25; ++i) 
+		{
+			if (Y > 3)
+				break ;
+			if (!selected[i])
+			{
+				int y = arr[i].first;
+				int x = arr[i].second;
+				if (cr[y][x] == 'Y')
+				{
+					++Y;
+				}
+				else
+					++S;
+				if (is_first == 1)
+				{
+					is_first = 0;
+					Q.push({y, x});
+					is_visited[y][x] = 1;
+				}
+				is_checked[y][x] = 1;
+			}
+		}
+		int connected_number = 0;;
+		while (!Q.empty())
+		{
+			auto cur = Q.front();
+			Q.pop();
+			++connected_number;
+			for (int dir = 0; dir < 4; ++dir) 
+			{
+				int ny = cur.first + dy[dir];
+				int nx = cur.second + dx[dir];
+				if (ny < 0 || ny > 4 || nx < 0 || nx > 4)
+					continue ;
+				if (is_visited[ny][nx] || !is_checked[ny][nx])
+					continue ;
+				is_visited[ny][nx] = 1;
+				Q.push({ny, nx});
+			}
+		}
+		if (S > 3 && S > 0 && connected_number == 7)
+			++cnt;
+	} while (next_permutation(selected, selected + 25));
 	cout << cnt << '\n';
 }
